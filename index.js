@@ -1,11 +1,7 @@
-const fs = require('fs');
 const handlebars = require('handlebars');
-const handlebarsWax = require('handlebars-wax');
 const addressFormat = require('address-format');
 const moment = require('moment');
 const Swag = require('swag');
-
-
 const path = require('path');
 const express = require('express');
 const sassMiddleware = require('node-sass-middleware')
@@ -42,7 +38,6 @@ app.engine('hbs', engine({
 ]
 }));
 app.set('view engine', 'hbs');
-// app.set('views', './app/views');
 
 app.set('views', path.join(__dirname, './app/views'));
 

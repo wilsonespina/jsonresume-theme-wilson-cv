@@ -1,12 +1,12 @@
 <div class="info-tag-container">
   {{#if icon}}
-  <i class="fa {{icon}}"></i>
+  <i class="{{icon}}"></i>
   {{/if}}
 
   {{#if url}}
   <h6 class="info-text">
     <a href="{{url}}" target="_blank">
-      {{removeProtocol text}} <i class="fa fa-external-link" aria-hidden="true"></i>
+      {{removeProtocol text}}
     </a>
   </h6>
   {{else}}
