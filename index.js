@@ -1,10 +1,63 @@
-const
-  fs = require('fs'),
-  handlebars = require('handlebars'),
-  handlebarsWax = require('handlebars-wax'),
-  addressFormat = require('address-format'),
-  moment = require('moment'),
-  Swag = require('swag');
+const fs = require('fs');
+const handlebars = require('handlebars');
+const handlebarsWax = require('handlebars-wax');
+const addressFormat = require('address-format');
+const moment = require('moment');
+const Swag = require('swag');
+
+
+const path = require('path');
+const express = require('express');
+const sassMiddleware = require('node-sass-middleware')
+const app = express();
+const port = 3000;
+const resumeJson = require('./resume.json');
+const livereload = require('livereload');
+const connectLiveReload = require('connect-livereload');
+
+const { engine } = require ('express-handlebars');
+
+const liveReloadServer = livereload.createServer();
+liveReloadServer.server.once("connection", () => {
+  setTimeout(() => {
+    liveReloadServer.refresh("/");
+  }, 100);
+});
+
+
+
+app.use(connectLiveReload());
+
+app.use(sassMiddleware({
+  src: path.join(__dirname, 'public'),
+  outputStyle: 'compressed',
+}));
+
+app.engine('hbs', engine({
+  extname: '.hbs',
+  partialsDir  : [
+    //  path to your partials
+    path.join(__dirname, 'app/views/partials'),
+    path.join(__dirname, 'app/views/components'),
+]
+}));
+app.set('view engine', 'hbs');
+// app.set('views', './app/views');
+
+app.set('views', path.join(__dirname, './app/views'));
+
+app.get('/', (req, res) => {
+    res.render('index', {
+		resume: resumeJson
+	});
+});
+
+app.use(express.static(__dirname));
+
+app.listen(port, () => console.log(`App listening to port ${port}`));
+
+
+
 
 Swag.registerHelpers(handlebars);
 
@@ -26,7 +79,7 @@ handlebars.registerHelper({
   },
 
   formatAddress: function (address, city, region, postalCode, countryCode) {
-    let addressList = addressFormat({
+    const addressList = addressFormat({
       address: address,
       city: city,
       subdivision: region,
@@ -43,23 +96,3 @@ handlebars.registerHelper({
   }
 });
 
-
-function render(resume) {
-  let dir = __dirname + '/public',
-    css = fs.readFileSync(dir + '/styles/main.css', 'utf-8'),
-    resumeTemplate = fs.readFileSync(dir + '/views/resume.hbs', 'utf-8');
-
-  let Handlebars = handlebarsWax(handlebars);
-
-  Handlebars.partials(dir + '/views/partials/**/*.{hbs,js}');
-  Handlebars.partials(dir + '/views/components/**/*.{hbs,js}');
-
-  return Handlebars.compile(resumeTemplate)({
-    css: css,
-    resume: resume
-  });
-}
-
-module.exports = {
-  render: render
-};
