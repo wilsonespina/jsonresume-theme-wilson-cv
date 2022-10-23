@@ -15,35 +15,27 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "npx gulp && npx resume serve --theme .",
     "dev": "nodemon --ext js,hbs,scss,css,json",
     "watch": "nodemon -e scss -x 'npm run css'",
-    "css": "node-sass --include-path scss ./app/styles/main.scss ./style.css",
-    "export": "npx gulp && npx resume export resume --format pdf --theme ."
+    "css": "node-sass --include-path scss ./app/styles/main.scss ./style.css"
   },
   "devDependencies": {
-    "browser-sync": "^2.27.10",
     "connect-livereload": "^0.6.1",
-    "del": "^5.1.0",
-    "express": "^4.17.3",
-    "express-handlebars": "^6.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
     "handlebars": "^4.7.7",
     "livereload": "^0.9.3",
     "node-sass": "^7.0.3",
-    "nodemon": "^2.0.19",
-    "opn": "^6.0.0",
-    "require-dir": "^1.2.0",
-    "sass": "^1.49.9",
-    "serve-index": "^1.8.0",
-    "yargs": "^15.0.2"
+    "nodemon": "^2.0.20",
+    "sass": "^1.55.0"
   },
   "dependencies": {
     "address-format": "0.0.3",
-    "handlebars": "^4.0.5",
+    "handlebars": "^4.7.7",
     "handlebars-wax": "^6.1.0",
     "moment": "^2.29.4",
     "node-sass-middleware": "^1.0.1",
-    "resume-cli": "2.2.4",
+    "resume-cli": "3.0.8",
     "swag": "^0.7.0"
   }
 }
