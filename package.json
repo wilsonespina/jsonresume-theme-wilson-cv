@@ -16,6 +16,9 @@
   "license": "MIT",
   "scripts": {
     "start": "npx gulp && npx resume serve --theme .",
+    "dev": "nodemon --ext js,hbs,scss,css,json",
+    "watch": "nodemon -e scss -x 'npm run css'",
+    "css": "node-sass --include-path scss ./app/styles/main.scss ./public/styles/main.css",
     "export": "npx gulp && npx resume export resume --format pdf --theme ."
   },
   "devDependencies": {
@@ -45,6 +48,8 @@
     "gulp-wrap": "^0.15.0",
     "jshint-stylish": "^2.2.1",
     "lazypipe": "^1.0.1",
+    "nodemon": "^2.0.19",
+    "node-sass": "^7.0.3",
     "opn": "^6.0.0",
     "require-dir": "^1.2.0",
     "serve-index": "^1.8.0",

@@ -4,7 +4,10 @@
   min-height: $page-height;
   display: block;
   margin: 0 auto;
-  border-top: 10px solid $primary-color;
+  // border-top: 10px solid $primary-color;
+  border-top: 10px solid;
+  border-image: linear-gradient(to right, $color-yellow 25%, $color-green 25%, $color-green 50%, $color-blue 50%, $color-blue 75%, $color-pink 75%) 5;
+  // border-image: linear-gradient(to right, $color-yellow 12.5%, $color-green 12.5%, $color-green 25%, $color-blue 25%, $color-blue 37.5%, $color-pink 37.5%, $color-pink 50%, $color-yellow 50%, $color-yellow 62.5%, $color-green 62.5%, $color-green 75%, $color-blue 87.5%), 5;
   padding: 36px 22px 30px 34px;
   @include shadow();
   @include clearfix();
