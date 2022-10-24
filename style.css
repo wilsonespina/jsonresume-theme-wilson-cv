@@ -4,9 +4,6 @@
 /*----- Dimensions and sizes -----*/
 /* Base */
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Josefin+Sans:300,700);
-p {
-  white-space: pre; }
-
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -139,6 +136,8 @@ ul {
 
 .summary {
   margin: 5px 0 5px; }
+  .summary__list {
+    white-space: pre-line; }
 
 /* Layouts */
 .page {
