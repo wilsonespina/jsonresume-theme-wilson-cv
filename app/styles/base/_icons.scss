@@ -1,7 +1,9 @@
 .icon {
-    height: 30px;
+    height: 16px;
+    width: 16px;
     &-typescript {
         background-image: url(./app/styles/assets/ts-logo-128.svg);
         background-size: contain;
+        background-repeat: no-repeat;
     }
 }

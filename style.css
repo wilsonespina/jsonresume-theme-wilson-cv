@@ -140,10 +140,12 @@ ul {
     white-space: pre-line; }
 
 .icon {
-  height: 30px; }
+  height: 16px;
+  width: 16px; }
   .icon-typescript {
     background-image: url(./app/styles/assets/ts-logo-128.svg);
-    background-size: contain; }
+    background-size: contain;
+    background-repeat: no-repeat; }
 
 /* Layouts */
 .page {
