@@ -1,15 +1,17 @@
 const handlebars = require('handlebars');
+const fs = require('fs');
 const addressFormat = require('address-format');
 const moment = require('moment');
 const Swag = require('swag');
 const path = require('path');
 const express = require('express');
 const sassMiddleware = require('node-sass-middleware')
-const app = express();
-const port = 3000;
-const resumeJson = require('./resume.json');
 const livereload = require('livereload');
 const connectLiveReload = require('connect-livereload');
+const resumeJson = require('./resume.json');
+const app = express();
+const port = 3000;
+
 
 const { engine } = require ('express-handlebars');
 
@@ -91,3 +93,22 @@ handlebars.registerHelper({
   }
 });
 
+function render(resume) {
+  let dir = __dirname + '/public',
+    css = fs.readFileSync(dir + '/style/style.css', 'utf-8'),
+    resumeTemplate = fs.readFileSync(dir + '/views/resume.hbs', 'utf-8');
+
+  let Handlebars = handlebarsWax(handlebars);
+
+  Handlebars.partials(dir + '/views/partials/**/*.{hbs,js}');
+  Handlebars.partials(dir + '/views/components/**/*.{hbs,js}');
+
+  return Handlebars.compile(resumeTemplate)({
+    css: css,
+    resume: resume
+  });
+}
+
+module.exports = {
+  render: render
+};

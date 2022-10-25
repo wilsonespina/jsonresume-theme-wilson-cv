@@ -1,7 +1,7 @@
 {
-  "author": "Kelvin Nguyen",
-  "name": "jsonresume-theme-caffeine",
-  "description": "Caffeine theme for JSON Resume",
+  "author": "Wilson Espina",
+  "name": "jsonresume-theme-wilson",
+  "description": "Wilson's theme for JSON Resume",
   "version": "2.0.1",
   "keywords": [
     "json",
@@ -11,13 +11,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kelyvin/jsonresume-theme-caffeine"
+    "url": "https://github.com/wilsonespina/jsonresume-theme-wilson-cv"
   },
   "license": "MIT",
   "scripts": {
+    "start": "npx resume serve --theme .",
     "dev": "nodemon --ext js,hbs,scss,css,json",
     "watch": "nodemon -e scss -x 'npm run css'",
-    "css": "node-sass --include-path scss ./app/styles/main.scss ./style.css"
+    "css": "node-sass --include-path scss ./app/styles/main.scss ./public/style.css"
   },
   "devDependencies": {
     "connect-livereload": "^0.6.1",
@@ -27,9 +28,12 @@
     "livereload": "^0.9.3",
     "node-sass": "^7.0.3",
     "nodemon": "^2.0.20",
+    "parcel": "^2.7.0",
     "sass": "^1.55.0"
   },
   "dependencies": {
+    "@parcel/transformer-html": "^2.7.0",
+    "@parcel/transformer-posthtml": "^2.7.0",
     "address-format": "0.0.3",
     "handlebars": "^4.7.7",
     "handlebars-wax": "^6.1.0",
