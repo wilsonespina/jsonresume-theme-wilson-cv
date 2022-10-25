@@ -26,7 +26,7 @@ liveReloadServer.server.once("connection", () => {
 app.use(connectLiveReload());
 
 app.use(sassMiddleware({
-  src: path.join(__dirname, 'public'),
+  src: path.join(__dirname, 'docs'),
   outputStyle: 'compressed',
 }));
 
@@ -90,7 +90,7 @@ handlebars.registerHelper({
 });
 
 function render(resume) {
-  const dir = __dirname + '/public';
+  const dir = __dirname + '/docs';
   const css = fs.readFileSync(dir + '/styles/main.css', 'utf-8');
   const resumeTemplate = fs.readFileSync(dir + '/views/layouts/main.hbs', 'utf-8');
 

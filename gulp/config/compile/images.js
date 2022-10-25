@@ -8,5 +8,5 @@ gulp.task('images', function () {
       progressive: true,
       interlaced: true
     })))
-    .pipe(gulp.dest('public/images'));
+    .pipe(gulp.dest('docs/images'));
 });

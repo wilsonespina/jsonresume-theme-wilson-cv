@@ -5,5 +5,5 @@ gulp.task('extras', function () {
     'app/*.*'
   ], {
     dot: true
-  }).pipe(gulp.dest('public'));
+  }).pipe(gulp.dest('docs'));
 });

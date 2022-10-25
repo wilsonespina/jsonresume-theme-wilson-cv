@@ -12,5 +12,5 @@ gulp.task('html', function () {
     .pipe($.useref({
       searchPath: '{app, .}'
     }))
-    .pipe(gulp.dest('public'));
+    .pipe(gulp.dest('docs'));
 });

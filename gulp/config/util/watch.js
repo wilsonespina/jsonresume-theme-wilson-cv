@@ -17,7 +17,7 @@ gulp.task('watch', function () {
 
     // watch for changes
     gulp.watch([
-      'public/**/*',
+      'docs/**/*',
       'resume.json'
     ]).on('change', browserSync.reload);
 

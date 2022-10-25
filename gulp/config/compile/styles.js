@@ -8,5 +8,5 @@ gulp.task('styles', function () {
     .pipe($.plumber())
     .pipe($.sass().on('error', $.sass.logError))
     .pipe(cssImport())
-    .pipe(gulp.dest('public/styles'));
+    .pipe(gulp.dest('docs/styles'));
 });

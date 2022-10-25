@@ -16,10 +16,10 @@
   "license": "MIT",
   "scripts": {
     "build": "npx gulp",
-    "start": "npx gulp && npx resume serve --theme .",
+    "start": "npx gulp && npx resume serve --theme . --dir docs",
     "dev": "nodemon --ext js,hbs,scss,css,json",
     "watch": "nodemon -e scss -x 'npm run css'",
-    "css": "node-sass --include-path scss ./app/styles/main.scss ./public/styles/main.css"
+    "css": "node-sass --include-path scss ./app/styles/main.scss ./docs/styles/main.css"
   },
   "devDependencies": {
     "connect-livereload": "^0.6.1",
