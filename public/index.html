@@ -1,12 +1,665 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+    <title>Wilson Espina</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="../../../public/styles/main.css" />
+
+    <style>
+      /* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v25/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQbMZhKg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v25/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XbMZhKg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+}
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: #f8f8f8;
+  margin: 50px 0 100px;
+  letter-spacing: .3px;
+  color: #39424B; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  margin: 0; }
+
+h1 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 5px; }
+
+h2 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: .5px; }
+
+h3 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: .4px; }
+  h3.bold {
+    font-weight: 700; }
+
+h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px; }
+  h4.bold {
+    font-weight: 700; }
+
+h5 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 11px; }
+  h5.italic {
+    font-style: italic; }
+
+h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px; }
+
+a {
+  color: inherit;
+  text-decoration: inherit; }
+  a:hover {
+    color: #2895F1; }
+  a .fa-external-link {
+    font-size: 10px;
+    vertical-align: text-top; }
+
+p,
+li {
+  font-size: 11px; }
+
+blockquote {
+  font-size: 11px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px; }
+
+em {
+  color: #999; }
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px; }
+  ul li {
+    padding-left: 10px; }
+  ul.minimal {
+    list-style: none;
+    padding: 0; }
+    ul.minimal li {
+      margin-bottom: 3px;
+      padding-left: 0; }
+  ul.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 28px;
+    column-count: 2;
+    column-gap: 28px; }
+    ul.two-column li {
+      padding-left: 0; }
+
+@page {
+  size: A4; }
+
+.container {
+  padding-top: 20px; }
+
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #56817A; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.profile-pic {
+  margin-top: -5px;
+  margin-right: 18px; }
+  .profile-pic img {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    border: 2px solid #56817A; }
+
+.summary {
+  margin: 5px 0 5px; }
+  .summary__list {
+    white-space: pre-line; }
+
+.icon {
+  height: 16px;
+  width: 16px; }
+  .icon-typescript {
+    background-image: url(./app/styles/assets/ts-logo-128.svg);
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+/* Layouts */
+.page {
+  background: white;
+  width: 612px;
+  min-height: 792px;
+  display: block;
+  margin: 0 auto;
+  border-right: 12px solid;
+  border-image: repeating-linear-gradient(to top, #FFFF35 0%, #FFFF35 2.5%, #A6E22E 2.5%, #A6E22E 5%, #5CD0EF 5%, #5CD0EF 7.5%, #F92672 7.5%, #F92672 10%) 5;
+  padding: 36px 22px 30px 34px;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
+  .page:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.left-column {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+  word-wrap: break-word; }
+
+.right-column {
+  width: auto;
+  overflow: hidden; }
+
+.item {
+  margin-bottom: 15px; }
+  .item:last-child {
+    margin-bottom: 0; }
+
+@media print {
+  body {
+    margin: 0; }
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none; }
+    .page .resume-header,
+    .page .resume-content {
+      padding: 0 22px 0 34px; }
+  .container {
+    page-break-inside: avoid; }
+  .work-container .item {
+    page-break-inside: avoid; }
+  .fa-external-link {
+    display: none; } }
+
+/* Components */
+.info-tag-container {
+  margin-bottom: 5px; }
+  .info-tag-container .fa {
+    font-size: 14px;
+    width: 12px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle; }
+    .info-tag-container .fa.fa-map-marker {
+      font-size: 16px; }
+    .info-tag-container .fa.fa-mobile {
+      font-size: 18px; }
+    .info-tag-container .fa.fa-envelope-o {
+      font-size: 12px; }
+    .info-tag-container .fa.fa-desktop {
+      font-size: 11px; }
+    .info-tag-container .fa.fa-external-link {
+      width: auto;
+      font-size: inherit;
+      vertical-align: text-top; }
+  .info-tag-container .info-text {
+    font-size: 9px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 139px; }
+
+.references-container .fa {
+  font-size: 14px; }
+
+.education-container .location {
+  padding-bottom: 6px;
+  font-weight: 400; }
+
+.education-container .specialization {
+  text-transform: none;
+  font-style: italic; }
+
+    </style>
+  </head>
+  <body>
+    <main id="resume" class="page">
+      <header class="resume-header clearfix">
+        <div class="profile-header pull-left">
+          <h1>Wilson Espina</h1>
+          <h2>Front End Software Engineer at ITV</h2>
+        </div>
+        <div class="profile-pic pull-right">
+        </div>
+      </header>
+      <div class="resume-content">
+        <aside class="left-column">
+          <div class="container about-container">
+            <div class="title">
+              <h3>About</h3>
+              <div class="keyline"></div>
+            </div>
+          
+              <div class="info-tag-container">
+                <i class="fa-solid fa-location-dot"></i>
+              
+                <h6 class="info-text">United Kingdon</h6>
+              </div>
+          
+              <div class="info-tag-container">
+                <i class="fa-regular fa-envelope"></i>
+              
+                <h6 class="info-text">
+                  <a href="wilsonespina.com" target="_blank">
+                    wilson.espina@gmail.com
+                  </a>
+                </h6>
+              </div>
+          
+          
+          
+                        <div class="info-tag-container">
+                          <i class="fa-brands fa-linkedin"></i>
+                        
+                          <h6 class="info-text">
+                            <a href="https://www.linkedin.com/in/wilson-espina/" target="_blank">
+                              in/wilson-espina
+                            </a>
+                          </h6>
+                        </div>
+          </section>
+          <div class="skills-container">
+            <section class="container">
+                <div class="title">
+                  <h3>JavaScript</h3>
+                  <div class="keyline"></div>
+                </div>
+                <i class="fa fa-brands fa-js"></i>
+            </section>
+            <section class="container">
+                <div class="title">
+                  <h3>TypeScript</h3>
+                  <div class="keyline"></div>
+                </div>
+                <div class="icon icon-typescript"></div>
+            </section>
+            <section class="container">
+                <div class="title">
+                  <h3>React.js</h3>
+                  <div class="keyline"></div>
+                </div>
+                <i class="fa fa-brands fa-react"></i>
+            </section>
+            <section class="container">
+                <div class="title">
+                  <h3>Node.js</h3>
+                  <div class="keyline"></div>
+                </div>
+                <i class="fa fa-brands fa-node"></i>
+            </section>
+            <section class="container">
+                <div class="title">
+                  <h3>Cascading Style Sheets (CSS3)</h3>
+                  <div class="keyline"></div>
+                </div>
+                <i class="fa fa-brands fa-css3-alt"></i>
+            </section>
+            <section class="container">
+                <div class="title">
+                  <h3>SASS</h3>
+                  <div class="keyline"></div>
+                </div>
+                <i class="fa fa-brands fa-sass"></i>
+            </section>
+            <section class="container">
+                <div class="title">
+                  <h3>HTML5</h3>
+                  <div class="keyline"></div>
+                </div>
+                <i class="fa fa-brands fa-html5"></i>
+            </section>
+            <section class="container">
+                <div class="title">
+                  <h3>Teaching</h3>
+                  <div class="keyline"></div>
+                </div>
+                <i class="fa fa-solid fa-person-chalkboard"></i>
+            </section>
+            <section class="container">
+                <div class="title">
+                  <h3>Testing</h3>
+                  <div class="keyline"></div>
+                </div>
+                <i class="fa fa-solid fa-flask-vial"></i>
+            </section>
+          </div>
+          <div class="container languages-container">
+            <div class="title">
+              <h3>Languages</h3>
+              <div class="keyline"></div>
+            </div>
+          
+            <ul class="minimal">
+              <li>
+                <h6>English <em>(Native Speaker)</em></h6>
+              </li>
+            </ul>
+          </div>
+          <div class="container interests-container">
+            <div class="title">
+              <h3>Interests</h3>
+              <div class="keyline"></div>
+            </div>
+          
+              <section class="item">
+                  <h4 class="bold">swimming</h4>
+              </section>
+              <section class="item">
+                  <h4 class="bold">cycling</h4>
+              </section>
+              <section class="item">
+                  <h4 class="bold">running</h4>
+              </section>
+          </div>
+        </aside>
+        <div class="right-column">
+          <div class="container summary-container">
+            <div class="title">
+              <h3>Summary</h3>
+              <div class="keyline"></div>
+            </div>
+            <p class="summary">
+              A pragmatic front-end Engineer with over 5 years of experience in building optimised, largely customer-facing web applications. I enjoy honing my craft by embracing new technologies and adapting in an everchanging frontend landscape. I relish fostering a friendly work environment by supporting junior engineers and leading technical workstreams within Agile delivery teams.
+            </p>
+          </div>
+          <div class="container work-container">
+            <div class="title">
+              <h3>Experience</h3>
+              <div class="keyline"></div>
+            </div>
+          
+            <section class="item">
+              <div class="section-header clearfix">
+                <h5 class="italic pull-right">
+                    <span class="startDate">08/2019</span>
+                    <span class="endDate"> - Present</span>
+                </h5>
+              </div>
+          
+                <h4>Core Front End Engineer </h4>
+          
+                <p class="summary summary__list">▸ Empowered a frontend team to deliver new UI components for the new ITVX streaming platform.
+          ▸ Streamlined new ways of working by introducing an automated repo merge queue via custom tooling using GitHub actions.
+          ▸ Maintained multiple React JS applications within a monorepo environment. 
+          ▸ Created TypeScript components within an Atomic Design led shared library.
+          ▸ Converted a legacy PHP browser application to a NextJS and React application.
+          ▸ Optimised DOM rendering within the connected TV application, mitigating for low-powered devices.
+          ▸ Supported junior engineers in their learning journey through in depth pairing sessions.
+          ▸ Designed and facilitated technical workshops explaining how the frontend can best leverage the in-house graphQL API.
+          ▸ Heavy focus on unit and integration tests and worked closely with the SDET team.</p>
+          
+            </section>
+            <section class="item">
+              <div class="section-header clearfix">
+                <h5 class="italic pull-right">
+                    <span class="startDate">11/2018</span>
+                    <span class="endDate"> - 08/2019</span>
+                </h5>
+              </div>
+          
+                <h4>Junior JavaScript Engineer </h4>
+          
+                <p class="summary summary__list">▸ Solely responsible for implementing the integration of outbound subtitles on Samsung devices for the ITV Hub
+          ▸ Worked on HTML application over linear broadcasted channels, providing a unique web platform to collect users viewing habits.
+          ▸ Maintained Jenkins files to debug and maintain CI/CD pipelines
+          ▸ Developed features within the Connected TV application served to millions of users daily
+          ▸ Developed Vanilla JS apps with an object-oriented design approach</p>
+          
+            </section>
+            <section class="item">
+              <div class="section-header clearfix">
+                <h5 class="italic pull-right">
+                    <span class="startDate">03/2020</span>
+                    <span class="endDate"> - 07/2020</span>
+                </h5>
+              </div>
+          
+                <h4>Lead Instructor for JavaScript Development Part Time Course</h4>
+          
+                <p class="summary summary__list">▸ Redesigned the entire JavaScript remote course and delivered lessons to students.
+          ▸ Taught fundamentals of the JavaScript language, through to building individual personal projects with each student.
+          ▸ Provided support and 1-2-1 tuition for students building their own projects.
+          ▸ Developed course according to the latest technologies and industry best practices.
+          ▸ Helped students discover the creative potential in using open APIs within personal projects.</p>
+          
+            </section>
+            <section class="item">
+              <div class="section-header clearfix">
+                <h5 class="italic pull-right">
+                    <span class="startDate">02/2018</span>
+                    <span class="endDate"> - 12/2018</span>
+                </h5>
+              </div>
+          
+                <h4>Teaching Assistant for Front End Web Development Part Time Course</h4>
+          
+                <p class="summary summary__list">▸ Supported the instructor in delivering HTML5, CSS3 and JavaScript best practices within a classroom environment.
+          ▸ Coordinated and delivered feedback on students&#x27; individual projects.
+          ▸ Led 1-2-1 tuition for students on CSS basics.
+          ▸ Provided support with students&#x27; projects.</p>
+          
+            </section>
+            <section class="item">
+              <div class="section-header clearfix">
+                <h5 class="italic pull-right">
+                    <span class="startDate">02/2018</span>
+                    <span class="endDate"> - 11/2018</span>
+                </h5>
+              </div>
+          
+                <h4>Junior Front End Developer</h4>
+          
+                <p class="summary summary__list">Orchestrated full development of the custom calendar and scheduling Customer Portal as the sole frontend developer.
+          ▸ Improved the frontend health and stability through the introduction of unit and integration testing.
+          ▸ Liaised with UX/UI team to actualise customer journeys through the company’s web app.
+          ▸ Maintained a legacy Angular JS application codebase while researching the viability of the adoption of a React.js library.</p>
+          
+            </section>
+            <section class="item">
+              <div class="section-header clearfix">
+                <h5 class="italic pull-right">
+                    <span class="startDate">10/2017</span>
+                    <span class="endDate"> - 12/2017</span>
+                </h5>
+              </div>
+          
+                <h4>Web Development Immersive Student</h4>
+          
+                <p class="summary summary__list">In 2017, I completed an intensive bootcamp at General Assembly London where I learnt a range of web development and agile project techniques. Each morning started with daily standups and days regularly involved pair programming, understanding and implementing technical concepts and UX fundamentals. The course also covered a variety of front and back end frameworks and development tools which were put to use in my major portfolio projects:
+          
+          ▸ Project 4: 
+          https://running-trace.herokuapp.com/
+          My final project at General Assembly was to create a full MERN stack application with an open scope to create a RESTful site within a week. The website ended up being a social exercising platform which encourages people to compete and upload the best running traces they’ve saved on the social exercise app, Strava. 
+          
+          ▸ Project 3:
+          https://gigly-wilson.herokuapp.com/
+          where our product was a social music event app designed for people to create groups attending upcoming gigs. Our application used a MEAN stack and combined three external API’s, pulling event information from Ticketmaster, playing relevant songs from Spotify and displaying the location for each event using Google Maps. 
+          
+          ▸ Project 2:
+          https://katsuper-store.herokuapp.com/
+          For my second major project at GA, I created my first fully RESTful application with backend authentication using Express.js Sessions. This project was my first opportunity to get to grips with an application that demonstrated the create, read update, delete (CRUD) functionality found in most websites.
+          
+          ▸ Project 1:
+          https://can-you-diglett.herokuapp.com/
+          My first project at GA was to build an interactive game using JavaScript and jQuery for DOM manipulation. This was my first opportunity to apply my early JS knowledge to a working app and to also apply CSS styling to my own product. The overall look and feel of the app was that of a retro 8-bit arcade game with a simple colour scheme and mocked-up game controllers in the user interface.</p>
+          
+            </section>
+            <section class="item">
+              <div class="section-header clearfix">
+                <h5 class="italic pull-right">
+                    <span class="startDate">04/2016</span>
+                    <span class="endDate"> - 08/2017</span>
+                </h5>
+              </div>
+          
+                <h4>Utilities Assistant Project Manager</h4>
+          
+                <p class="summary summary__list">HS2 Ltd is responsible for developing and promoting the UK’s new high speed rail network being delivered in 2026.
+          
+          ▸ Supported the Utilities Delivery team in the application of HS2 processes and tailoring bespoke methodologies to manage the utilities works programme. 
+          ▸ Wrote and implemented the utilities Project Execution Plan which outlined all major systems of working practices with both internal and external stakeholders.
+          ▸ Undertook the role as a Health &amp; Safety champion actively supporting the business to promote and implement it’s Safe at Heart practices.</p>
+          
+            </section>
+            <section class="item">
+              <div class="section-header clearfix">
+                <h5 class="italic pull-right">
+                    <span class="startDate">02/2015</span>
+                    <span class="endDate"> - 04/2016</span>
+                </h5>
+              </div>
+          
+                <h4>Utilities Assurance Administrator </h4>
+          
+                <p class="summary summary__list">▸ Coordinated the utility team’s change control process by ensuring all utility affected changes falling outside of originally scopes parameters escalated along the correct channels of corporate governance.
+          ▸ Facilitated implementation of HS2 IT systems, including Bentley Enterprise Bridge (eB) and ProjectWise, to external stakeholders and organised subsequent training sessions. 
+          ▸ Attended regular meetings to monitor the progress of scheme specific issues, risks and mitigations and reporting back to senior management on progress.</p>
+          
+            </section>
+            <section class="item">
+              <div class="section-header clearfix">
+                <h5 class="italic pull-right">
+                    <span class="startDate">02/2011</span>
+                    <span class="endDate"> - 12/2014</span>
+                </h5>
+              </div>
+          
+                <h4>Project Manager</h4>
+          
+                <p class="summary summary__list">Fileworks is a Filing Consultancy Practice that implements efficient solutions for
+          storing, accessing and sharing hard copy and electronic information.
+          
+          ▸ Collected asset information and performed quantitative analysis to provide recommendations on best working practices as seen in other offices around the UK.
+          
+          ▸ Liaised closely with clients ranging from boardroom level to administration staff to provide effective office storage solutions and working practices through benchmarking within similar industries.
+          
+          ▸ Responsible for managing the strategic operation and day-to-day management of a £100k+ contract with Network Rail to relocate 3,000 staff and their filing from multiple sites across the UK to one location in The Quadrant:Milton Keynes.</p>
+          
+            </section>
+          </div>
+          <div class="container education-container">
+            <div class="title">
+            <h3>Education</h3>
+            <div class="keyline"></div>
+          </div>
+           
+            <section class="item">
+              <div class="section-header clearfix">
+                <h3 class="bold pull-left">
+                    General Assembly
+                </h3>
+                <h5 class="italic pull-right">
+                    <span class="startDate">12/2017</span>
+                    <span class="endDate"> - 12/2017</span>
+                </h5>
+              </div>
+          
+              <h4>Web Development Immesive  Web Page, Digital/Multimedia and Information Resources Design</h4>
+          
+            </section>
+          
+            <section class="item">
+              <div class="section-header clearfix">
+                <h3 class="bold pull-left">
+                    University of Warwick
+                </h3>
+                <h5 class="italic pull-right">
+                    <span class="startDate">12/2006</span>
+                    <span class="endDate"> - 12/2010</span>
+                </h5>
+              </div>
+          
+              <h4>MEng Civil Engineering with Business Management</h4>
+          
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

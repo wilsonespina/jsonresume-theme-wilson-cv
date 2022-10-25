@@ -1,0 +1,15 @@
+<div class="info-tag-container">
+  {{#if icon}}
+  <i class="{{icon}}"></i>
+  {{/if}}
+
+  {{#if url}}
+  <h6 class="info-text">
+    <a href="{{url}}" target="_blank">
+      {{removeProtocol text}}
+    </a>
+  </h6>
+  {{else}}
+  <h6 class="info-text">{{{text}}}</h6>
+  {{/if}}
+</div>

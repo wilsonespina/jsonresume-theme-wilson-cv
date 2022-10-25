@@ -1,4 +1,5 @@
 const handlebars = require('handlebars');
+const handlebarsWax = require('handlebars-wax');
 const fs = require('fs');
 const addressFormat = require('address-format');
 const moment = require('moment');
@@ -22,8 +23,6 @@ liveReloadServer.server.once("connection", () => {
   }, 100);
 });
 
-
-
 app.use(connectLiveReload());
 
 app.use(sassMiddleware({
@@ -44,7 +43,7 @@ app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, './app/views'));
 
 app.get('/', (req, res) => {
-    res.render('index', {
+    res.render('layouts/main', {
 		resume: resumeJson
 	});
 });
@@ -52,9 +51,6 @@ app.get('/', (req, res) => {
 app.use(express.static(__dirname));
 
 app.listen(port, () => console.log(`App listening to port ${port}`));
-
-
-
 
 Swag.registerHelpers(handlebars);
 
@@ -94,11 +90,11 @@ handlebars.registerHelper({
 });
 
 function render(resume) {
-  let dir = __dirname + '/public',
-    css = fs.readFileSync(dir + '/style/style.css', 'utf-8'),
-    resumeTemplate = fs.readFileSync(dir + '/views/resume.hbs', 'utf-8');
+  const dir = __dirname + '/public';
+  const css = fs.readFileSync(dir + '/styles/main.css', 'utf-8');
+  const resumeTemplate = fs.readFileSync(dir + '/views/layouts/main.hbs', 'utf-8');
 
-  let Handlebars = handlebarsWax(handlebars);
+  const Handlebars = handlebarsWax(handlebars);
 
   Handlebars.partials(dir + '/views/partials/**/*.{hbs,js}');
   Handlebars.partials(dir + '/views/components/**/*.{hbs,js}');
