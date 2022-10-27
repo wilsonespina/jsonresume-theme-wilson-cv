@@ -12,7 +12,8 @@
     $color-pink 7.5%, $color-pink 10%) 5;
   padding: 36px 22px 30px 34px;
   @include shadow();
-  @include clearfix();
+  display: flex;
+  flex-direction: column;
 }
 
 .left-column {
@@ -28,6 +29,8 @@
 }
 
 .item {
+  display: flex;
+  flex-direction: column;
   margin-bottom: spacing(3);
 
   &:last-child {

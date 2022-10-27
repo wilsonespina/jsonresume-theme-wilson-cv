@@ -9,11 +9,3 @@
 @mixin font-size($multiplier: 3) {
   font-size: $font-unit * $multiplier;
 }
-
-@mixin clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
