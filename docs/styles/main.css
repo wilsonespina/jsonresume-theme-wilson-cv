@@ -154,7 +154,7 @@ ul {
   min-height: 792px;
   display: block;
   margin: 0 auto;
-  border-right: 10px solid;
+  border-right: 8px solid;
   border-image: repeating-linear-gradient(to top, #FFFF35 0%, #FFFF35 2.5%, #A6E22E 2.5%, #A6E22E 5%, #5CD0EF 5%, #5CD0EF 7.5%, #F92672 7.5%, #F92672 10%) 5;
   padding: 36px 22px 30px 34px;
   -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
