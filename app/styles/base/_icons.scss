@@ -1,9 +1,11 @@
 .icon {
-    height: 16px;
-    width: 16px;
+    max-height: 15px;
+    max-width: 15px;
     &-typescript {
         background-image: url(../images/ts-logo-128.svg);
         background-size: contain;
         background-repeat: no-repeat;
+        height: 15px;;
+        width: 15px;;
     }
 }
