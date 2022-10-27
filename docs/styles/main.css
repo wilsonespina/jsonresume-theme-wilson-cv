@@ -112,7 +112,7 @@ ul {
 .keyline {
   width: 45px;
   margin: 8px 0 10px;
-  border-top: 1px solid #56817A; }
+  border-top: 1px solid #39424B; }
 
 .pull-left {
   float: left; }
@@ -154,7 +154,7 @@ ul {
   min-height: 792px;
   display: block;
   margin: 0 auto;
-  border-right: 12px solid;
+  border-right: 10px solid;
   border-image: repeating-linear-gradient(to top, #FFFF35 0%, #FFFF35 2.5%, #A6E22E 2.5%, #A6E22E 5%, #5CD0EF 5%, #5CD0EF 7.5%, #F92672 7.5%, #F92672 10%) 5;
   padding: 36px 22px 30px 34px;
   -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
@@ -188,11 +188,12 @@ ul {
     height: 100%;
     margin: 0;
     padding: 36px 0 30px;
-    box-shadow: none; }
+    box-shadow: none;
+    border: none; }
     .page .resume-header,
     .page .resume-content {
       padding: 0 22px 0 34px; }
-  .container {
+  .interests-container, .education-container {
     break-inside: avoid; }
   .work-container .item {
     break-inside: avoid; }

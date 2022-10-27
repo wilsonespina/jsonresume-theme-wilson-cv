@@ -33,8 +33,8 @@ bower_components
 # Temporary local files
 .tmp
 
-# Public folder from build
-# public
+# Docs folder from build
+docs/views/
 
 # Keep your personal resume.json private and any generated pdf's
 resume.json
