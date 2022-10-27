@@ -240,10 +240,6 @@ ul {
     .page .resume-header,
     .page .resume-content {
       padding: 0 22px 0 34px; }
-  .container {
-    page-break-inside: avoid; }
-  .work-container .item {
-    page-break-inside: avoid; }
   .fa-external-link {
     display: none; } }
 

@@ -48,7 +48,7 @@ app.get('/', (req, res) => {
 	});
 });
 
-app.use(express.static(__dirname));
+app.use(express.static(__dirname + '/docs'));
 
 app.listen(port, () => console.log(`App listening to port ${port}`));
 
