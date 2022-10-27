@@ -17,12 +17,12 @@
   }
 
   .container {
-    // page-break-inside: avoid;
+    break-inside: avoid;
   }
 
   .work-container {
     .item {
-      // page-break-inside: avoid;
+      break-inside: avoid;
     }
   }
 
