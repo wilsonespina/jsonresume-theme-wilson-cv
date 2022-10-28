@@ -1,0 +1,23 @@
+.resume-header {
+    display: flex;
+    justify-content: space-between;
+
+    .profile-pic {
+        margin-top: -5px;
+        margin-right: 18px;
+
+        img {
+          height: $profile-pic-size;
+          width: $profile-pic-size;
+          border-radius: 20%;
+          border: 2px solid $secondary-color;
+          object-fit: cover;
+          object-position: 50% 20%;
+        }
+    }
+
+    &.minus-margin {
+        margin-bottom: -40px;
+    }
+
+}

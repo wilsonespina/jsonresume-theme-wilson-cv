@@ -166,15 +166,6 @@ ul {
 .pull-right {
   float: right; }
 
-.profile-pic {
-  margin-top: -5px;
-  margin-right: 18px; }
-  .profile-pic img {
-    height: 52px;
-    width: 52px;
-    border-radius: 50%;
-    border: 2px solid #56817A; }
-
 .summary {
   margin: 5px 0 5px; }
   .summary__list {
@@ -292,3 +283,19 @@ ul {
 
 .section-header .company-name {
   margin-bottom: 10px; }
+
+.resume-header {
+  display: flex;
+  justify-content: space-between; }
+  .resume-header .profile-pic {
+    margin-top: -5px;
+    margin-right: 18px; }
+    .resume-header .profile-pic img {
+      height: 120px;
+      width: 120px;
+      border-radius: 20%;
+      border: 2px solid #39424B;
+      object-fit: cover;
+      object-position: 50% 20%; }
+  .resume-header.minus-margin {
+    margin-bottom: -40px; }
