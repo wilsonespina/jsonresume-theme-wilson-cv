@@ -1,0 +1,11 @@
+.work-container {
+    .details {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 5px;
+
+        .dates {
+            white-space: nowrap;
+        }
+    }
+}

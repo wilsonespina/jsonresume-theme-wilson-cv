@@ -16,8 +16,12 @@
   flex-direction: column;
 }
 
+.resume-content {
+  display: flex;
+}
+
 .left-column {
-  float: left;
+  // float: left;
   width: $aside-width;
   margin-right: $aside-margin;
   word-wrap: break-word;

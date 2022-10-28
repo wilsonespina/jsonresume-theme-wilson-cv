@@ -13,7 +13,6 @@ const resumeJson = require('./resume.json');
 const app = express();
 const port = 3000;
 
-
 const { engine } = require ('express-handlebars');
 
 const liveReloadServer = livereload.createServer();

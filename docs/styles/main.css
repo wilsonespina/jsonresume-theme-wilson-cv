@@ -3,55 +3,7 @@
 /*----- Fonts -----*/
 /*----- Dimensions and sizes -----*/
 /* Base */
-@font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://fonts.gstatic.com/s/josefinsans/v25/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQbMZhKg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/josefinsans/v25/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XbMZhKg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 300;
-  src: url(https://fonts.gstatic.com/s/lato/v23/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/lato/v23/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/lato/v23/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
-}
-
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Josefin+Sans:300,700);
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -155,15 +107,13 @@ ul {
   size: A4; }
 
 .container {
-  padding-top: 20px; }
+  padding-top: 20px;
+  position: relative; }
 
 .keyline {
   width: 45px;
   margin: 8px 0 10px;
   border-top: 1px solid #39424B; }
-
-.pull-left {
-  float: left; }
 
 .pull-right {
   float: right; }
@@ -208,8 +158,10 @@ ul {
   display: flex;
   flex-direction: column; }
 
+.resume-content {
+  display: flex; }
+
 .left-column {
-  float: left;
   width: 160px;
   margin-right: 20px;
   word-wrap: break-word; }
@@ -282,3 +234,13 @@ ul {
 .education-container .specialization {
   text-transform: none;
   font-style: italic; }
+
+.work-container .details {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 5px; }
+  .work-container .details .dates {
+    white-space: nowrap; }
+
+.section-header .company-name {
+  margin-bottom: 10px; }
