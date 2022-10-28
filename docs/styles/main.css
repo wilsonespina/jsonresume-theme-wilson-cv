@@ -3,55 +3,7 @@
 /*----- Fonts -----*/
 /*----- Dimensions and sizes -----*/
 /* Base */
-@font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://fonts.gstatic.com/s/josefinsans/v25/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQbMZhKg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/josefinsans/v25/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XbMZhKg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 300;
-  src: url(https://fonts.gstatic.com/s/lato/v23/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/lato/v23/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/lato/v23/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
-}
-
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Josefin+Sans:300,700);
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -163,9 +115,6 @@ ul {
   margin: 8px 0 10px;
   border-top: 1px solid #39424B; }
 
-.pull-right {
-  float: right; }
-
 .summary {
   margin: 5px 0 5px; }
   .summary__list {
@@ -229,10 +178,14 @@ ul {
     .page .resume-header,
     .page .resume-content {
       padding: 0 22px 0 34px; }
+  .skills-container .container, .languages-container .container {
+    page-break-inside: avoid; }
   .interests-container, .education-container {
-    break-inside: avoid; }
+    break-inside: avoid;
+    page-break-inside: avoid; }
   .work-container .item {
-    break-inside: avoid; }
+    break-inside: avoid;
+    page-break-inside: avoid; }
   .fa-external-link {
     display: none; } }
 
@@ -289,12 +242,12 @@ ul {
   justify-content: space-between; }
   .resume-header .profile-pic {
     margin-top: -5px;
-    margin-right: 18px; }
+    margin-right: 35px; }
     .resume-header .profile-pic img {
-      height: 120px;
-      width: 120px;
-      border-radius: 20%;
-      border: 2px solid #39424B;
+      height: 130px;
+      width: 130px;
+      border-radius: 14%;
+      border: 3px solid #39424B;
       object-fit: cover;
       object-position: 50% 20%; }
   .resume-header.minus-margin {

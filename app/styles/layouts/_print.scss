@@ -16,15 +16,25 @@
     }
   }
 
+  .skills-container, .languages-container  {
+    .container {
+      page-break-inside: avoid;
+    }
+  }
+
   .interests-container, .education-container {
     break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   .work-container {
     .item {
       break-inside: avoid;
+      page-break-inside: avoid;
     }
   }
+
+
 
   .fa-external-link {
     display: none;
