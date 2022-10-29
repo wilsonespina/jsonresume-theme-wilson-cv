@@ -1,6 +1,7 @@
 @media print {
   body {
-    margin: 0;
+    background: white;
+    margin: 0 0 100px;
   }
 
   .page {
@@ -29,12 +30,10 @@
 
   .work-container {
     .item {
-      break-inside: avoid;
-      page-break-inside: avoid;
+      // break-inside: avoid;
+      // page-break-inside: avoid;
     }
   }
-
-
 
   .fa-external-link {
     display: none;
