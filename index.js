@@ -1,4 +1,3 @@
-const open = require('open');
 const handlebars = require('handlebars');
 const handlebarsWax = require('handlebars-wax');
 const fs = require('fs');
@@ -8,19 +7,11 @@ const Swag = require('swag');
 const path = require('path');
 const express = require('express');
 const sassMiddleware = require('node-sass-middleware')
-const livereload = require('livereload');
 const resumeJson = require('./resume.json');
 const app = express();
 const port = 3000;
 
 const { engine } = require ('express-handlebars');
-
-const liveReloadServer = livereload.createServer();
-liveReloadServer.server.once("connection", () => {
-  setTimeout(() => {
-    liveReloadServer.refresh("/");
-  }, 100);
-});
 
 app.use(sassMiddleware({
   src: path.join(__dirname, 'docs'),
@@ -48,8 +39,6 @@ app.get('/', (req, res) => {
 app.use(express.static(__dirname + '/docs'));
 
 app.listen(port, () => (console.log(`App listening to port ${port}`)));
-
-// open('http://localhost:3000');
 
 
 Swag.registerHelpers(handlebars);
