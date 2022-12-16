@@ -1,8 +1,17 @@
 .education-container {
-  .location {
-    padding-bottom: 6px;
-    font-weight: 400;
-  }
+  .details {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+
+    .dates {
+        white-space: nowrap;
+    }
+    .location {
+      padding-bottom: 6px;
+      font-weight: 400;
+    }
+}
 
   .specialization {
     text-transform: none;

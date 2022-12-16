@@ -265,9 +265,15 @@ ul {
 .references-container .fa {
   font-size: 14px; }
 
-.education-container .location {
-  padding-bottom: 6px;
-  font-weight: 400; }
+.education-container .details {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 5px; }
+  .education-container .details .dates {
+    white-space: nowrap; }
+  .education-container .details .location {
+    padding-bottom: 6px;
+    font-weight: 400; }
 
 .education-container .specialization {
   text-transform: none;
