@@ -216,8 +216,8 @@ ul {
 @media print {
   body {
     background: white;
-    margin: 0 0 100px; }
-  .page {
+    margin: 0 0 30px; }
+  @page {}  .page {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -226,10 +226,13 @@ ul {
     border: none; }
     .page .resume-header,
     .page .resume-content {
-      padding: 0 22px 0 34px; }
-  .skills-container .container, .languages-container .container {
+      padding: 0 62px 0 34px; }
+  .skills-container .container {
     page-break-inside: avoid; }
-  .interests-container, .education-container {
+  .interests-container, .education-container, .languages-container {
+    break-inside: avoid;
+    page-break-inside: avoid; }
+  .work-container .item {
     break-inside: avoid;
     page-break-inside: avoid; }
   .fa-external-link {
