@@ -28,13 +28,25 @@ app.engine('hbs', engine({
 }));
 app.set('view engine', 'hbs');
 
+// app.set('view engine', 'html');
+
 app.set('views', path.join(__dirname, './app/views'));
+
+
 
 app.get('/', (req, res) => {
     res.render('layouts/main', {
 		resume: resumeJson
 	});
 });
+
+app.get('/covering-letter', (req, res) => {
+  console.log("<<<<<<HERE>>>>>>>")
+    res.render('layouts/covering-letter', {
+		// resume: resumeJson
+	});
+});
+
 
 app.use(express.static(__dirname + '/docs'));
 
