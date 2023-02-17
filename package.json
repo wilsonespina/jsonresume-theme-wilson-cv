@@ -15,7 +15,9 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "npx gulp && npx resume export docs/index --format html --theme .",
+    "build": "npx gulp && npm run main",
+    "main": "npx resume export docs/index --format html --theme .",
+    "routes": "npx resume export docs/covering-letter/index --format html --theme .",
     "start": "npx gulp && npx resume serve --theme . --dir docs",
     "dev": "nodemon --ext js,hbs,scss,css,json",
     "watch": "nodemon -e scss -x 'npm run css'",

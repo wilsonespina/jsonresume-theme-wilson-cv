@@ -33,7 +33,6 @@ app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, './app/views'));
 
 
-
 app.get('/', (req, res) => {
     res.render('layouts/main', {
 		resume: resumeJson
@@ -41,10 +40,9 @@ app.get('/', (req, res) => {
 });
 
 app.get('/covering-letter', (req, res) => {
-  console.log("<<<<<<HERE>>>>>>>")
-    res.render('layouts/covering-letter', {
-		// resume: resumeJson
-	});
+    res.render('layouts/covering-letter');
+
+    res.sendFile(path.join(__dirname + '/docs/', 'index.html'));
 });
 
 
