@@ -12,7 +12,6 @@ const app = express();
 const port = 3000;
 
 const { engine } = require ('express-handlebars');
-
 // START IN DEV MODE
 if (process.env.NODE_ENV !== 'RESUME_SERVE_MODE') {
   app.use(sassMiddleware({
@@ -30,22 +29,19 @@ if (process.env.NODE_ENV !== 'RESUME_SERVE_MODE') {
   }));
   app.set('view engine', 'hbs');
 
-  // app.set('view engine', 'html');
 
   app.set('views', path.join(__dirname, './app/views'));
 
-  app.get('/', (req, res) => {
+  app.get('/', (_, res) => {
       res.render('layouts/main', {
   		resume: resumeJson
   	});
   });
 
-  app.use('/covering-letter', (req, res, next) => {
-    console.log('>>>>>>>>>>>> HERE >>>>>>>>>')
-      res.render('layouts/covering-letter');
-
-      // res.sendFile(path.join(__dirname + '/docs/', 'index.html'));
-      // return next();
+  app.use('/covering-letter', (_, res) => {
+      res.render('layouts/covering-letter', {
+        layout: 'covering-letter'
+      });
   });
 
 

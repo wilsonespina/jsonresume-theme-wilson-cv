@@ -34,7 +34,7 @@ bower_components
 .tmp
 
 # Docs folder from build
-# docs/views/**/*
+docs/views/**/*
 docs/CNAME
 
 # Keep your personal resume.json private and any generated pdf's
