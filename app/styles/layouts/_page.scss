@@ -1,23 +1,41 @@
-body {
-
-}
-
 .page {
   background: white;
   width: $page-width;
+  // width: calc(#{$page-width} - #{$border-width});
   min-height: $page-height;
   display: block;
   margin: 0 auto;
-  border-right: 8px solid;
-  border-image: repeating-linear-gradient(to top,
-    $color-yellow 0%, $color-yellow 2.5%,
-    $color-green 2.5%, $color-green 5%,
-    $color-blue 5%, $color-blue 7.5%,
-    $color-pink 7.5%, $color-pink 10%) 5;
+  // border-right: 8px solid;
+  // border-image: repeating-linear-gradient(to top,
+  //   $color-yellow 0%, $color-yellow 2.5%,
+  //   $color-green 2.5%, $color-green 5%,
+  //   $color-blue 5%, $color-blue 7.5%,
+  //   $color-pink 7.5%, $color-pink 10%) 5;
   padding: 36px 22px 30px 34px;
   @include shadow();
   display: flex;
   flex-direction: column;
+// **********
+  position: relative;
+
+  &:after {
+    width: #{$border-width};
+    position: absolute;
+    content: '';
+    height: 100%;
+    right: 0;
+    top: 0;
+    background:
+      repeating-linear-gradient(to top,
+        $color-yellow 0%, $color-yellow 2.5%,
+        $color-green 2.5%, $color-green 5%,
+        $color-blue 5%, $color-blue 7.5%,
+        $color-pink 7.5%, $color-pink 10%)
+      center/  /* position */
+      #{$border-width} 100% /* size (width height) */
+      no-repeat /* don't repeat */
+      rgb(200,200,200); /* background color */
+    }
 }
 
 .resume-content {
