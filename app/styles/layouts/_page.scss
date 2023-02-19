@@ -1,21 +1,13 @@
 .page {
   background: white;
   width: $page-width;
-  // width: calc(#{$page-width} - #{$border-width});
   min-height: $page-height;
   display: block;
   margin: 0 auto;
-  // border-right: 8px solid;
-  // border-image: repeating-linear-gradient(to top,
-  //   $color-yellow 0%, $color-yellow 2.5%,
-  //   $color-green 2.5%, $color-green 5%,
-  //   $color-blue 5%, $color-blue 7.5%,
-  //   $color-pink 7.5%, $color-pink 10%) 5;
   padding: 36px 22px 30px 34px;
   @include shadow();
   display: flex;
   flex-direction: column;
-// **********
   position: relative;
 
   &:after {
@@ -26,19 +18,19 @@
     right: 0;
     top: 0;
     background:
-      repeating-linear-gradient(to top,
-        $color-yellow 0%, $color-yellow 2.5%,
-        $color-green 2.5%, $color-green 5%,
-        $color-blue 5%, $color-blue 7.5%,
-        $color-pink 7.5%, $color-pink 10%)
+      repeating-linear-gradient(to bottom,
+        $color-pink 0%, $color-pink calc(#{$border-bar-height} * 1),
+        $color-blue calc(#{$border-bar-height} * 1), $color-blue calc(#{$border-bar-height} * 2),
+        $color-green calc(#{$border-bar-height} * 2), calc(#{$border-bar-height} * 3),
+        $color-yellow calc(#{$border-bar-height} * 3), $color-yellow calc(#{$border-bar-height} * 4))
       center/  /* position */
       #{$border-width} 100% /* size (width height) */
-      no-repeat /* don't repeat */
+      repeat /* don't repeat */
       rgb(200,200,200); /* background color */
     }
 }
 
-.resume-content {
+.resume-content, .covering-letter-conten {
   display: flex;
 }
 

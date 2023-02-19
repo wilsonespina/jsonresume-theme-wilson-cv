@@ -12,34 +12,44 @@ const app = express();
 const port = 3000;
 
 const { engine } = require ('express-handlebars');
+// START IN DEV MODE
+if (process.env.NODE_ENV !== 'RESUME_SERVE_MODE') {
+  app.use(sassMiddleware({
+    src: path.join(__dirname, 'docs'),
+    outputStyle: 'compressed',
+  }));
 
-app.use(sassMiddleware({
-  src: path.join(__dirname, 'docs'),
-  outputStyle: 'compressed',
-}));
+  app.engine('hbs', engine({
+    extname: '.hbs',
+    partialsDir  : [
+      //  path to your partials
+      path.join(__dirname, 'app/views/partials'),
+      path.join(__dirname, 'app/views/components'),
+  ]
+  }));
+  app.set('view engine', 'hbs');
 
-app.engine('hbs', engine({
-  extname: '.hbs',
-  partialsDir  : [
-    //  path to your partials
-    path.join(__dirname, 'app/views/partials'),
-    path.join(__dirname, 'app/views/components'),
-]
-}));
-app.set('view engine', 'hbs');
 
-app.set('views', path.join(__dirname, './app/views'));
+  app.set('views', path.join(__dirname, './app/views'));
 
-app.get('/', (req, res) => {
-    res.render('layouts/main', {
-		resume: resumeJson
-	});
-});
+  app.get('/', (_, res) => {
+      res.render('layouts/main', {
+  		resume: resumeJson
+  	});
+  });
 
-app.use(express.static(__dirname + '/docs'));
+  app.use('/covering-letter', (_, res) => {
+      res.render('layouts/covering-letter', {
+        layout: 'covering-letter'
+      });
+  });
 
-app.listen(port, () => (console.log(`App listening to port ${port}`)));
 
+  app.use(express.static(__dirname + '/docs'));
+
+  app.listen(port, () => (console.log(`App listening to port ${port}`)));
+
+}
 
 Swag.registerHelpers(handlebars);
 
@@ -78,6 +88,8 @@ handlebars.registerHelper({
   }
 });
 
+// START IN RESUME SERVE MODE
+// https://github.com/jsonresume/resume-cli#resume-serve
 function render(resume) {
   const dir = __dirname + '/docs';
   const css = fs.readFileSync(dir + '/styles/main.css', 'utf-8');
