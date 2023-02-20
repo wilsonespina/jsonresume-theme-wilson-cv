@@ -3,7 +3,7 @@
   {{> title value="Experience"}}
 
   {{#each resume.work}}
-  <section class="item">
+  <section class="item{{#if paddingTop}} print-padding-top{{/if}}">
     {{> section-header name=this.name }}
 
     <div class="details">
