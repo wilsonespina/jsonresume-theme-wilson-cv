@@ -24,7 +24,7 @@
         $color-green calc(#{$border-bar-height} * 2), calc(#{$border-bar-height} * 3),
         $color-yellow calc(#{$border-bar-height} * 3), $color-yellow calc(#{$border-bar-height} * 4))
       center/  /* position */
-      #{$border-width} 100% /* size (width height) */
+      #{$border-width} 100% /* size (width height) */ // TODO - dynamically work out how many pages and use as multiplier
       repeat /* don't repeat */
       rgb(200,200,200); /* background color */
     }
