@@ -8,6 +8,7 @@ const path = require('path');
 const express = require('express');
 const sassMiddleware = require('node-sass-middleware')
 const resumeJson = require('./resume.json');
+const coveringLetterJson = require('./covering-letter.json');
 const app = express();
 const port = 3000;
 
@@ -40,7 +41,9 @@ if (process.env.NODE_ENV !== 'RESUME_SERVE_MODE') {
 
   app.use('/covering-letter', (_, res) => {
       res.render('layouts/covering-letter', {
-        layout: 'covering-letter'
+        layout: 'covering-letter',
+        resume: resumeJson,
+        coveringLetter: coveringLetterJson,
       });
   });
 

@@ -11,69 +11,42 @@
   </head>
   <body>
     <main id="covering-letter" class="page left-border">
-      {{!-- {{> covering-letter-header}} --}}
-      <header class="covering-letter-header">
-        <div class="left-side">
-          <div>
-            <h1>Wilson Espina</h1>
-            <h2>Senior Front End Software Engineer</h2>
-          </div>
+      {{> covering-letter-header}}
+      {{#coveringLetter.company}}
 
-          <div>
-            <p>To:</p>
-            <h3>{HIRING_MANAGER_NAME}</h3>
-            <h3>{HIRING_MANAGER_ADDRESS_1}</h3>
-            <h3>{HIRING_MANAGER_ADDRESS_2}</h3>
-            <h3>{HIRING_MANAGER_ADDRESS_3}</h3>
-            <h3>{HIRING_MANAGER_ADDRESS_4}</h3>
-          </div>
+        <div class="covering-letter-content">
+          <p>Dear {{hiringManager.name}}</p>
+
+          <p>I am writing to express my interest in the {{position}} position at {{name}}. With 5 years of experience in developing and implementing user-friendly and visually appealing web applications, I am confident that I would make a valuable addition to your team.</p>
+
+          <p>In my previous role at ITV, I have honed my skills in designing and implementing user-centered front-end solutions. I have a deep understanding of modern web development technologies and frameworks, including HTML, CSS, JavaScript, React and TypeScript, and have used this knowledge to create engaging user experiences that meet both technical and business requirements.</p>
+
+          <p>One of my greatest strengths is my ability to collaborate effectively with cross-functional teams, including designers, product managers, and back-end developers. I am also highly skilled in problem-solving and have a track record of delivering high-quality solutions on time.</p>
+
+          <p>Some highlights of my previous work include:</p>
+
+          <ul>
+            <li>
+              Leading on technical decisions within a cross functional team to intergrate React components within the ITVX streaming platform, adhering to a tight deadline.
+            </li>
+            <li>
+              Streamlining bottlenecks in workflows by introducing and trialling new approaches, such as introducing an automated merge queue within Github actions.
+            </li>
+            <li>
+              Teaching coding novices the basics on web development through my role as a Lead Instructor at General Assembly (London).
+            </li>
+          </ul>
+
+          <p>I am particularly impressed by CYB's commitment to being a force for good and I align myself with its philanthropic values. I am eager to bring my expertise and passion for creating amazing user experiences to your team and to contribute to the growth and success of your organisation.</p>
+
+          <p>Thank you for considering my application. I look forward to the opportunity to further discuss my qualifications and how I can contribute to your team.</p>
+
+          <p>Sincerely,</p>
+
+          <p>Wilson Espina</p>
 
         </div>
-        <div class="right-side">
-          <p><i class="fa-regular fa-envelope"></i> wilson.espina@gmail.com</p>
-          <p><i class="fa-solid fa-mobile-retro"></i> +447737227253</p>
-          <p><i class="fa-solid fa-location-dot"></i> Wellington, NZ</p>
-          <p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/wilson-espina</p>
-          <br>
-          <p>
-            <script> document.write(new Date().toLocaleDateString('en-GB', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })); </script>
-          </p>
-        </div>
-
-      </header>
-
-      <div class="covering-letter-content">
-        <p>Dear Hiring Manager,</p>
-
-        <p>I am writing to express my interest in the Software Engineer position at Caution Your Blast (CYB). With 5 years of experience in developing and implementing user-friendly and visually appealing web applications, I am confident that I would make a valuable addition to your team.</p>
-
-        <p>In my previous role at ITV, I have honed my skills in designing and implementing user-centered front-end solutions. I have a deep understanding of modern web development technologies and frameworks, including HTML, CSS, JavaScript, React and TypeScript, and have used this knowledge to create engaging user experiences that meet both technical and business requirements.</p>
-
-        <p>One of my greatest strengths is my ability to collaborate effectively with cross-functional teams, including designers, product managers, and back-end developers. I am also highly skilled in problem-solving and have a track record of delivering high-quality solutions on time.</p>
-
-        <p>Some highlights of my previous work include:</p>
-
-        <ul>
-          <li>
-            Leading on technical decisions within a cross functional team to intergrate React components within the ITVX streaming platform, adhering to a tight deadline.
-          </li>
-          <li>
-            Streamlining bottlenecks in workflows by introducing and trialling new approaches, such as introducing an automated merge queue within Github actions.
-          </li>
-          <li>
-            Teaching coding novices the basics on web development through my role as a Lead Instructor at General Assembly (London).
-          </li>
-        </ul>
-
-        <p>I am particularly impressed by CYB's commitment to being a force for good and I align myself with its philanthropic values. I am eager to bring my expertise and passion for creating amazing user experiences to your team and to contribute to the growth and success of your organisation.</p>
-
-        <p>Thank you for considering my application. I look forward to the opportunity to further discuss my qualifications and how I can contribute to your team.</p>
-
-        <p>Sincerely,</p>
-
-        <p>Wilson Espina</p>
-
-      </div>
+      {{/coveringLetter.company}}
     </main>
   </body>
 </html>

@@ -1,13 +1,51 @@
-<header class="covering-letter-header">
-  <!-- <div class="profile-header">
-    <h1>{{name}}</h1>
-    <h2>{{label}}</h2>
-  </div>
-  <div class="profile-pic">
-    {{#if image}}
-      <img src="{{image}}" alt="profile-pic">
-    {{/if}}
-  </div> -->
 
-  <div>HEADER</div>
+<header class="covering-letter-header">
+  <div class="left-side">
+    <div>
+      {{#resume.basics}}
+        <h1>{{name}}</h1>
+        <h2>{{label}}</h2>
+      {{/resume.basics}}
+    </div>
+
+    <div>
+      <p>To:</p>
+      {{#coveringLetter.company}}
+        <h3>{{Address.Line_1}}</h3>
+        <h3>{{Address.Line_2}}</h3>
+        <h3>{{Address.Line_3}}</h3>
+        <h3>{{Address.Line_4}}</h3>
+      {{/coveringLetter.company}}
+    </div>
+
+  </div>
+  <div class="right-side">
+    {{#resume.basics}}
+      {{!-- <p><i class="fa-regular fa-envelope"></i> wilson.espina@gmail.com</p>
+      <p><i class="fa-solid fa-mobile-retro"></i> +447737227253</p>
+      <p><i class="fa-solid fa-location-dot"></i> Wellington, NZ</p>
+      <p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/wilson-espina</p> --}}
+      {{#if email}}
+        {{> info-tag text=this.email icon="fa-regular fa-envelope"}}
+      {{/if}}
+      {{#if phone}}
+        {{> info-tag text=this.phone icon="fa-solid fa-mobile-retro"}}
+      {{/if}}
+      {{#if location}}
+        {{#location}}
+        {{> info-tag text=(formatAddress address city region postalCode countryCode) icon="fa-solid fa-location-dot"}}
+        {{/location}}
+      {{/if}}
+      {{#if profiles}}
+        {{#each profiles}}
+            {{> social}}
+        {{/each}}
+      {{/if}}
+
+    {{/resume.basics}}
+    <br>
+    <p>
+      <script> document.write(new Date().toLocaleDateString('en-GB', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })); </script>
+    </p>
+  </div>
 </header>
