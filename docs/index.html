@@ -13,11 +13,14 @@
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPCCBMHYPB"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    if (window.location.hostname === 'wilsonespina.com') {
+      console.log('PROD')
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'G-MPCCBMHYPB');
+      gtag('config', 'G-MPCCBMHYPB');
+    }
   </script>
 
   <body>
