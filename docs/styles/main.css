@@ -232,6 +232,7 @@ ul {
     background: white;
     margin: 0 0 30px; }
   @page {
+    margin-left: 0;
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 0; }
@@ -243,7 +244,9 @@ ul {
     box-shadow: none;
     border: none; }
     .page .resume-header,
-    .page .resume-content {
+    .page .resume-content,
+    .page .covering-letter-header,
+    .page .covering-letter-content {
       padding: 0 62px 0 34px; }
   .skills-container .container {
     page-break-inside: avoid; }

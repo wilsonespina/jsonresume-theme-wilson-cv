@@ -5,6 +5,7 @@
   }
 
   @page {
+    margin-left: 0; // ADD FOR COLOR BORDER
     margin-right: 0; // ADD FOR COLOR BORDER
     margin-top: 0; // ADD FOR COLOR BORDER
     margin-bottom: 0; // ADD FOR COLOR BORDER
@@ -15,13 +16,18 @@
     height: 100%;
     margin: 0;
     padding: 36px 0 10px;
-    // padding: 36px 0 750px; // TODO: make this dynamic - if you need to print fill page border
     box-shadow: none;
     border: none;
     .resume-header,
-    .resume-content {
+    .resume-content,
+    .covering-letter-header,
+    .covering-letter-content {
       padding: 0 62px 0 34px;
     }
+
+    // .covering-letter-content {
+    //   padding-bottom: 1000px;
+    // }
   }
 
   .skills-container  {
