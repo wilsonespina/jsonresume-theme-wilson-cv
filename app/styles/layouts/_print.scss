@@ -5,10 +5,10 @@
   }
 
   @page {
-    margin-left: 0; // ADD FOR COLOR BORDER
     margin-right: 0; // ADD FOR COLOR BORDER
     margin-top: 0; // ADD FOR COLOR BORDER
     margin-bottom: 0; // ADD FOR COLOR BORDER
+    margin-left: 0; // ADD FOR COLOR BORDER
   }
 
   .page {
@@ -22,11 +22,15 @@
     .resume-content,
     .covering-letter-header,
     .covering-letter-content {
-      padding: 0 62px 0 34px;
+      padding: 0 62px 0 50px;
+    }
+
+    .resume-content {
+      padding-bottom: 200px;
     }
 
     // .covering-letter-content {
-    //   padding-bottom: 1000px;
+    //   padding-bottom: 800px;
     // }
   }
 
