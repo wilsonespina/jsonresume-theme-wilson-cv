@@ -1,11 +1,19 @@
 .icon {
     max-height: 15px;
     max-width: 15px;
-    &-typescript {
-        background-image: url(../images/ts-logo-128.svg);
+    &-typescript, &-graphql {
         background-size: contain;
         background-repeat: no-repeat;
-        height: 15px;;
-        width: 15px;;
+    }
+    &-typescript {
+        background-image: url(../images/ts-logo-128.svg);
+        height: 15px;
+        width: 15px;
+    }
+    &-graphql {
+        background-image: url(../images/graphql-logo.svg);
+        max-width: unset;
+        max-height: unset;
+        height: 27px;
     }
 }
