@@ -171,18 +171,22 @@ ul {
 .icon {
   max-height: 15px;
   max-width: 15px; }
-  .icon-typescript, .icon-graphql {
+  .icon-typescript, .icon-graphql, .icon-github-actions {
     background-size: contain;
     background-repeat: no-repeat; }
   .icon-typescript {
     background-image: url(../images/ts-logo-128.svg);
     height: 15px;
     width: 15px; }
+  .icon-graphql, .icon-github-actions {
+    max-width: unset;
+    max-height: unset; }
   .icon-graphql {
     background-image: url(../images/graphql-logo.svg);
-    max-width: unset;
-    max-height: unset;
     height: 27px; }
+  .icon-github-actions {
+    background-image: url(../images/github-actions.svg);
+    height: 23px; }
 
 /* Layouts */
 .page {
@@ -218,8 +222,8 @@ ul {
   margin-top: 40px; }
 
 .left-column {
-  width: 160px;
-  margin-right: 20px;
+  width: 170px;
+  margin-right: 12px;
   word-wrap: break-word; }
 
 .right-column {
@@ -255,7 +259,9 @@ ul {
     .page .covering-letter-content {
       padding: 0 62px 0 50px; }
     .page .resume-content {
-      padding-bottom: 200px; }
+      padding-bottom: 300px; }
+    .page .covering-letter-content {
+      padding-bottom: 800px; }
   .skills-container .container {
     page-break-inside: avoid; }
   .interests-container, .education-container, .languages-container {
@@ -267,34 +273,43 @@ ul {
   .fa-external-link {
     display: none; }
   .print-padding-top {
-    padding-top: 40px; } }
+    padding-top: 52px; } }
 
 /* Components */
 .info-tag-container {
-  margin-bottom: 5px; }
-  .info-tag-container .fa {
-    font-size: 14px;
-    width: 12px;
-    margin-right: 5px;
-    text-align: center;
-    vertical-align: middle; }
-    .info-tag-container .fa.fa-map-marker {
-      font-size: 16px; }
-    .info-tag-container .fa.fa-mobile {
-      font-size: 18px; }
-    .info-tag-container .fa.fa-envelope-o {
-      font-size: 12px; }
-    .info-tag-container .fa.fa-desktop {
-      font-size: 11px; }
-    .info-tag-container .fa.fa-external-link {
-      width: auto;
-      font-size: inherit;
-      vertical-align: text-top; }
+  margin-bottom: 10px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between; }
+  .info-tag-container .icon-container {
+    flex-basis: 12%;
+    display: flex;
+    justify-content: center; }
+    .info-tag-container .icon-container .fa {
+      font-size: 14px;
+      width: 12px;
+      margin-right: 5px;
+      text-align: center;
+      vertical-align: middle; }
+      .info-tag-container .icon-container .fa.fa-map-marker {
+        font-size: 16px; }
+      .info-tag-container .icon-container .fa.fa-mobile {
+        font-size: 18px; }
+      .info-tag-container .icon-container .fa.fa-envelope-o {
+        font-size: 12px; }
+      .info-tag-container .icon-container .fa.fa-desktop {
+        font-size: 11px; }
+      .info-tag-container .icon-container .fa.fa-external-link {
+        width: auto;
+        font-size: inherit;
+        vertical-align: text-top; }
   .info-tag-container .info-text {
     font-size: 9px;
     display: inline-block;
     vertical-align: middle;
-    width: 139px; }
+    width: 157px;
+    text-align: left;
+    padding-left: 10px; }
 
 .references-container .fa {
   font-size: 14px; }

@@ -1,7 +1,7 @@
 {{#if resume.skills.length}}
 <div class="skills-container">
   {{#each resume.skills}}
-  <section class="container">
+  <section class="container{{#if paddingTop}} print-padding-top{{/if}}">
     {{#if name}}
       {{> title value=name}}
     {{/if}}
