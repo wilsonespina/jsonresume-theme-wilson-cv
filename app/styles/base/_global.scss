@@ -6,7 +6,7 @@
 .keyline {
   width: spacing(9);
   margin: 8px 0 10px;
-  border-top: 1px solid $secondary-color;
+  border-top: 1.5px solid $color-pink-trans;
 }
 
 .summary {
@@ -16,7 +16,3 @@
     white-space: pre-line;
   }
 }
-
-// .text {
-//   display: block;
-// }

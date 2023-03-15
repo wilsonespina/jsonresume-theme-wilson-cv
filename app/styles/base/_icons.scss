@@ -1,14 +1,14 @@
 .icon {
-    max-height: 15px;
-    max-width: 15px;
+    // max-height: 30px;
+    // max-width: 30px;
     &-typescript, &-graphql, &-github-actions {
         background-size: contain;
         background-repeat: no-repeat;
     }
     &-typescript {
         background-image: url(../images/ts-logo-128.svg);
-        height: 15px;
-        width: 15px;
+        height: 21px;
+        width: 21px;
     }
     &-graphql, &-github-actions {
         max-width: unset;
@@ -16,10 +16,12 @@
     }
     &-graphql {
         background-image: url(../images/graphql-logo.svg);
-        height: 27px;
+        height: 30px;
+        width: 30px;
     }
     &-github-actions {
         background-image: url(../images/github-actions.svg);
-        height: 23px;
+        height: 26px;
+        width: 26px;
     }
 }
