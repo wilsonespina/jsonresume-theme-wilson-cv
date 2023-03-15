@@ -23,10 +23,10 @@
   <div class="right-side">
     {{#resume.basics}}
       {{#if email}}
-        {{> info-tag text=this.email icon="fa-regular fa-envelope"}}
+        {{> info-tag text=this.email url="mailto:wilson.espina@gmail.com" icon="fa-regular fa-envelope"}}
       {{/if}}
       {{#if phone}}
-        {{> info-tag text=this.phone icon="fa-solid fa-mobile-retro"}}
+        {{> info-tag text=this.phone url="" icon="fa-solid fa-mobile-retro"}}
       {{/if}}
       {{#if location}}
         {{#location}}
