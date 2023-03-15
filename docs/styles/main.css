@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Utils */
 /*----- Colors -----*/
 /*----- Fonts -----*/
@@ -337,6 +338,16 @@ ul {
   column-gap: 5px; }
   .work-container .details .dates {
     white-space: nowrap; }
+
+.work-container .experience h5 {
+  margin-top: 5px; }
+
+.work-container .experience ul {
+  -webkit-padding-start: 8px;
+  margin: 4px 0 0; }
+  .work-container .experience ul li {
+    list-style-type: '▹ ';
+    padding-inline-start: 1ch; }
 
 .section-header .company-name {
   margin-bottom: 10px; }
