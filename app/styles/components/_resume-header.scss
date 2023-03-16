@@ -7,10 +7,9 @@
         margin-right: 35px;
 
         img {
-          height: $profile-pic-size;
-          width: $profile-pic-size;
-          border-radius: 14%;
-          border: 3px solid $secondary-color;
+          height: $profile-pic-height;
+          width: $profile-pic-width;
+          border-radius: 50%;
           object-fit: cover;
           object-position: 50% 20%;
         }

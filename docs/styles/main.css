@@ -361,8 +361,7 @@ ul {
     .resume-header .profile-pic img {
       height: 130px;
       width: 130px;
-      border-radius: 14%;
-      border: 3px solid #39424B;
+      border-radius: 50%;
       object-fit: cover;
       object-position: 50% 20%; }
   .resume-header.minus-margin {
