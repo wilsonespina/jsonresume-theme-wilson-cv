@@ -17,7 +17,7 @@
         <div class="covering-letter-content">
           <p>Dear {{hiringManager.name}},</p>
 
-          <p>I am writing to express my interest in the {{position}} position at {{name}}. I’m a software engineer with more than 5 years' experience in developing and implementing user-friendly and visually appealing web applications. I'm looking for an opportunity to apply my skills in new ways and I’d love to bring my expertise and enthusiasm to your growing engineering team.</p>
+          <p>I am writing to express my interest in the {{position}} position{{#if companyKnown}} at {{name}}{{/if}}. I’m a software engineer with more than 5 years' experience in developing and implementing user-friendly and visually appealing web applications. I'm looking for an opportunity to apply my skills in new ways and I’d love to bring my expertise and enthusiasm to your growing engineering team.</p>
 
           <p>In my previous role at ITV, I honed my skills in designing and implementing user-centered front-end solutions. I have a deep understanding of modern web development technologies and frameworks, including HTML, CSS, JavaScript, React and TypeScript, and have used this knowledge to create engaging user experiences that meet both technical and business requirements.</p>
 
@@ -27,11 +27,11 @@
 
           <ul>
             <li>
-              Developed a bespoke calendar interface for a renewable energy company's online portal, providing customers with streamlined access to their generation data management tools.
+              Coordinated the successful front-end delivery of the ITVX streaming platform's (UK) homepage, working closely with a cross-functional team to integrate multiple React components and adhere to a demanding timeline.
             </li>
-            <li>
+            {{!-- <li>
               Led technical decisions within a cross-functional team to integrate React components within the ITVX streaming platform, adhering to a tight deadline.
-            </li>
+            </li> --}}
             <li>
               Optimised developer workflows by implementing new approaches, including the introduction of automated merge queues with Github actions, effectively streamlining the development process.
             </li>
@@ -40,7 +40,8 @@
             </li>
           </ul>
 
-          <p>At {{name}}, I am particularly interested in the prospect of working on groundbreaking projects that can make a meaningful difference, in collaboration with a close and supportive team. I am eager to bring my expertise and passion for creating amazing user experiences to your team and to contribute to the growth and success of your organisation.</p>
+          <p>{{#if companyKnown}}At {{name}}, I am particularly interested in the prospect of working on groundbreaking projects that can make a meaningful difference, in collaboration with a close and supportive team. {{/if}}
+            I am eager to bring my expertise and passion for creating amazing user experiences to your team and to contribute to the growth and success of your organisation.</p>
 
           <p>Thank you for considering my application. I look forward to the opportunity to further discuss my qualifications and how I can contribute to your team.</p>
 
