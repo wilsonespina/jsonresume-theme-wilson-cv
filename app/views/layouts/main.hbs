@@ -26,7 +26,21 @@
     <main id="resume" class="page right-border">
       {{> resume-header}}
       <div class="resume-content">
-        <aside class="left-column">
+          {{> about }}
+          {{> summary }}
+          {{> skills }}
+          {{> work }}
+          {{> volunteer }}
+          {{> education }}
+          {{> awards }}
+          {{> publications }}
+          {{> references }}
+          {{> languages }}
+          {{> interests }}
+          <div class="break"></div>
+        </div>
+
+        {{!-- <aside class="left-column">
           {{> about }}
           {{> skills }}
           {{> languages }}
@@ -40,8 +54,10 @@
           {{> awards }}
           {{> publications }}
           {{> references }}
-        </div>
-      </div>
+        </div> --}}
+
+
+
     </main>
   </body>
 </html>

@@ -2,28 +2,31 @@
 <div class="container about-container">
   {{> title value="About"}}
 
-  {{#if location}}
-    {{#location}}
-    {{> info-tag text=(formatAddress address city region postalCode countryCode) icon="fa-solid fa-location-dot"}}
-    {{/location}}
-  {{/if}}
+  {{!-- <div class="info-tag-container"> --}}
+    {{#if location}}
+      {{#location}}
+      {{> info-tag text=(formatAddress address city region postalCode countryCode) icon="fa-solid fa-location-dot"}}
+      {{/location}}
+    {{/if}}
 
-  {{#if email}}
-    {{> info-tag text=this.email url="mailto:wilson.espina@gmail.com" icon="fa-regular fa-envelope"}}
-  {{/if}}
+    {{#if email}}
+      {{> info-tag text=this.email url="mailto:wilson.espina@gmail.com" icon="fa-regular fa-envelope"}}
+    {{/if}}
 
-  {{#if phone}}
-    {{> info-tag text=this.phone url="" icon="fa-solid fa-mobile-retro"}}
-  {{/if}}
+    {{#if phone}}
+      {{> info-tag text=this.phone url="" icon="fa-solid fa-mobile-retro"}}
+    {{/if}}
 
-  {{#if url}}
-    {{> info-tag text=this.url icon="fa-solid fa-desktop" url=this.url}}
-  {{/if}}
+    {{#if url}}
+      {{> info-tag text=this.url icon="fa-solid fa-desktop" url=this.url}}
+    {{/if}}
 
-  {{#if profiles}}
-    {{#each profiles}}
-        {{> social}}
-    {{/each}}
-  {{/if}}
-</section>
+    {{#if profiles}}
+      {{#each profiles}}
+          {{> social}}
+      {{/each}}
+    {{/if}}
+  {{!-- </div> --}}
+
+</div>
 {{/resume.basics}}

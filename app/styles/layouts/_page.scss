@@ -1,6 +1,6 @@
 .page {
   background: white;
-  width: $page-width;
+  // width: $page-width;
   min-height: $page-height;
   display: block;
   margin: 0 auto;
@@ -11,61 +11,169 @@
   position: relative;
 
   &:after {
-    width: #{$border-width};
-    position: absolute;
-    content: '';
-    height: 100%;
-    top: 0;
-    background:
-      repeating-linear-gradient(to bottom,
-        $color-pink-trans 0%, $color-pink-trans calc(#{$border-bar-height} * 1),
-        $color-blue-trans calc(#{$border-bar-height} * 1), $color-blue-trans calc(#{$border-bar-height} * 2),
-        $color-green-trans calc(#{$border-bar-height} * 2), calc(#{$border-bar-height} * 3),
-        $color-yellow-trans calc(#{$border-bar-height} * 3), $color-yellow-trans calc(#{$border-bar-height} * 4))
-      center/  /* position */
-      #{$border-width} 100% /* size (width height) */ // TODO - dynamically work out how many pages and use as multiplier
-      repeat /* don't repeat */
-      rgb(200,200,200); /* background color */
+	width: #{$border-width};
+	position: absolute;
+	content: '';
+	height: 100%;
+	top: 0;
+	background:
+	  repeating-linear-gradient(to bottom,
+		$color-pink-trans 0%, $color-pink-trans calc(#{$border-bar-height} * 1),
+		$color-blue-trans calc(#{$border-bar-height} * 1), $color-blue-trans calc(#{$border-bar-height} * 2),
+		$color-green-trans calc(#{$border-bar-height} * 2), calc(#{$border-bar-height} * 3),
+		$color-yellow-trans calc(#{$border-bar-height} * 3), $color-yellow-trans calc(#{$border-bar-height} * 4))
+	  center/  /* position */
+	  #{$border-width} 100% /* size (width height) */ // TODO - dynamically work out how many pages and use as multiplier
+	  repeat /* don't repeat */
+	  rgb(200,200,200); /* background color */
   }
 
+
+
+  /**** Different borders on CV vs cover letter pages ****/
   &.left-border {
-    &:after {
-      left: 0;
-    }
+	&:after {
+	  left: 0;
+	}
   }
 
   &.right-border {
-    &:after {
-      right: 0;
-    }
+	&:after {
+	  right: 0;
+	}
+  }
+  .resume-content {
+	display: flex;
+
+	display: flex;
+	flex-direction: column;
+
+
+	// .left-column {
+	//   width: $aside-width;
+	//   margin-right: $aside-margin;
+	//   word-wrap: break-word;
+	// }
+
+	// .right-column {
+	//   width: auto;
+	//   overflow: hidden;
+	// }
+
+	.item {
+	  display: flex;
+	  flex-direction: column;
+	  margin-bottom: spacing(3);
+
+	  &:last-child {
+		margin-bottom: 0;
+	  }
+	}
+  }
+
+
+
+  /**** Cover Letter ****/
+  .covering-letter-content {
+	margin-top: 40px;
+  }
+
+
+  .break {
+    flex-basis: 100%;
+    width: 0;
+  }
+
+
+  @media screen and (min-width: 700px) {
+	width: $page-width; // TODO - make sure the browser looks the same as PDF
+
+	.resume-content {
+	  flex-wrap: wrap;
+      height: 2000px;
+      min-height: 0;
+
+      .break {
+        // display: block;
+        flex-basis: 100%;
+        width: 0;
+      }
+
+
+	  .about-container,
+	  .skills-container,
+	  .languages-container,
+	  .interests-container {
+		max-width: $aside-width;
+	  }
+  
+	  .summary-container,
+	  .work-container,
+	  .volunteer-container,
+	  .education-container,
+	  .awards-container,
+	  .publications-container,
+	  .references-container {
+		max-width: 70%; // TODO - update to more dynamic
+	  }
+  
+	  .about-container {
+		order: 1;
+	  }
+  
+	  .skills-container {
+		order: 2;
+	  }
+  
+	  .languages-container {
+		order: 3;
+	  }
+  
+	  .interests-container {
+		order: 4;
+	  }
+
+      .break {
+        order: 5;
+      }
+  
+	  .summary-container {
+		order: 6;
+	  }
+  
+	  .work-container {
+		order: 7;
+	  }
+  
+	  .volunteer-container {
+		order: 8;
+	  }
+  
+	  .education-container {
+		order: 9;
+	  }
+  
+	  .awards-container {
+		order: 10;
+	  }
+  
+	  .publications-container {
+		order: 11;
+	  }
+  
+	  .references-container {
+		order: 12;
+	  }
+
+	}
+
+
   }
 }
 
-.resume-content {
-  display: flex;
-}
 
-.covering-letter-content {
-  margin-top: 40px;
-}
 
-.left-column {
-  width: $aside-width;
-  margin-right: $aside-margin;
-  word-wrap: break-word;
-}
 
-.right-column {
-  width: auto;
-  overflow: hidden;
-}
 
-.item {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: spacing(3);
 
-  &:last-child {
-    margin-bottom: 0;
-  }
-}
+
