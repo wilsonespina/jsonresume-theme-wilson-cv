@@ -23,27 +23,21 @@
 
           <p>One of my greatest strengths is collaborating effectively with cross-functional teams, including designers, product managers, and back-end developers. I am also highly skilled in problem-solving and have a track record of delivering high-quality solutions on time.</p>
 
-          <p>Examples of my achievements include:</p>
+          {{#if examples}}
+            <p>Examples of my achievements include:</p>
+            <ul>
+              {{#each examples}}<li>{{.}}</li>{{/each}}
+            </ul>
+          {{/if}}
 
-          <ul>
-            <li>
-              Coordinated the successful front-end delivery of the ITVX streaming platform's (UK) homepage, working closely with a cross-functional team to integrate multiple React components and adhere to a demanding timeline.
-            </li>
-            <li>
-              Developed a bespoke calendar interface for a renewable energy company's online portal, providing customers with streamlined access to their generation data management tools.
-            </li>
-            <li>
-              Optimised developer workflows by implementing new approaches, including the introduction of automated merge queues with Github actions, effectively streamlining the development process.
-            </li>
-            <li>
-              Taught over 100+ coding novices the basics of web development through my role as a Lead Instructor at General Assembly (London).
-            </li>
-          </ul>
+          {{#if reasonsWhyCompany}}
+            <p>
+              {{#each reasonsWhyCompany}}{{.}} {{/each}}
+            </p>
+          {{/if}}
 
-          <p>{{#if companyKnown}}At {{name}}, I am particularly interested in the prospect of working on application that leverages AI-driven analysis. AI is a technology that is rapidly growing and I admire an innovative company that puts it at the heart of its product.{{/if}}
-            I am eager to bring my expertise and passion for creating amazing user experiences to your team and to contribute to the growth and success of your organisation.</p>
-
-          <p>Thank you for considering my application. I look forward to the opportunity to further discuss my qualifications and how I can contribute to your team.</p>
+          <p>I am eager to bring my expertise and passion for creating amazing user experiences to your team and to contribute to the growth and success of your organisation.
+            Thank you for considering my application. I look forward to the opportunity to further discuss my qualifications and how I can contribute to your team.</p>
 
           <p>Sincerely,</p>
 
