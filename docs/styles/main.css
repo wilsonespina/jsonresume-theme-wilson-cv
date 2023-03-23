@@ -9,9 +9,12 @@ body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 400;
   background: #f8f8f8;
-  margin: 50px 0 100px;
+  margin: 50px 8px 100px;
   letter-spacing: .3px;
   color: #39424B; }
+  @media screen and (min-width: 700px) {
+    body {
+      margin: 50px 0 100px; } }
 
 h1,
 h2,
@@ -165,7 +168,7 @@ ul {
     content: '';
     height: 100%;
     top: 0;
-    background: repeating-linear-gradient(to bottom, #f92673d3 0%, #f92673d3 calc(80px * 1), #5ccfefcb calc(80px * 1), #5ccfefcb calc(80px * 2), #a6e22ec3 calc(80px * 2), calc(80px * 3), #ffff35b9 calc(80px * 3), #ffff35b9 calc(80px * 4)) center/ 8px 100% repeat #c8c8c8;
+    background: repeating-linear-gradient(to bottom, #f92673d3 0%, #f92673d3 calc(60px * 1), #5ccfefcb calc(60px * 1), #5ccfefcb calc(60px * 2), #a6e22ec3 calc(60px * 2), calc(60px * 3), #ffff35b9 calc(60px * 3), #ffff35b9 calc(60px * 4)) center/ 8px 100% repeat #c8c8c8;
     /* background color */ }
   .page.left-border:after {
     left: 0; }
@@ -277,7 +280,10 @@ ul {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: flex-start; }
+  @media screen and (min-width: 700px) {
+    .info-tag-container {
+      justify-content: space-between; } }
   .info-tag-container .icon-container {
     flex-basis: 12%;
     display: flex;

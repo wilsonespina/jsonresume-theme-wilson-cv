@@ -2,7 +2,11 @@
   margin-bottom: spacing(2);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+
+  @media screen and (min-width: 700px) {
+    justify-content: space-between;
+  }
 
   .icon-container {
     flex-basis: 12%;
