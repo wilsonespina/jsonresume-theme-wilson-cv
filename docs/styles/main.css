@@ -159,12 +159,12 @@ ul {
   flex-direction: column;
   position: relative; }
   .page:after {
-    width: 8px;
+    width: 0px;
     position: absolute;
     content: '';
     height: 100%;
     top: 0;
-    background: repeating-linear-gradient(to bottom, #f92673d3 0%, #f92673d3 calc(80px * 1), #5ccfefcb calc(80px * 1), #5ccfefcb calc(80px * 2), #a6e22ec3 calc(80px * 2), calc(80px * 3), #ffff35b9 calc(80px * 3), #ffff35b9 calc(80px * 4)) center/ 8px 100% repeat #c8c8c8;
+    background: repeating-linear-gradient(to bottom, #f92673d3 0%, #f92673d3 calc(80px * 1), #5ccfefcb calc(80px * 1), #5ccfefcb calc(80px * 2), #a6e22ec3 calc(80px * 2), calc(80px * 3), #ffff35b9 calc(80px * 3), #ffff35b9 calc(80px * 4)) center/ 0px 100% repeat #c8c8c8;
     /* background color */ }
   .page.left-border:after {
     left: 0; }
