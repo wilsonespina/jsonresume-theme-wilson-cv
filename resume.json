@@ -1,0 +1,401 @@
+{
+  "$schema":"https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics":{
+     "name":"Wilson Espina",
+     "label":"Senior Frontend Engineer",
+     "image":"",
+     "profileImage": "https://wdi-30-ldn.s3.eu-west-1.amazonaws.com/headshots/HEADSHOT.png",
+     "email":"wilson.espina@gmail.com",
+     "phone":"0272985314",
+     "url":"https://wilsonespina.com",
+     "summary":"As a software engineer with over 5 years' experience, I am skilled in building enterprise-level, customer-facing web applications with a focus on technical coordination. I thrive in the dynamic front-end landscape and enjoy exploring new technologies. Along with leading technical workstreams, I foster a friendly work environment and support junior engineers while promoting best practices within Agile delivery teams.",
+     "location":{
+        "countryCode":"NZ",
+        "address":"Wellington, NZ"
+     },
+     "profiles":[
+        {
+           "network":"LinkedIn",
+           "username":"wilson-espina",
+           "url":"https://www.linkedin.com/in/wilson-espina/"
+        }
+     ]
+  },
+  "work":[
+     {
+        "name":"ITV",
+        "position":"Core Frontend Engineer",
+        "startDate":"2019-08-31",
+        "endDate":"2023-01-31",
+        "experienceAreas": [
+         {
+            "name": "General Skills",
+            "points": [
+               "Maintained AWS Lamda services to handle URL redirecting on Connected TV's (CTV), allowing for scalable and maintainable solutions.",
+               "Optimised DOM rendering of a CTV application, mitigating performance issues on low-powered devices and improving user experience.",
+               "Championed a \"shift left\" testing approach within my teams by utilising Cypress and React Testing Library (RTL), resulting in higher code quality and faster feedback loops during development."
+            ]
+         },
+         {
+            "name": "ITVX Streaming Platform",
+            "points": [
+               "Led the development of React components for Web and CTV applications, optimising GraphQL queries, implementing Design System build files and providing guidance to junior developers.",
+               "Developed TypeScript components within an Atomic Design System, ensuring consistency and modularity across the codebase.",
+               "Successfully delivered critical features under tight deadlines by offering pragmatic solutions to technical challenges and pushing for best practices."
+            ]
+         },
+         {
+            "name": "Mentoring",
+            "points": [
+               "Designed and facilitated technical graphQL workshops for a frontend cohort unfamiliar with the technology.",
+               "Provided in-depth mentorship to junior engineers through pairing sessions, ensuring their technical growth and proficiency."
+            ]
+         },
+         {
+            "name": "Strategy",
+            "points": [
+               "Pioneered an automated monorepo merge queue with custom tooling using GitHub Actions, improving the team's efficiency and reducing the risk of merge conflicts.",
+               "Facilitated discussions on improving GraphQL queries by initiating an internal Request For Comment (RFC) process, resulting in wider adoption and collective understanding of new technology."
+            ]
+         }
+        ],
+        "highlights":[
+
+        ],
+        "summary":"",
+        "url":"https://www.linkedin.com/company/itv/",
+        "location":"London, United Kingdom"
+     },
+     {
+        "name":"ITV",
+        "position":"Junior JavaScript Engineer",
+        "startDate":"2018-11-30",
+        "endDate":"2019-08-31",
+        "experienceAreas": [
+         {
+            "name": "General Skills",
+            "points": [
+               "Successfully implemented the integration of subtitles for Samsung CTV devices on the ITV Hub, ensuring seamless and accessible viewing experience for users.",
+               "Coordinated with the Platform Engineering team to debug and maintain Jenkins CI/CD pipelines, streamlining the deployment process and reducing the time-to-market for new features.",
+               "Utilised vanilla JavaScript following an object-oriented design approach to develop new features for the ITV Hub CTV application, improving user engagement and enhancing the overall user experience."
+            ]
+         }
+        ],
+        "highlights":[
+           
+        ],
+        "summary":"",
+        "url":"https://www.linkedin.com/company/itv/",
+        "location":"London, United Kingdom"
+     },
+     {
+        "name":"General Assembly",
+        "position":"Lead Instructor for JavaScript Development Part-Time Course",
+        "startDate":"2020-03-31",
+        "endDate":"2020-08-31",
+        "experienceAreas": [
+            {
+               "name": "Teaching",
+               "points": [
+                  "Modernised the JavaScript remote course by incorporating current industry best practices and the latest tools, resulting in an enhanced learning experience for students.",
+                  "Created and delivered engaging lessons, guided exercises, and focused homework, teaching the fundamentals of the JavaScript language to students and facilitating their skill development."
+               ]
+            },
+            {
+               "name": "Mentoring",
+               "points": [
+                  "Provided personalised support and one-on-one tuition to students working on personal projects, guiding them through development challenges and facilitating their growth as developers."
+               ]
+            }
+        ],
+        "highlights":[
+           
+        ],
+        "summary":"",
+        "url":"https://www.linkedin.com/school/generalassembly/",
+        "location":"London, England, United Kingdom"
+     },
+     {
+        "name":"Limejump",
+        "position":"Junior Frontend Developer",
+        "startDate":"2018-02-28",
+        "endDate":"2018-11-30",
+        "experienceAreas": [
+            {
+               "name": "General Skills",
+               "points": [
+                  "Led the development of the custom calendar and scheduling Customer Portal as the sole frontend developer, overseeing the project from inception to delivery.",
+                  "Implemented unit and integration testing to improve the health and stability of the front-end, resulting in higher-quality code and better user experiences.",
+                  "Collaborated with the UX/UI team to realise customer journeys through the company's AngularJS web application, ensuring a cohesive and intuitive user experience."
+               ]
+            }
+        ],
+        "highlights":[
+           
+        ],
+        "summary":"",
+        "url":"https://www.linkedin.com/company/limejump/",
+        "location":"London, United Kingdom",
+        "paddingTop": true
+     },
+     {
+        "name":"General Assembly",
+        "position":"Web Development Immersive Student",
+        "startDate":"2017-10-31",
+        "endDate":"2017-12-31",
+        "experienceAreas": [
+            {
+               "name": "Learning",
+               "points": [
+                  "Completed an intensive web development and agile project techniques bootcamp at General Assembly London in 2017, where I learned the fundamentals of frontend engineering through structured learning and pair programming exercises."
+               ]
+            },
+            {
+               "name": "Project Work",
+               "points": [
+                  "Demonstrated knowledge and expertise in frontend technologies by building personal projects during the bootcamp.",
+                  "Created an interactive maze game using jQuery, which incorporated HTML Audio Elements triggered by user events.",
+                  "Completed an individual project that utilised React, Node, and Express to connect to the Strava and Google Maps APIs, resulting in a Strava run patterns application."
+               ]
+            }
+        ],
+        "highlights":[
+           
+        ],
+        "summary":"",
+        "url":"https://www.linkedin.com/school/generalassembly/",
+        "location":"London, United Kingdom"
+     },
+     {
+        "name":"High Speed Two (HS2) Ltd",
+        "position":"Utilities Assistant Project Manager",
+        "startDate":"2015-02-28",
+        "endDate":"2017-07-30",
+        "experienceAreas": [
+            {
+               "name": "General Skills",
+               "points": [
+                  "Supported the Utilities Delivery team in implementing HS2 processes to effectively manage the utilities works programme."
+               ]
+            }
+        ],
+        "highlights":[
+           
+        ],
+        "summary":"",
+        "url":"https://www.linkedin.com/company/high-speed-two-hs2-ltd/",
+        "location":"London, United Kingdom"
+     },
+     {
+        "name":"FileWorks",
+        "position":"Project Manager",
+        "startDate":"2011-02-28",
+        "endDate":"2014-12-31",
+        "experienceAreas": [
+            {
+               "name": "General Skills",
+               "points": [
+                  "Managed a £100k+ Project Management contract with Network Rail, responsible for its strategic operation and day-to-day management."
+               ]
+            }
+        ],
+        "highlights":[
+           
+        ],
+        "summary":"",
+        "url":"",
+        "location":"London, United Kingdom"
+     }
+  ],
+  "volunteer":[
+     
+  ],
+  "education":[
+     {
+        "institution":"General Assembly",
+        "location":"London",
+        "area":"Full Stack web development course",
+        "studyType":"Web Development Immersive Bootcamp",
+        "startDate":"2017-09-01",
+        "endDate":"2017-12-31",
+        "score":"",
+        "courses":[
+           
+        ]
+     },
+     {
+        "institution":"University of Warwick",
+        "location":"Coventry",
+        "area":"Civil Engineering with Business Management",
+        "studyType":"MEng",
+        "startDate":"2006-10-01",
+        "endDate":"2010-07-01",
+        "score":"",
+        "courses":[
+           
+        ]
+     }
+  ],
+  "awards":[
+     
+  ],
+  "certificates":[
+     
+  ],
+  "publications":[
+     
+  ],
+  "skills":[
+     {
+        "name":"JavaScript",
+        "level":"",
+        "keywords":[
+           
+        ],
+        "fontClass":"fa-brands fa-js fa-xl"
+     },
+     {
+        "name":"TypeScript",
+        "level":"",
+        "keywords":[
+           
+        ],
+        "localFontClass":"icon icon-typescript"
+     },
+     {
+        "name":"React.js",
+        "level":"",
+        "keywords":[
+           
+        ],
+        "fontClass":"fa-brands fa-react fa-xl"
+     },
+     {
+        "name":"Node.js",
+        "level":"",
+        "keywords":[
+           
+        ],
+        "fontClass":"fa-brands fa-node fa-xl"
+     },
+     {
+      "name":"GraphQL",
+      "level":"",
+      "keywords":[
+         
+      ],
+      "localFontClass":"icon icon-graphql"
+     },
+     {
+        "name":"AWS",
+        "level":"",
+        "keywords":[
+           
+        ],
+        "fontClass":"fa-brands fa-aws fa-xl"
+     },
+     {
+        "name":"Jenkins",
+        "level":"",
+        "keywords":[
+           
+        ],
+        "fontClass":"fa-brands fa-jenkins fa-xl"
+     },
+     {
+        "name":"Cascading Style Sheets (CSS3)",
+        "level":"",
+        "keywords":[
+           
+        ],
+        "fontClass":"fa-brands fa-css3-alt fa-xl"
+     },
+     {
+        "name":"SASS",
+        "level":"",
+        "keywords":[
+           
+        ],
+        "fontClass":"fa-brands fa-sass fa-xl"
+     },
+     {
+        "name":"HTML5",
+        "level":"",
+        "keywords":[
+           
+        ],
+        "fontClass":"fa-brands fa-html5 fa-xl"
+     },
+     {
+        "name":"Github Actions",
+        "level":"",
+        "keywords":[
+           
+        ],
+        "localFontClass":"icon icon-github-actions"
+     },
+     {
+      "name":"React Testing Library",
+      "level":"",
+      "keywords":[
+         
+      ],
+      "fontClass":"fa-solid fa-flask-vial fa-lg"
+      },
+     {
+      "name":"Docker",
+      "level":"",
+      "keywords":[
+         
+      ],
+      "fontClass":"fa-brands fa-docker fa-xl"
+      },
+     {
+        "name":"Teaching",
+        "level":"",
+        "keywords":[
+           
+        ],
+        "fontClass":"fa-solid fa-person-chalkboard fa-xl"
+     }
+
+  ],
+  "languages":[
+     {
+        "language":"English",
+        "fluency":"Native Speaker"
+     }
+  ],
+  "interests":[
+     {
+        "name":"Swimming",
+        "keywords": [
+        ]
+     },
+     {
+        "name":"Cycling",
+        "keywords": [
+         ]
+     },
+     {
+        "name":"Running",
+        "keywords": [
+      ]
+     },
+     {
+        "name":"Gaming",
+        "keywords": [
+      ]
+     }
+  ],
+  "references":[
+     
+  ],
+  "projects":[
+     
+  ],
+  "meta":{
+     "version":"v1.0.0",
+     "canonical":"https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

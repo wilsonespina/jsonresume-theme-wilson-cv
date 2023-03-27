@@ -38,7 +38,7 @@ docs/views/**/*
 docs/CNAME
 
 # Keep your personal resume.json private and any generated pdf's
-resume.json
-resume_*.json
-resume.pdf
+# resume.json
+# resume_*.json
+# resume.pdf
 covering-letter.json
