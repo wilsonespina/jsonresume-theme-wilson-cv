@@ -1,5 +1,6 @@
 name: html to pdf
 uses: fifsky/html-to-pdf-action@master
+on: [push]
 with:
   htmlFile: ./docs/index.html
   outputFile: ./docs/resume.pdf
