@@ -16,6 +16,7 @@
   "license": "MIT",
   "scripts": {
     "build": "npx gulp && npm run main",
+    "build:pdf": "",
     "main": "npx resume export docs/index --format html --theme .",
     "routes": "npx resume export docs/covering-letter/index --format html --theme .",
     "start": "export NODE_ENV=RESUME_SERVE_MODE && npx gulp && npx resume serve --theme . --dir docs",
