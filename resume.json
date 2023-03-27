@@ -29,14 +29,6 @@
         "endDate":"2023-01-31",
         "experienceAreas": [
          {
-            "name": "General Skills",
-            "points": [
-               "Maintained AWS Lamda services to handle URL redirecting on Connected TV's (CTV), allowing for scalable and maintainable solutions.",
-               "Optimised DOM rendering of a CTV application, mitigating performance issues on low-powered devices and improving user experience.",
-               "Championed a \"shift left\" testing approach within my teams by utilising Cypress and React Testing Library (RTL), resulting in higher code quality and faster feedback loops during development."
-            ]
-         },
-         {
             "name": "ITVX Streaming Platform",
             "points": [
                "Led the development of React components for Web and CTV applications, optimising GraphQL queries, implementing Design System build files and providing guidance to junior developers.",
@@ -56,6 +48,13 @@
             "points": [
                "Pioneered an automated monorepo merge queue with custom tooling using GitHub Actions, improving the team's efficiency and reducing the risk of merge conflicts.",
                "Facilitated discussions on improving GraphQL queries by initiating an internal Request For Comment (RFC) process, resulting in wider adoption and collective understanding of new technology."
+            ]
+         },
+         {
+            "name": "General Skills",
+            "points": [
+               "Optimised DOM rendering of a CTV application, mitigating performance issues on low-powered devices and improving user experience.",
+               "Championed a \"shift left\" testing approach within my teams by utilising Cypress and React Testing Library (RTL), resulting in higher code quality and faster feedback loops during development."
             ]
          }
         ],
