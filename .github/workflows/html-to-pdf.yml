@@ -25,10 +25,10 @@ jobs:
       - uses: actions/checkout@v3
       - uses: ntdesmond/html2pdf-action@v1
         with:
-          path: ../docs/index.html
-          output: ../docs/cv.pdf
+          path: ../../docs/index.html
+          output: ../../docs/resume.pdf
           options: |
             {"format": "A4"}
       - uses: actions/upload-artifact@v3
         with:
-          path: ../docs/cv.pdf
+          path: ../../docs/resume.pdf
