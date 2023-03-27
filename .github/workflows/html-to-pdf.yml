@@ -6,8 +6,9 @@ jobs:
   Html-To-Pdf:
     runs-on: ubuntu-latest
     steps:
-      uses: fifsky/html-to-pdf-action@master
-      with:
+     - name: Convert
+       uses: fifsky/html-to-pdf-action@master
+       with:
         htmlFile: ./docs/index.html
         outputFile: ./docs/resume.pdf
         pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
