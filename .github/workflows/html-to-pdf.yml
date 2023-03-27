@@ -1,9 +1,12 @@
 name: html to pdf
+
 on: [push]
+
 jobs:
   Html-To-Pdf:
     runs-on: ubuntu-latest
-    uses: fifsky/html-to-pdf-action@master
+    steps:
+      uses: fifsky/html-to-pdf-action@master
       with:
         htmlFile: ./docs/index.html
         outputFile: ./docs/resume.pdf
