@@ -2,17 +2,33 @@ name: html to pdf
 
 on: [push]
 
-jobs:
-  Html-To-Pdf:
-    runs-on: ubuntu-latest
-    steps:
-     - name: Convert
-       uses: markwilson/html2pdf@v1.0
-       with:
-        htmlPath: '../docs/index.html'
-        pdfName: 'resume'
+# jobs:
+#   Html-To-Pdf:
+#     runs-on: ubuntu-latest
+#     steps:
+#      - name: Convert
+#        uses: markwilson/html2pdf@v1.0
+#        with:
+#         htmlPath: '../docs/index.html'
+#         pdfName: 'resume'
+
         #  uses: fifsky/html-to-pdf-action@master
         #  with:
         #   htmlFile: /docs/index.html
         #   outputFile: /docs/resume.pdf
         #   pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+
+jobs:
+  html2pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ntdesmond/html2pdf-action@v1
+        with:
+          path: ../docs/index.html
+          output: ../docs/cv.pdf
+          options: |
+            {"format": "A4"}
+      - uses: actions/upload-artifact@v3
+        with:
+          path: ../docs/cv.pdf
