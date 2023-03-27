@@ -7,13 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: Convert
-
-      uses: markwilson/html2pdf@v1.0
-      with:
+       uses: markwilson/html2pdf@v1.0
+       with:
         htmlPath: '../docs/index.html'
         pdfName: 'resume'
-      #  uses: fifsky/html-to-pdf-action@master
-      #  with:
-      #   htmlFile: /docs/index.html
-      #   outputFile: /docs/resume.pdf
-      #   pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+        #  uses: fifsky/html-to-pdf-action@master
+        #  with:
+        #   htmlFile: /docs/index.html
+        #   outputFile: /docs/resume.pdf
+        #   pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
