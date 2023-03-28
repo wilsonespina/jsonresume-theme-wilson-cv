@@ -2,16 +2,16 @@
   "$schema":"https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics":{
      "name":"Wilson Espina",
-     "label":"Senior Frontend Engineer",
+     "label":"Senior Software Engineer",
      "image":"",
      "profileImage": "https://wdi-30-ldn.s3.eu-west-1.amazonaws.com/headshots/HEADSHOT.png",
      "email":"wilson.espina@gmail.com",
      "phone":"0272985314",
      "url":"https://wilsonespina.com",
-     "summary":"As a software engineer with over 5 years' experience, I am skilled in building enterprise-level, customer-facing web applications with a focus on technical coordination. I thrive in the dynamic front-end landscape and enjoy exploring new technologies. Along with leading technical workstreams, I foster a friendly work environment and support junior engineers while promoting best practices within Agile delivery teams.",
+     "summary":"As a software engineer with over 5 years' experience, I am skilled in building enterprise-level, customer-facing web applications with a focus on technical coordination. I thrive in the dynamic full stack landscape and enjoy exploring new technologies. Along with leading technical workstreams, I foster a friendly work environment and support junior engineers while promoting best practices within Agile delivery teams.",
      "location":{
         "countryCode":"NZ",
-        "address":"Wellington, NZ"
+        "address":"Wellington, New Zealand"
      },
      "profiles":[
         {
@@ -53,6 +53,7 @@
          {
             "name": "General Skills",
             "points": [
+               "Transformed a legacy Handlebars and PHP browser application into a modern NextJS application, utilising reusable Design System components to enhance maintainability and scalability.",
                "Optimised DOM rendering of a CTV application, mitigating performance issues on low-powered devices and improving user experience.",
                "Championed a \"shift left\" testing approach within my teams by utilising Cypress and React Testing Library (RTL), resulting in higher code quality and faster feedback loops during development."
             ]
