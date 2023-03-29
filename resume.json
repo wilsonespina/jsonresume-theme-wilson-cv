@@ -2,7 +2,7 @@
   "$schema":"https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics":{
      "name":"Wilson Espina",
-     "label":"Senior Software Engineer",
+     "label":"Fullstack Software Engineer",
      "image":"",
      "profileImage": "https://wdi-30-ldn.s3.eu-west-1.amazonaws.com/headshots/HEADSHOT.png",
      "email":"wilson.espina@gmail.com",

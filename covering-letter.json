@@ -1,7 +1,7 @@
 {
     "company": {
-        "name": "Talent Army",
-        "position": "Senior Full Stack Engineer",
+        "name": "CircuIT",
+        "position": "Intermediate Fullstack Engineer",
         "companyKnown": true,
         "Address": {
             "Line_1": "",
@@ -13,9 +13,9 @@
             "name": "Hiring Manager"
         },
         "examples": [
-            "Coordinated the successful delivery of the ITVX streaming platform's (UK) homepage, working closely with a cross-functional team to integrate multiple React components and adhere to a demanding timeline.",
+            "Coordinated the successful delivery of the ITVX streaming platform's homepage, working closely with a cross-functional team to integrate multiple React components and adhere to a demanding timeline.",
             "Optimised developer workflows by implementing new approaches, including the introduction of automated merge queues with Github actions, effectively streamlining the development process.",
-            "Taught over 100+ coding novices the basics of web development through my Instructor roles at General Assembly (London)."
+            "Taught over 100+ coding novices the basics of web development through my Instructor roles at General Assembly, London."
         ],
         "reasonsWhyCompany": [
         ]
