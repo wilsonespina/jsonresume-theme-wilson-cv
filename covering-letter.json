@@ -1,13 +1,13 @@
 {
     "company": {
-        "name": "Deloitte",
-        "position": "Full Stack Engineer",
+        "name": "Talent Army",
+        "position": "Senior Full Stack Engineer",
         "companyKnown": true,
         "Address": {
-            "Line_1": "Deloitte",
-            "Line_2": "Level 12",
-            "Line_3": "20 Customhouse Quay",
-            "Line_4": "Wellington"
+            "Line_1": "",
+            "Line_2": "",
+            "Line_3": "",
+            "Line_4": ""
         },
         "hiringManager": {
             "name": "Hiring Manager"
@@ -18,7 +18,6 @@
             "Taught over 100+ coding novices the basics of web development through my Instructor roles at General Assembly (London)."
         ],
         "reasonsWhyCompany": [
-            "What excites me most about the opportunity to work in Deloitte's Platform and Cloud Engineering (PACE) team is the chance to collaborate with a team of talented professionals to develop innovative solutions for clients across a wide range of industries."
         ]
     }
 }
