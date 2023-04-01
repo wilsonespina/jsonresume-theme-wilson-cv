@@ -2,13 +2,13 @@
   "$schema":"https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics":{
      "name":"Wilson Espina",
-     "label":"Fullstack Software Engineer",
+     "label":"Senior Software Engineer",
      "image":"",
      "profileImage": "https://wdi-30-ldn.s3.eu-west-1.amazonaws.com/headshots/HEADSHOT.png",
      "email":"wilson.espina@gmail.com",
-     "phone":"0272985314",
+     "phone":"027 298 5314",
      "url":"https://wilsonespina.com",
-     "summary":"As a software engineer with over 5 years' experience, I am skilled in building enterprise-level, customer-facing web applications with a focus on technical coordination. I thrive in the dynamic full stack landscape and enjoy exploring new technologies. Along with leading technical workstreams, I foster a friendly work environment and support junior engineers while promoting best practices within Agile delivery teams.",
+     "summary":"As a software engineer with over 5 years' experience, I am skilled in building enterprise-level, customer-facing web applications with a focus on optimisation and automation. I thrive in the dynamic fullstack landscape and enjoy exploring new technologies. Along with leading technical workstreams, I foster a friendly work environment and support junior engineers while promoting best practices within agile delivery teams.",
      "location":{
         "countryCode":"NZ",
         "address":"Wellington, New Zealand"
