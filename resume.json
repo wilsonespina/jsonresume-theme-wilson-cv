@@ -246,14 +246,6 @@
   ],
   "skills":[
      {
-        "name":"Github Actions TEST",
-        "level":"",
-        "keywords":[
-           
-        ],
-        "fontClass":"fa-regular fa-github-actions fa-lg"
-     },
-     {
         "name":"JavaScript",
         "level":"",
         "keywords":[
@@ -299,7 +291,7 @@
       "keywords":[
          
       ],
-      "localFontClass":"icon icon-graphql"
+      "fontClass":"fa-regular fa-graphql fa-xl"
      },
      {
         "name":"AWS",
@@ -347,7 +339,7 @@
         "keywords":[
            
         ],
-        "localFontClass":"icon icon-github-actions"
+        "fontClass":"fa-regular fa-github-actions fa-xl"
      },
      {
       "name":"React Testing Library",
