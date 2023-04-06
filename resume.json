@@ -283,7 +283,7 @@
         "keywords":[
            
         ],
-        "fontClass":"fa-brands fa-node fa-xl"
+        "fontClass":"fa-regular fa-c-sharp fa-xl"
      },
      {
       "name":"GraphQL",
@@ -310,6 +310,14 @@
         "fontClass":"fa-brands fa-jenkins fa-xl"
      },
      {
+      "name":"HTML5",
+      "level":"",
+      "keywords":[
+         
+      ],
+      "fontClass":"fa-brands fa-html5 fa-xl"
+     },
+     {
         "name":"Cascading Style Sheets (CSS3)",
         "level":"",
         "keywords":[
@@ -324,14 +332,6 @@
            
         ],
         "fontClass":"fa-brands fa-sass fa-xl"
-     },
-     {
-        "name":"HTML5",
-        "level":"",
-        "keywords":[
-           
-        ],
-        "fontClass":"fa-brands fa-html5 fa-xl"
      },
      {
         "name":"Github Actions",
