@@ -6,8 +6,11 @@
     <title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
     <link rel="icon" type="image/png" href="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/portfolio/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/portfolio/favicon-16x16.png" sizes="16x16" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="./styles/main.css" />
+    <script defer src="./js/regular.js"></script>
+    <script defer src="./js/brands.js"></script>
+    <script defer src="./js/solid.js"></script>
+    <script defer src="./js/fontawesome.js"></script>
   </head>
 
   <!-- Google tag (gtag.js) -->
@@ -24,6 +27,10 @@
 
   <body>
     <main id="resume" class="page right-border">
+    <i class="fa-solid fa-user"></i>
+    {{!-- <i class="fa-regular fa-github-action"></i> --}}
+    <i class="fa-regular fa-typescript fa-xl"></i>
+    {{!-- <i class="fa-regular fa-testing"></i> --}}
       {{> resume-header}}
       <div class="resume-content">
         <aside class="left-column">

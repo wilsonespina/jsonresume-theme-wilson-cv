@@ -57,6 +57,7 @@
     "lazypipe": "^1.0.1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "address-format": "0.0.3",
     "handlebars": "^4.7.7",
     "handlebars-wax": "^6.1.0",

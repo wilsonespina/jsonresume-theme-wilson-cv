@@ -1,0 +1,25 @@
+.work-container {
+    .details {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 5px;
+
+        .dates {
+            white-space: nowrap;
+        }
+    }
+
+    .experience {
+        h5 {
+            margin-top: spacing(1);
+        }
+        ul {
+            -webkit-padding-start: 8px;
+            margin: 4px 0 0;
+            li {
+                list-style-type: '▹ ';
+                padding-inline-start: 1ch;
+            }
+        }
+    }
+}

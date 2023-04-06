@@ -246,6 +246,14 @@
   ],
   "skills":[
      {
+        "name":"Github Actions",
+        "level":"",
+        "keywords":[
+           
+        ],
+        "fontClass":"fa-regular fa-github-action"
+     },
+     {
         "name":"JavaScript",
         "level":"",
         "keywords":[

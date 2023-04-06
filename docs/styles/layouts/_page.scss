@@ -1,0 +1,71 @@
+.page {
+  background: white;
+  width: $page-width;
+  min-height: $page-height;
+  display: block;
+  margin: 0 auto;
+  padding: 36px 42px 30px 34px;
+  @include shadow();
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &:after {
+    width: #{$border-width};
+    position: absolute;
+    content: '';
+    height: 100%;
+    top: 0;
+    background:
+      repeating-linear-gradient(to bottom,
+        $color-pink-trans 0%, $color-pink-trans calc(#{$border-bar-height} * 1),
+        $color-blue-trans calc(#{$border-bar-height} * 1), $color-blue-trans calc(#{$border-bar-height} * 2),
+        $color-green-trans calc(#{$border-bar-height} * 2), calc(#{$border-bar-height} * 3),
+        $color-yellow-trans calc(#{$border-bar-height} * 3), $color-yellow-trans calc(#{$border-bar-height} * 4))
+      center/  /* position */
+      #{$border-width} 100% /* size (width height) */ // TODO - dynamically work out how many pages and use as multiplier
+      repeat /* don't repeat */
+      rgb(200,200,200); /* background color */
+  }
+
+  &.left-border {
+    &:after {
+      left: 0;
+    }
+  }
+
+  &.right-border {
+    &:after {
+      right: 0;
+    }
+  }
+}
+
+.resume-content {
+  display: flex;
+}
+
+.covering-letter-content {
+  margin-top: 40px;
+}
+
+.left-column {
+  width: $aside-width;
+  margin-right: $aside-margin;
+  word-wrap: break-word;
+}
+
+.right-column {
+  width: auto;
+  overflow: hidden;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: spacing(3);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
