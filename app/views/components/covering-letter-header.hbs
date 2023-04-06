@@ -39,6 +39,10 @@
         {{/each}}
       {{/if}}
 
+      {{#if url}}
+        {{> info-tag text=this.url icon="fa-solid fa-desktop" url=this.url}}
+      {{/if}}
+
     {{/resume.basics}}
     <br>
     <p>

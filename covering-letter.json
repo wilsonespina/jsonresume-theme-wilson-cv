@@ -1,13 +1,13 @@
 {
     "company": {
-        "name": "Deloitte",
-        "position": "Full Stack Engineer",
+        "name": "TEKSystems",
+        "position": "Full-Stack Developer",
         "companyKnown": true,
         "Address": {
-            "Line_1": "Deloitte",
-            "Line_2": "Level 12",
-            "Line_3": "20 Customhouse Quay",
-            "Line_4": "Wellington"
+            "Line_1": "TEKSystems",
+            "Line_2": "Level 5/99 Customhouse Quay",
+            "Line_3": "Wellington Central",
+            "Line_4": "Wellington 6011"
         },
         "hiringManager": {
             "name": "Hiring Manager"
@@ -15,10 +15,9 @@
         "examples": [
             "Coordinated the successful delivery of the ITVX streaming platform's (UK) homepage, working closely with a cross-functional team to integrate multiple React components and adhere to a demanding timeline.",
             "Optimised developer workflows by implementing new approaches, including the introduction of automated merge queues with Github actions, effectively streamlining the development process.",
-            "Taught over 100+ coding novices the basics of web development through my Instructor roles at General Assembly (London)."
+            "Taught over 100+ coding novices the basics of web development through my Instructor roles at General Assembly, London."
         ],
         "reasonsWhyCompany": [
-            "What excites me most about the opportunity to work in Deloitte's Platform and Cloud Engineering (PACE) team is the chance to collaborate with a team of talented professionals to develop innovative solutions for clients across a wide range of industries."
         ]
     }
 }
