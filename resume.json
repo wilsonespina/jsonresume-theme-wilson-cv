@@ -246,12 +246,12 @@
   ],
   "skills":[
      {
-        "name":"Github Actions",
+        "name":"Github Actions TEST",
         "level":"",
         "keywords":[
            
         ],
-        "fontClass":"fa-regular fa-github-action"
+        "fontClass":"fa-regular fa-github-actions fa-lg"
      },
      {
         "name":"JavaScript",
@@ -267,7 +267,7 @@
         "keywords":[
            
         ],
-        "localFontClass":"icon icon-typescript"
+        "fontClass": "fa-regular fa-typescript fa-lg"
      },
      {
         "name":"React.js",
@@ -279,6 +279,14 @@
      },
      {
         "name":"Node.js",
+        "level":"",
+        "keywords":[
+           
+        ],
+        "fontClass":"fa-brands fa-node fa-xl"
+     },
+     {
+        "name":"C#",
         "level":"",
         "keywords":[
            
