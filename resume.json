@@ -2,13 +2,13 @@
   "$schema":"https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics":{
      "name":"Wilson Espina",
-     "label":"Software Engineer",
+     "label":"Senior Software Developer",
      "image":"",
      "profileImage": "https://wdi-30-ldn.s3.eu-west-1.amazonaws.com/headshots/HEADSHOT.png",
      "email":"wilson.espina@gmail.com",
      "phone":"+64 27 298 5314",
      "url":"https://wilsonespina.com",
-     "summary":"As a software engineer with over 5 years' experience, I am skilled in building enterprise-level, customer-facing web applications with a focus on technical coordination. I thrive in the dynamic full-stack landscape and enjoy exploring new technologies. Along with leading technical workstreams, I foster a friendly work environment and support junior engineers while promoting best practices within Agile delivery teams.",
+     "summary":"As a software developer with over 5 years' experience, I am skilled in building enterprise-level, customer-facing web applications with a focus on technical coordination. I thrive in the dynamic full-stack landscape and enjoy exploring new technologies. Along with leading technical workstreams, I foster a friendly work environment and support junior engineers while promoting best practices within Agile delivery teams.",
      "location":{
         "countryCode":"NZ",
         "address":"Wellington, New Zealand"
@@ -278,13 +278,13 @@
         "fontClass":"fa-brands fa-node fa-xl"
      },
      {
-        "name":"C#",
-        "level":"",
-        "keywords":[
-           
-        ],
-        "fontClass":"fa-regular fa-c-sharp fa-xl"
-     },
+      "name":"Github Actions",
+      "level":"",
+      "keywords":[
+         
+      ],
+      "fontClass":"fa-regular fa-github-actions fa-xl"
+      },
      {
       "name":"GraphQL",
       "level":"",
@@ -334,14 +334,6 @@
         "fontClass":"fa-brands fa-sass fa-xl"
      },
      {
-        "name":"Github Actions",
-        "level":"",
-        "keywords":[
-           
-        ],
-        "fontClass":"fa-regular fa-github-actions fa-xl"
-     },
-     {
       "name":"React Testing Library",
       "level":"",
       "keywords":[
@@ -364,7 +356,15 @@
            
         ],
         "fontClass":"fa-solid fa-person-chalkboard fa-xl"
-     }
+     },
+     {
+      "name":"Mentoring",
+      "level":"",
+      "keywords":[
+         
+      ],
+      "fontClass":"fa-solid fa-users-line fa-xl"
+   }
 
   ],
   "languages":[
