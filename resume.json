@@ -278,14 +278,6 @@
         "fontClass":"fa-brands fa-node fa-xl"
      },
      {
-      "name":"Github Actions",
-      "level":"",
-      "keywords":[
-         
-      ],
-      "fontClass":"fa-regular fa-github-actions fa-xl"
-      },
-     {
       "name":"GraphQL",
       "level":"",
       "keywords":[
@@ -334,12 +326,20 @@
         "fontClass":"fa-brands fa-sass fa-xl"
      },
      {
-      "name":"React Testing Library",
+      "name":"Jest",
       "level":"",
       "keywords":[
          
       ],
       "fontClass":"fa-solid fa-flask-vial fa-lg"
+      },
+      {
+         "name":"Github Actions",
+         "level":"",
+         "keywords":[
+            
+         ],
+         "fontClass":"fa-regular fa-github-actions fa-xl"
       },
      {
       "name":"Docker",

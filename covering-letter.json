@@ -4,21 +4,21 @@
         "position": "Senior Frontend Developer",
         "companyKnown": true,
         "Address": {
-            "Line_1": "Land Information New Zealand",
-            "Line_2": "Level 7",
-            "Line_3": "155 The Terrace",
-            "Line_4": "Wellington 6011"
+            "Line_1": "Farm focus",
+            "Line_2": "46 Perry Street",
+            "Line_3": "Masterton",
+            "Line_4": "5810"
         },
         "hiringManager": {
             "name": "Hiring Manager"
         },
         "examples": [
-            "Optimised developer workflows by implementing new approaches, including the introduction of automated merge queues with Github actions, effectively streamlining the development process.",
-            "Coordinated the successful delivery of the ITVX streaming platform's (UK) homepage, working closely with a cross-functional team to integrate multiple React components and adhere to a demanding timeline.",
-            "Taught over 100+ coding novices the basics of web development through my Instructor roles at General Assembly, London."
+            "Coordinating the successful delivery of the ITVX streaming platform's (UK) homepage, working closely with a cross-functional team to integrate multiple React components and adhere to a demanding timeline.",
+            "Optimising developer workflows by implementing new approaches, including the introduction of automated merge queues with Github actions, effectively streamlining the development process.",
+            "Teaching over 100+ coding novices the basics of web development through my instructor roles at General Assembly, London."
         ],
         "reasonsWhyCompany": [
-            "What excites me most about the opportunity to work in the LINZ's Survey and Title Enhancement Programme (STEP) team is the chance to collaborate with a team of talented professionals on a wide reaching project with real impact."
+            "What excites me most about the opportunity to work for Farm Focus is the chance to work within an industry that has real impact for New Zealand businesses. The modern technology choices of the business also suggest a culture of innovation and willingness to adapt to a changing technological landscape."
         ]
     }
 }
