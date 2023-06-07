@@ -1,5 +1,12 @@
 .section-header {
+    display: flex;
+    justify-content: space-between;
+
     .company-name {
         margin-bottom: spacing(2);
+    }
+
+    .location-name {
+        // text-transform: none;
     }
 }
