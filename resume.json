@@ -31,12 +31,12 @@
        {
           "name": "Architecture",
           "points": [
-             "Led frontend and backend architectural decisions within an event management web application.",
+             "Led frontend and backend architectural decisions for rebuilding an event management web application.",
              "Spearheaded the design and implementation of a GraphQL API on existing services, bypassing the need for a complete backend rebuild and significantly reducing development time and effort required."
           ]
        },
        {
-          "name": "Optimisations",
+          "name": "Strategy",
           "points": [
              "Improved the company's metrics on user behaviour by implementing analytic tooling on frontend clients."
           ]
@@ -44,7 +44,7 @@
        {
           "name": "General Skills",
           "points": [
-             "Identified opportunities to leverage new technologies through migrating legacy Angular and AngularJS applications to a modern React stack."
+             "Orchestrated the migration of legacy Angular and AngularJS applications to a modern React stack."
           ]
        }
       ],
