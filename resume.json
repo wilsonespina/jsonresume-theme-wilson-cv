@@ -31,8 +31,20 @@
        {
           "name": "Architecture",
           "points": [
-             "Frontend analysis of legacy code.",
-             "Low-code environment"
+             "Led frontend and backend architectural decisions within an event management web application.",
+             "Spearheaded the design and implementation of a GraphQL API on existing services, bypassing the need for a complete backend rebuild and significantly reducing development time and effort required."
+          ]
+       },
+       {
+          "name": "Optimisations",
+          "points": [
+             "Improved the company's metrics on user behaviour by implementing analytic tooling on frontend clients."
+          ]
+       },
+       {
+          "name": "General Skills",
+          "points": [
+             "Identified opportunities to leverage new technologies through migrating legacy Angular and AngularJS applications to a modern React stack."
           ]
        }
       ],
@@ -291,6 +303,14 @@
         "fontClass":"fa-brands fa-react fa-xl"
      },
      {
+        "name":"Angular",
+        "level":"",
+        "keywords":[
+           
+        ],
+        "fontClass":"fa-brands fa-angular fa-xl"
+     },
+     {
         "name":"Node.js",
         "level":"",
         "keywords":[
@@ -355,14 +375,6 @@
         "fontClass":"fa-brands fa-sass fa-xl"
      },
      {
-        "name":"Github Actions",
-        "level":"",
-        "keywords":[
-           
-        ],
-        "fontClass":"fa-regular fa-github-actions fa-xl"
-     },
-     {
       "name":"React Testing Library",
       "level":"",
       "keywords":[
@@ -411,7 +423,7 @@
       ]
      },
      {
-        "name":"Hiking",
+        "name":"Hiking  ",
         "keywords": [
       ]
      }
