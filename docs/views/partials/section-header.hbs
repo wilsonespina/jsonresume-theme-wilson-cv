@@ -10,7 +10,9 @@
       {{/if}}
     </h3>
     {{#if location}}
+      {{#unless hideLocation}}
       <h5 class="location-name bold">{{location}}</h5>
+     {{/unless}}
     {{/if}}
   {{/if}}
 </div>
