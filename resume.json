@@ -2,13 +2,13 @@
   "$schema":"https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics":{
      "name":"Wilson Espina",
-     "label":"Software Engineer",
+     "label":"Full Stack Developer",
      "image":"",
      "profileImage": "https://wdi-30-ldn.s3.eu-west-1.amazonaws.com/headshots/HEADSHOT.png",
      "email":"wilson.espina@gmail.com",
      "phone":"+64 27 298 5314",
      "url":"https://wilsonespina.com",
-     "summary":"As a software engineer with over 5 years' experience, I am skilled in building enterprise-level, customer-facing web applications with a focus on technical coordination. I thrive in the dynamic full-stack landscape and enjoy exploring new technologies. Along with leading technical workstreams, I foster a friendly work environment and support junior engineers while promoting best practices within Agile delivery teams.",
+     "summary":"As a software developer with 6 years' experience, I am skilled in building enterprise-level, customer-facing web applications with a focus on technical coordination. I thrive in the dynamic full stack landscape and enjoy exploring new technologies. Along with leading technical workstreams, I foster a friendly work environment and support junior engineers while promoting best practices within Agile delivery teams.",
      "location":{
         "countryCode":"NZ",
         "address":"Wellington, New Zealand"
@@ -31,14 +31,14 @@
        {
           "name": "Architecture",
           "points": [
-             "Led frontend and backend architectural decisions for rebuilding an event management web application.",
-             "Spearheaded the design and implementation of a GraphQL API on existing services, bypassing the need for a complete backend rebuild and significantly reducing development time and effort required."
+             "Led full-stack architectural decisions for rebuilding a React and GraphQL based event management web application.",
+             "Spearheaded the design and implementation of a GraphQL API on existing services, bypassing the need for a complete backend rebuild and significantly reducing development time and effort."
           ]
        },
        {
           "name": "Strategy",
           "points": [
-             "Improved the company's metrics on user behaviour by implementing analytic tooling on frontend clients."
+             "Improved the company's ability to analyse user behaviour by implementing the Microsoft Clarity monitoring tool on frontend clients."
           ]
        },
        {
@@ -73,13 +73,6 @@
             "points": [
                "Designed and facilitated technical graphQL workshops for a frontend cohort unfamiliar with the technology.",
                "Provided in-depth mentorship to junior engineers through pairing sessions, ensuring their technical growth and proficiency."
-            ]
-         },
-         {
-            "name": "Strategy",
-            "points": [
-               "Pioneered an automated monorepo merge queue with custom tooling using GitHub Actions, improving the team's efficiency and reducing the risk of merge conflicts.",
-               "Facilitated discussions on improving GraphQL queries by initiating an internal Request For Comment (RFC) process, resulting in wider adoption and collective understanding of new technology."
             ]
          },
          {

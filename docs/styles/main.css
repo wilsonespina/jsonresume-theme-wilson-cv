@@ -8,13 +8,13 @@
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 300;
-  src: url(https://fonts.gstatic.com/s/josefinsans/v26/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQbMZhKg.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/josefinsans/v32/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQbMZhKg.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/josefinsans/v26/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XbMZhKg.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/josefinsans/v32/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XbMZhKg.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Lato';
@@ -263,7 +263,7 @@ ul {
     .page .covering-letter-content {
       padding: 0 62px 0 50px; }
     .page .resume-content {
-      padding-bottom: 10px; }
+      padding-bottom: 500px; }
     .page .covering-letter-content {
       padding-bottom: 800px; }
   .skills-container .container {
