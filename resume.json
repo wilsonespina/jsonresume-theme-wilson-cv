@@ -8,7 +8,7 @@
     "email": "wilson.espina@gmail.com",
     "phone": "+64 27 298 5314",
     "url": "https://wilsonespina.com",
-    "summary": "As a software developer with 6 years' experience, I am skilled in building enterprise-level, customer-facing web applications with a focus on technical coordination. I thrive in the dynamic frontend landscape and enjoy exploring new technologies. Along with leading technical workstreams, I foster a friendly work environment and support junior engineers while promoting best practices within Agile delivery teams.",
+    "summary": "As a software engineer with 6 years' experience, I am skilled in building enterprise-level, customer-facing web applications with a focus on technical coordination. I thrive in the dynamic frontend landscape and enjoy exploring new technologies. Along with leading technical workstreams, I foster a friendly work environment and support junior engineers while promoting best practices within Agile delivery teams.",
     "location": {
       "countryCode": "NZ",
       "address": "Wellington, New Zealand"
@@ -29,16 +29,17 @@
       "endDate": "",
       "experienceAreas": [
         {
-          "name": "Architecture",
-          "points": ["", ""]
+          "name": "Project Work",
+          "points": [
+            "Led frontend development for a Wagtail CMS-driven blog for Kiwibank, integrating Elastic Search UI React components and maintaining accessibility best practices.",
+            "Overhauled the legacy code base for Wellington Airport to leverage the most up-to-date Webpack v5 tooling, improving bundle sizes and reducing CI build times and running costs."
+          ]
         },
         {
           "name": "Process",
-          "points": ["", ""]
-        },
-        {
-          "name": "General Skills",
-          "points": ["", ""]
+          "points": [
+            "Successfully completed numerous projects for diverse clients by consistently applying the latest best practices in frontend engineering."
+          ]
         }
       ],
       "highlights": [],
@@ -47,28 +48,18 @@
       "location": "Wellington, New Zealand"
     },
     {
-      "name": "UBT",
-      "position": "Software Developer",
-      "startDate": "2023-05-29",
-      "endDate": "2023-07-28",
+      "name": "Alphero",
+      "position": "Senior Web Developer (Contractor)",
+      "startDate": "2023-09-29",
+      "endDate": "2023-12-08",
       "experienceAreas": [
         {
-          "name": "Architecture",
+          "name": "Project Work",
           "points": [
-            "Led full-stack architectural decisions for rebuilding a React and GraphQL based event management web application.",
-            "Spearheaded the design and implementation of a GraphQL API on existing services, bypassing the need for a complete backend rebuild and significantly reducing development time and effort."
-          ]
-        },
-        {
-          "name": "Strategy",
-          "points": [
-            "Improved the company's ability to analyse user behaviour by implementing the Microsoft Clarity monitoring tool on frontend clients."
-          ]
-        },
-        {
-          "name": "General Skills",
-          "points": [
-            "Orchestrated the migration of legacy Angular and AngularJS applications to a modern React stack."
+            "Delivered a high-quality, responsive web application for MyCreative Rights NZ, taking over the project with minimal notice and meeting the client's demanding deadline.",
+            "Utilised cutting-edge frontend tooling to enhance productivity, incorporating Vite build tooling to accelerate workflows, styling components with CSS-in-JS, and integrating animations using Lottie",
+            "Collaborated closely with the UX team, iterating on designs and offering feedback to optimize the user experience and deliver high quality software.",
+            "Implemented React components that interfaced with a Contentful CMS that hooked up to data from AWS Lambdas"
           ]
         }
       ],
@@ -136,7 +127,8 @@
       "highlights": [],
       "summary": "",
       "url": "https://www.linkedin.com/school/generalassembly/",
-      "location": "London, UK"
+      "location": "London, UK",
+      "paddingTop": true
     },
     {
       "name": "Limejump",
@@ -250,16 +242,16 @@
   "publications": [],
   "skills": [
     {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": [],
-      "fontClass": "fa-brands fa-js fa-xl"
-    },
-    {
       "name": "TypeScript",
       "level": "",
       "keywords": [],
       "fontClass": "fa-regular fa-typescript fa-lg"
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-brands fa-js fa-xl"
     },
     {
       "name": "React",
@@ -284,18 +276,6 @@
       "level": "",
       "keywords": [],
       "fontClass": "fa-brands fa-python fa-xl"
-    },
-    {
-      "name": "AWS",
-      "level": "",
-      "keywords": [],
-      "fontClass": "fa-brands fa-aws fa-xl"
-    },
-    {
-      "name": "Jenkins",
-      "level": "",
-      "keywords": [],
-      "fontClass": "fa-brands fa-jenkins fa-xl"
     },
     {
       "name": "HTML5",
@@ -334,6 +314,18 @@
       "fontClass": "fa-brands fa-docker fa-xl"
     },
     {
+      "name": "AWS",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-brands fa-aws fa-xl"
+    },
+    {
+      "name": "Jenkins",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-brands fa-jenkins fa-xl"
+    },
+    {
       "name": "Teaching",
       "level": "",
       "keywords": [],
@@ -348,6 +340,10 @@
   ],
   "interests": [
     {
+      "name": "Thai Boxing  ",
+      "keywords": []
+    },
+    {
       "name": "Swimming",
       "keywords": []
     },
@@ -357,10 +353,6 @@
     },
     {
       "name": "Running",
-      "keywords": []
-    },
-    {
-      "name": "Hiking  ",
       "keywords": []
     }
   ],
