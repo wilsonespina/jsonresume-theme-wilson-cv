@@ -1,17 +1,21 @@
 .education-container {
   .details {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     column-gap: 5px;
 
     .dates {
-        white-space: nowrap;
+      white-space: nowrap;
     }
     .location {
       padding-bottom: 6px;
       font-weight: 400;
     }
-}
+  }
+
+  .study-type {
+    margin-top: spacing(2);
+  }
 
   .specialization {
     text-transform: none;

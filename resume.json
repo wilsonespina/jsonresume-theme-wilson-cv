@@ -40,6 +40,15 @@
           "points": [
             "Successfully completed numerous projects for diverse clients by consistently applying the latest best practices in frontend engineering."
           ]
+        },
+        {
+          "name": "Alphero (Secondment)",
+          "points": [
+            "Delivered a high-quality, responsive web application for MyCreative Rights NZ, taking over the project with minimal notice and meeting the client's demanding deadline.",
+            "Utilised cutting-edge frontend tooling to enhance productivity, incorporating Vite build tooling to accelerate workflows, styling components with CSS-in-JS, and integrating animations using Lottie",
+            "Collaborated closely with the UX team, iterating on designs and offering feedback to optimize the user experience and deliver high quality software.",
+            "Implemented React components that interfaced with a Contentful CMS that hooked up to data from AWS Lambdas."
+          ]
         }
       ],
       "highlights": [],
@@ -47,19 +56,25 @@
       "url": "",
       "location": "Wellington, New Zealand"
     },
+
     {
-      "name": "Alphero",
-      "position": "Senior Web Developer (Contractor)",
-      "startDate": "2023-09-29",
-      "endDate": "2023-12-08",
+      "name": "UBT",
+      "position": "Software Developer",
+      "startDate": "2023-05-29",
+      "endDate": "2023-07-28",
       "experienceAreas": [
         {
-          "name": "Project Work",
+          "name": "Architecture",
           "points": [
-            "Delivered a high-quality, responsive web application for MyCreative Rights NZ, taking over the project with minimal notice and meeting the client's demanding deadline.",
-            "Utilised cutting-edge frontend tooling to enhance productivity, incorporating Vite build tooling to accelerate workflows, styling components with CSS-in-JS, and integrating animations using Lottie",
-            "Collaborated closely with the UX team, iterating on designs and offering feedback to optimize the user experience and deliver high quality software.",
-            "Implemented React components that interfaced with a Contentful CMS that hooked up to data from AWS Lambdas"
+            "Led full-stack architectural decisions for rebuilding a React and GraphQL based event management web application.",
+            "Spearheaded the design and implementation of a GraphQL API on existing services, bypassing the need for a complete backend rebuild and significantly reducing development time and effort."
+          ]
+        },
+        {
+          "name": "Strategy",
+          "points": [
+            "Improved the company's ability to analyse user behaviour by implementing the Microsoft Clarity monitoring tool on frontend clients.",
+            "Orchestrated the migration of legacy Angular and AngularJS applications to a modern React stack."
           ]
         }
       ],
@@ -96,7 +111,9 @@
             "Championed a \"shift left\" testing approach within my teams by utilising Cypress and React Testing Library (RTL), resulting in higher code quality and faster feedback loops during development.",
             "Successfully implemented the integration of subtitles for Samsung CTV devices on the ITV Hub, ensuring seamless and accessible viewing experience for users.",
             "Utilised vanilla JavaScript following an object-oriented design approach to develop new features for the ITV Hub CTV application, improving user engagement and enhancing the overall user experience."
-          ]
+          ],
+          "pageBreak": true
+
         }
       ],
       "highlights": [],
@@ -127,8 +144,7 @@
       "highlights": [],
       "summary": "",
       "url": "https://www.linkedin.com/school/generalassembly/",
-      "location": "London, UK",
-      "paddingTop": true
+      "location": "London, UK"
     },
     {
       "name": "Limejump",
@@ -161,14 +177,6 @@
           "name": "Learning",
           "points": [
             "Completed an intensive web development and agile project techniques bootcamp at General Assembly London in 2017, where I learned the fundamentals of frontend engineering through structured learning and pair programming exercises."
-          ]
-        },
-        {
-          "name": "Project Work",
-          "points": [
-            "Demonstrated knowledge and expertise in frontend technologies by building personal projects during the bootcamp.",
-            "Created an interactive maze game using jQuery, which incorporated HTML Audio Elements triggered by user events.",
-            "Completed an individual project that utilised React, Node, and Express to connect to the Strava and Google Maps APIs, resulting in a Strava run patterns application."
           ]
         }
       ],
@@ -219,8 +227,8 @@
     {
       "institution": "General Assembly",
       "location": "London, UK",
-      "area": "Full Stack web development course",
-      "studyType": "Web Development Immersive Bootcamp",
+      "area": "FULL STACK WEB DEVELOPMENT COURSE",
+      "studyType": "WEB DEVELOPMENT IMMERSIVE BOOTCAMP",
       "startDate": "2017-09-01",
       "endDate": "2017-12-31",
       "score": "",
@@ -229,7 +237,7 @@
     {
       "institution": "University of Warwick",
       "location": "Coventry, UK",
-      "area": "Civil Engineering with Business Management",
+      "area": "CIVIL ENGINEERING WITH BUSINESS MANAGEMENT",
       "studyType": "MEng",
       "startDate": "2006-10-01",
       "endDate": "2010-07-01",
