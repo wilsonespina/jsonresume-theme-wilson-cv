@@ -38,7 +38,8 @@
         {
           "name": "Process",
           "points": [
-            "Successfully completed numerous projects for diverse clients by consistently applying the latest best practices in frontend engineering."
+            "Successfully completed numerous projects for diverse clients by consistently applying the latest best practices in frontend engineering.",
+            "TBC"
           ]
         },
         {
@@ -113,7 +114,6 @@
             "Utilised vanilla JavaScript following an object-oriented design approach to develop new features for the ITV Hub CTV application, improving user engagement and enhancing the overall user experience."
           ],
           "pageBreak": true
-
         }
       ],
       "highlights": [],
@@ -177,6 +177,14 @@
           "name": "Learning",
           "points": [
             "Completed an intensive web development and agile project techniques bootcamp at General Assembly London in 2017, where I learned the fundamentals of frontend engineering through structured learning and pair programming exercises."
+          ]
+        },
+        {
+          "name": "Project Work",
+          "points": [
+            "Demonstrated knowledge and expertise in frontend technologies by building personal projects during the bootcamp.",
+            "Created an interactive maze game using jQuery, which incorporated HTML Audio Elements triggered by user events.",
+            "Completed an individual project that utilised React, Node, and Express to connect to the Strava and Google Maps APIs, resulting in a Strava run patterns application."
           ]
         }
       ],
