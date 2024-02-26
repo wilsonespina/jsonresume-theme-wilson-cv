@@ -8,7 +8,7 @@
     "email": "wilson.espina@gmail.com",
     "phone": "+64 27 298 5314",
     "url": "https://wilsonespina.com",
-    "summary": "As a software engineer with 6 years' experience, I am skilled in building enterprise-level, customer-facing web applications with a focus on technical coordination. I thrive in the dynamic frontend landscape and enjoy exploring new technologies. Along with leading technical workstreams, I foster a friendly work environment and support junior engineers while promoting best practices within Agile delivery teams.",
+    "summary": "As a software engineer with 6 years' experience, I am skilled in building enterprise-level, customer-facing web applications. I specialise in React with TypeScript applications and have a heavy focus on maintainability and building at scale through robust unit and integration testing. Drawing from my background in project management, I naturally gravitate towards facilitating technical coordination by providing support to junior engineers and advocating for industry standard practices within Agile delivery teams.",
     "location": {
       "countryCode": "NZ",
       "address": "Wellington, New Zealand"
@@ -31,24 +31,17 @@
         {
           "name": "Project Work",
           "points": [
-            "Led frontend development for a Wagtail CMS-driven blog for Kiwibank, integrating Elastic Search UI React components and maintaining accessibility best practices.",
-            "Overhauled the legacy code base for Wellington Airport to leverage the most up-to-date Webpack v5 tooling, improving bundle sizes and reducing CI build times and running costs."
-          ]
-        },
-        {
-          "name": "Process",
-          "points": [
-            "Successfully completed numerous projects for diverse clients by consistently applying the latest best practices in frontend engineering.",
-            "TBC"
+            "Led the frontend development for a Wagtail CMS-driven blog for Kiwibank, integrating Elastic Search UI React components and maintaining accessibility best practices.",
+            "Overhauled a legacy code base for Wellington Airport to leverage the most up-to-date Webpack tooling, improving bundle sizes and reducing CI build times and running costs.",
+            "Facilitated technical presentations on the benefits of Web components and the viability of adoption within a shared component library."
           ]
         },
         {
           "name": "Alphero (Secondment)",
           "points": [
             "Delivered a high-quality, responsive web application for MyCreative Rights NZ, taking over the project with minimal notice and meeting the client's demanding deadline.",
-            "Utilised cutting-edge frontend tooling to enhance productivity, incorporating Vite build tooling to accelerate workflows, styling components with CSS-in-JS, and integrating animations using Lottie",
-            "Collaborated closely with the UX team, iterating on designs and offering feedback to optimize the user experience and deliver high quality software.",
-            "Implemented React components that interfaced with a Contentful CMS that hooked up to data from AWS Lambdas."
+            "Utilised cutting-edge frontend tooling to enhance productivity, incorporating Vite build tooling to accelerate workflows, styling components with CSS-in-JS, and integrating Lottie animations.",
+            "Collaborated closely with the UX team, iterating on designs and offering feedback to optimize the user experience and deliver high quality and refined software."
           ]
         }
       ],
@@ -67,8 +60,8 @@
         {
           "name": "Architecture",
           "points": [
-            "Led full-stack architectural decisions for rebuilding a React and GraphQL based event management web application.",
-            "Spearheaded the design and implementation of a GraphQL API on existing services, bypassing the need for a complete backend rebuild and significantly reducing development time and effort."
+            "Spearheaded the design and implementation of a GraphQL API on existing services, bypassing the need for a complete backend rebuild and significantly reducing development time and effort.",
+            "Led full-stack architectural decisions for rebuilding a React and GraphQL based event management web application."
           ]
         },
         {
