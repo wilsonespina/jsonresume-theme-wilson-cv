@@ -41,7 +41,9 @@
           "points": [
             "Delivered a high-quality, responsive web application for MyCreative Rights NZ, taking over the project with minimal notice and meeting the client's demanding deadline.",
             "Utilised cutting-edge frontend tooling to enhance productivity, incorporating Vite build tooling to accelerate workflows, styling components with CSS-in-JS, and integrating Lottie animations.",
-            "Collaborated closely with the UX team, iterating on designs and offering feedback to optimize the user experience and deliver high quality and refined software."
+            "Collaborated closely with the UX team, iterating on designs and offering feedback to optimize the user experience and deliver high quality and refined software.",
+            "Integrated authentication flows with Auth0",
+            "Integrations with Stripe's payment platform"
           ]
         }
       ],
