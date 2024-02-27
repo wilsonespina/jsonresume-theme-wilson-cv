@@ -1,0 +1,86 @@
+{
+  "work": [
+    {
+      "name": "Alphero",
+      "position": "Senior Web Developer (Contractor)",
+      "startDate": "2023-09-29",
+      "endDate": "2023-12-08",
+      "experienceAreas": [
+        {
+          "name": "Project Work",
+          "points": [
+            "Delivered a high-quality, responsive web application for MyCreative Rights NZ, taking over the project with minimal notice and meeting the client's demanding deadline.",
+            "Utilised cutting-edge frontend tooling to enhance productivity, incorporating Vite build tooling to accelerate workflows, styling components with CSS-in-JS, and integrating animations using Lottie",
+            "Collaborated closely with the UX team, iterating on designs and offering feedback to optimize the user experience and deliver high quality software.",
+            "Implemented React components that interfaced with a Contentful CMS that hooked up to data from AWS Lambdas"
+          ]
+        }
+      ],
+      "highlights": [],
+      "summary": "",
+      "url": "",
+      "location": "Wellington, New Zealand"
+    },
+    {
+      "name": "UBT",
+      "position": "Software Developer",
+      "startDate": "2023-05-29",
+      "endDate": "2023-07-28",
+      "experienceAreas": [
+        {
+          "name": "Architecture",
+          "points": [
+            "Led full-stack architectural decisions for rebuilding a React and GraphQL based event management web application.",
+            "Spearheaded the design and implementation of a GraphQL API on existing services, bypassing the need for a complete backend rebuild and significantly reducing development time and effort."
+          ]
+        },
+        {
+          "name": "Strategy",
+          "points": [
+            "Improved the company's ability to analyse user behaviour by implementing the Microsoft Clarity monitoring tool on frontend clients.",
+            "Orchestrated the migration of legacy Angular and AngularJS applications to a modern React stack."
+          ]
+        }
+      ],
+      "highlights": [],
+      "summary": "",
+      "url": "",
+      "location": "Wellington, New Zealand"
+    },
+
+    {
+        "name": "Process",
+        "points": [
+          "Successfully completed numerous projects for diverse clients by consistently applying the latest best practices in frontend engineering.",
+          "TBC"
+        ]
+    },
+
+    {
+      "name": "General Assembly",
+      "position": "Web Development Immersive Student",
+      "startDate": "2017-10-31",
+      "endDate": "2017-12-31",
+      "experienceAreas": [
+        {
+          "name": "Learning",
+          "points": [
+            "Completed an intensive web development and agile project techniques bootcamp at General Assembly London in 2017, where I learned the fundamentals of frontend engineering through structured learning and pair programming exercises."
+          ]
+        },
+        {
+          "name": "Project Work",
+          "points": [
+            "Demonstrated knowledge and expertise in frontend technologies by building personal projects during the bootcamp.",
+            "Created an interactive maze game using jQuery, which incorporated HTML Audio Elements triggered by user events.",
+            "Completed an individual project that utilised React, Node, and Express to connect to the Strava and Google Maps APIs, resulting in a Strava run patterns application."
+          ]
+        }
+      ],
+      "highlights": [],
+      "summary": "",
+      "url": "https://www.linkedin.com/school/generalassembly/",
+      "location": "London, UK"
+    }
+  ]
+}
