@@ -26,7 +26,7 @@
     }
 
     .resume-content {
-      padding-bottom: 500px;
+      padding-bottom: 300px;
     }
 
     .covering-letter-content {
@@ -34,21 +34,23 @@
     }
   }
 
-  .skills-container  {
+  .skills-container {
     .container {
       page-break-inside: avoid;
     }
   }
 
-  .interests-container, .education-container, .languages-container {
+  .interests-container,
+  .education-container,
+  .languages-container {
     break-inside: avoid;
     page-break-inside: avoid;
   }
 
   .work-container {
     .item {
-      break-inside: avoid;
-      page-break-inside: avoid;
+      // break-inside: avoid;
+      // page-break-inside: avoid;
     }
   }
 
@@ -56,7 +58,13 @@
     display: none;
   }
 
-  .print-padding-top {
+  .print-padding-top,
+  .pagebreak {
     padding-top: 40px;
+  }
+
+  .pagebreak {
+    clear: both;
+    page-break-before: always;
   }
 }

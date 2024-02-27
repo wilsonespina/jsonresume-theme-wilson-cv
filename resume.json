@@ -8,7 +8,7 @@
     "email": "wilson.espina@gmail.com",
     "phone": "+64 27 298 5314",
     "url": "https://wilsonespina.com",
-    "summary": "As a software developer with 6 years' experience, I am skilled in building enterprise-level, customer-facing web applications with a focus on technical coordination. I thrive in the dynamic frontend landscape and enjoy exploring new technologies. Along with leading technical workstreams, I foster a friendly work environment and support junior engineers while promoting best practices within Agile delivery teams.",
+    "summary": "I am a software engineer with over 6 years' experience building enterprise-level, customer-facing web applications. I specialise in React with TypeScript applications and have a heavy focus on maintainability and building at scale through robust unit and integration testing. Drawing from my background in project management, I naturally gravitate towards facilitating technical coordination by providing support to junior engineers and advocating for industry standard practices within Agile delivery teams.",
     "location": {
       "countryCode": "NZ",
       "address": "Wellington, New Zealand"
@@ -29,16 +29,22 @@
       "endDate": "",
       "experienceAreas": [
         {
-          "name": "Architecture",
-          "points": ["", ""]
+          "name": "Project Work",
+          "points": [
+            "Led the frontend development for a Wagtail CMS-driven blog for the Kiwibank website, integrating Elastic Search UI React components and maintaining accessibility best practices.",
+            "Overhauled a legacy code base for Wellington Airport to leverage the most up-to-date Webpack tooling, improving bundle sizes while reducing CI build times and running costs.",
+            "Facilitated technical presentations for other frontend developer including discussing the benefits of Web components and the viability of adoption within a shared component library."
+          ]
         },
         {
-          "name": "Process",
-          "points": ["", ""]
-        },
-        {
-          "name": "General Skills",
-          "points": ["", ""]
+          "name": "Alphero (Secondment)",
+          "points": [
+            "Delivered a high-quality, responsive web application for MyCreative Rights NZ, taking over the project with minimal notice and meeting the client's demanding deadline.",
+            "Utilised cutting-edge frontend tooling to enhance productivity, incorporating Vite to accelerate build workflows, styling components with CSS-in-JS, and enhancing pages with Lottie animations.",
+            "Collaborated closely with the UX team, iterating on designs and offering feedback to optimize the user experience and deliver high quality refined software.",
+            "Implemented Auth0 integration to enable seamless user sign-up experiences and manage security access within the application.",
+            "Developed integrations with Stripe's payment platform webhooks, enabling users to purchase digital products and manage subscription tiers."
+          ]
         }
       ],
       "highlights": [],
@@ -46,6 +52,7 @@
       "url": "",
       "location": "Wellington, New Zealand"
     },
+
     {
       "name": "UBT",
       "position": "Software Developer",
@@ -55,19 +62,14 @@
         {
           "name": "Architecture",
           "points": [
-            "Led full-stack architectural decisions for rebuilding a React and GraphQL based event management web application.",
-            "Spearheaded the design and implementation of a GraphQL API on existing services, bypassing the need for a complete backend rebuild and significantly reducing development time and effort."
+            "Spearheaded the design and implementation of a GraphQL API on existing services, bypassing the need for a complete backend rebuild and significantly reducing development time and effort.",
+            "Led full-stack architectural decisions for rebuilding a React and GraphQL based event management web application."
           ]
         },
         {
           "name": "Strategy",
           "points": [
-            "Improved the company's ability to analyse user behaviour by implementing the Microsoft Clarity monitoring tool on frontend clients."
-          ]
-        },
-        {
-          "name": "General Skills",
-          "points": [
+            "Improved the company's ability to analyse user behaviour by implementing the Microsoft Clarity monitoring tool on frontend clients.",
             "Orchestrated the migration of legacy Angular and AngularJS applications to a modern React stack."
           ]
         }
@@ -105,7 +107,8 @@
             "Championed a \"shift left\" testing approach within my teams by utilising Cypress and React Testing Library (RTL), resulting in higher code quality and faster feedback loops during development.",
             "Successfully implemented the integration of subtitles for Samsung CTV devices on the ITV Hub, ensuring seamless and accessible viewing experience for users.",
             "Utilised vanilla JavaScript following an object-oriented design approach to develop new features for the ITV Hub CTV application, improving user engagement and enhancing the overall user experience."
-          ]
+          ],
+          "pageBreak": true
         }
       ],
       "highlights": [],
@@ -227,8 +230,8 @@
     {
       "institution": "General Assembly",
       "location": "London, UK",
-      "area": "Full Stack web development course",
-      "studyType": "Web Development Immersive Bootcamp",
+      "area": "FULL STACK WEB DEVELOPMENT COURSE",
+      "studyType": "WEB DEVELOPMENT IMMERSIVE BOOTCAMP",
       "startDate": "2017-09-01",
       "endDate": "2017-12-31",
       "score": "",
@@ -237,7 +240,7 @@
     {
       "institution": "University of Warwick",
       "location": "Coventry, UK",
-      "area": "Civil Engineering with Business Management",
+      "area": "CIVIL ENGINEERING WITH BUSINESS MANAGEMENT",
       "studyType": "MEng",
       "startDate": "2006-10-01",
       "endDate": "2010-07-01",
@@ -250,16 +253,16 @@
   "publications": [],
   "skills": [
     {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": [],
-      "fontClass": "fa-brands fa-js fa-xl"
-    },
-    {
       "name": "TypeScript",
       "level": "",
       "keywords": [],
       "fontClass": "fa-regular fa-typescript fa-lg"
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-brands fa-js fa-xl"
     },
     {
       "name": "React",
@@ -284,18 +287,6 @@
       "level": "",
       "keywords": [],
       "fontClass": "fa-brands fa-python fa-xl"
-    },
-    {
-      "name": "AWS",
-      "level": "",
-      "keywords": [],
-      "fontClass": "fa-brands fa-aws fa-xl"
-    },
-    {
-      "name": "Jenkins",
-      "level": "",
-      "keywords": [],
-      "fontClass": "fa-brands fa-jenkins fa-xl"
     },
     {
       "name": "HTML5",
@@ -334,6 +325,18 @@
       "fontClass": "fa-brands fa-docker fa-xl"
     },
     {
+      "name": "AWS",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-brands fa-aws fa-xl"
+    },
+    {
+      "name": "Jenkins",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-brands fa-jenkins fa-xl"
+    },
+    {
       "name": "Teaching",
       "level": "",
       "keywords": [],
@@ -348,6 +351,10 @@
   ],
   "interests": [
     {
+      "name": "Thai Boxing  ",
+      "keywords": []
+    },
+    {
       "name": "Swimming",
       "keywords": []
     },
@@ -357,10 +364,6 @@
     },
     {
       "name": "Running",
-      "keywords": []
-    },
-    {
-      "name": "Hiking  ",
       "keywords": []
     }
   ],

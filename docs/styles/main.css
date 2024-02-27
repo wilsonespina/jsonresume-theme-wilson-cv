@@ -161,7 +161,7 @@ ul {
   .page:after {
     width: 8px;
     position: absolute;
-    content: '';
+    content: "";
     height: 100%;
     top: 0;
     background: repeating-linear-gradient(to bottom, #f92673d3 0%, #f92673d3 calc(80px * 1), #5ccfefcb calc(80px * 1), #5ccfefcb calc(80px * 2), #a6e22ec3 calc(80px * 2), calc(80px * 3), #ffff35b9 calc(80px * 3), #ffff35b9 calc(80px * 4)) center/ 8px 100% repeat #c8c8c8;
@@ -215,21 +215,24 @@ ul {
     .page .covering-letter-content {
       padding: 0 62px 0 50px; }
     .page .resume-content {
-      padding-bottom: 500px; }
+      padding-bottom: 300px; }
     .page .covering-letter-content {
       padding-bottom: 800px; }
   .skills-container .container {
     page-break-inside: avoid; }
-  .interests-container, .education-container, .languages-container {
-    break-inside: avoid;
-    page-break-inside: avoid; }
-  .work-container .item {
+  .interests-container,
+  .education-container,
+  .languages-container {
     break-inside: avoid;
     page-break-inside: avoid; }
   .fa-external-link {
     display: none; }
-  .print-padding-top {
-    padding-top: 40px; } }
+  .print-padding-top,
+  .pagebreak {
+    padding-top: 40px; }
+  .pagebreak {
+    clear: both;
+    page-break-before: always; } }
 
 /* Components */
 .info-tag-container {
@@ -272,13 +275,17 @@ ul {
 
 .education-container .details {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   column-gap: 5px; }
   .education-container .details .dates {
     white-space: nowrap; }
   .education-container .details .location {
     padding-bottom: 6px;
     font-weight: 400; }
+
+.education-container .study-type {
+  margin-top: 10px;
+  text-transform: none; }
 
 .education-container .specialization {
   text-transform: none;
