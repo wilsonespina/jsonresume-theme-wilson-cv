@@ -2,13 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Wilson Espina",
-    "label": "Senior Frontend Engineer",
+    "label": "Senior Frontend Developer",
     "image": "",
     "profileImage": "https://wdi-30-ldn.s3.eu-west-1.amazonaws.com/headshots/HEADSHOT.png",
     "email": "wilson.espina@gmail.com",
     "phone": "+64 27 298 5314",
     "url": "https://wilsonespina.com",
-    "summary": "I am a software engineer with over 6 years' experience building enterprise-level, customer-facing web applications. I specialise in React with TypeScript applications and have a heavy focus on maintainability and building at scale through robust unit and integration testing. Drawing from my background in project management, I naturally gravitate towards facilitating technical coordination by providing support to junior engineers and advocating for industry standard practices within Agile delivery teams.",
+    "summary": "Passionate and pragmatic software engineer with over 7 years' experience building enterprise-level, customer-facing web applications. I specialise in React with TypeScript applications and have a heavy focus on maintainability and building at scale through robust unit and integration testing. Drawing from my background in project management, I naturally gravitate towards facilitating technical coordination by providing support to junior engineers and advocating for industry standard practices within Agile delivery teams.",
     "location": {
       "countryCode": "NZ",
       "address": "Wellington, New Zealand"
@@ -23,28 +23,22 @@
   },
   "work": [
     {
-      "name": "Springload Te Pipītanga",
+      "name": "Woolworths",
       "position": "Senior Frontend Developer",
-      "startDate": "2023-07-31",
+      "startDate": "2024-06-24",
       "endDate": "",
       "experienceAreas": [
         {
-          "name": "Project Work",
+          "name": "Conversion Rate Optimisation (CRO)",
           "points": [
-            "Led the frontend development for a Wagtail CMS-driven blog for the Kiwibank website, integrating Elastic Search UI React components and maintaining accessibility best practices.",
-            "Championed a \"shift left\" testing approach within my projects by utilising Cypress and React Testing Library (RTL), resulting in higher code quality and faster feedback loops during development.",
-            "Monitored and debugged issues with Sentry, helping speed up issue resolutions and reducing impacts for clients' websites.",
-            "Facilitated technical presentations for other frontend developer including discussing the benefits of Web components and the viability of adoption within a shared component library."
+            "Developed and refined A/B testing strategies to optimise user experience and increase conversion rates, directly contributing to increased business revenue and growth.",
+            "Coordinated technical discussions around experimentation developed with custom JavaScript in Optimizely."
           ]
         },
         {
-          "name": "Alphero (Secondment)",
+          "name": "Process Improvement",
           "points": [
-            "Delivered a high-quality, responsive web application for MyCreative Rights NZ, taking over the project with minimal notice and meeting the client's demanding deadline.",
-            "Utilised cutting-edge frontend tooling to enhance productivity, incorporating Vite to accelerate build workflows, styling components with CSS-in-JS, and enhancing pages with Lottie animations.",
-            "Collaborated closely with the UX team, iterating on designs and offering feedback to optimize the user experience and deliver high quality refined software.",
-            "Implemented Auth0 integration to enable seamless user sign-up experiences and manage security access within the application.",
-            "Developed integrations with Stripe's payment platform webhooks, enabling users to purchase digital products and manage subscription tiers."
+            "Enhanced team workflows by optimizing agile ceremonies, automating manual tasks, and maximizing the use of Jira, resulting in significantly improved efficiency for the entire team."
           ]
         }
       ],
@@ -53,25 +47,26 @@
       "url": "",
       "location": "Wellington, New Zealand"
     },
-
     {
-      "name": "UBT",
-      "position": "Software Developer",
-      "startDate": "2023-05-29",
-      "endDate": "2023-07-28",
+      "name": "Springload Te Pipītanga",
+      "position": "Senior Frontend Developer",
+      "startDate": "2023-07-31",
+      "endDate": "2024-06-15",
       "experienceAreas": [
         {
-          "name": "Architecture",
+          "name": "Project Work",
           "points": [
-            "Spearheaded the design and implementation of a GraphQL API on existing services, bypassing the need for a complete backend rebuild and significantly reducing development time and effort.",
-            "Led full-stack architectural decisions for rebuilding a React and GraphQL based event management web application."
+            "Led the frontend development for a Wagtail CMS-driven blog for the Kiwibank website, integrating Elastic Search UI React components and maintaining accessibility best practices.",
+            "Delivered technical presentations to frontend developers, highlighting the advantages of Web Components and evaluating their potential for adoption within a shared component library."
           ]
         },
         {
-          "name": "Strategy",
+          "name": "Alphero (Secondment)",
           "points": [
-            "Improved the company's ability to analyse user behaviour by implementing the Microsoft Clarity monitoring tool on frontend clients.",
-            "Orchestrated the migration of legacy Angular and AngularJS applications to a modern React stack."
+            "Delivered a high-quality, responsive web application for MyCreative Rights NZ, taking over the project with minimal notice and meeting the client's demanding deadline.",
+            "Utilised cutting-edge frontend tooling to enhance productivity, incorporating Vite to accelerate build workflows, styling components with CSS-in-JS, and enhancing pages with Lottie animations.",
+            "Collaborated closely with the UX team, iterating on designs and offering feedback to optimize the user experience and deliver high-quality refined software.",
+            "Implemented Auth0 integration to enable seamless user sign-up experiences and manage security access within the application."
           ]
         }
       ],
@@ -91,7 +86,8 @@
           "points": [
             "Led the development of React components for Web and CTV applications, optimising GraphQL queries, implementing Design System build files and providing guidance to junior developers.",
             "Developed TypeScript components within an Atomic Design System, ensuring consistency and modularity across the codebase.",
-            "Successfully delivered critical features under tight deadlines by offering pragmatic solutions to technical challenges and pushing for best practices."
+            "Successfully delivered critical features under tight deadlines by offering pragmatic solutions to technical challenges and pushing for best practices.",
+            "Championed a \"shift left\" testing approach within my projects by utilising Cypress and React Testing Library (RTL), resulting in higher code quality and faster feedback loops during development."
           ]
         },
         {
@@ -109,7 +105,6 @@
             "Successfully implemented the integration of subtitles for Samsung CTV devices on the ITV Hub, ensuring seamless and accessible viewing experience for users.",
             "Utilised vanilla JavaScript following an object-oriented design approach to develop new features for the ITV Hub CTV application, improving user engagement and enhancing the overall user experience."
           ]
-          
         }
       ],
       "highlights": [],
@@ -284,16 +279,16 @@
       "fontClass": "fa-regular fa-graphql fa-xl"
     },
     {
-      "name": "Python",
+      "name": "Angular",
       "level": "",
       "keywords": [],
-      "fontClass": "fa-brands fa-python fa-xl"
+      "fontClass": "fa-brands fa-angular fa-xl"
     },
     {
-      "name": "HTML5",
+      "name": "SASS",
       "level": "",
       "keywords": [],
-      "fontClass": "fa-brands fa-html5 fa-xl"
+      "fontClass": "fa-brands fa-sass fa-xl"
     },
     {
       "name": "Cascading Style Sheets (CSS3)",
@@ -302,10 +297,10 @@
       "fontClass": "fa-brands fa-css3-alt fa-xl"
     },
     {
-      "name": "SASS",
+      "name": "HTML5",
       "level": "",
       "keywords": [],
-      "fontClass": "fa-brands fa-sass fa-xl"
+      "fontClass": "fa-brands fa-html5 fa-xl"
     },
     {
       "name": "Accessibility",
@@ -320,22 +315,22 @@
       "fontClass": "fa-solid fa-flask-vial fa-lg"
     },
     {
-      "name": "Docker",
+      "name": "Github Actions",
       "level": "",
       "keywords": [],
-      "fontClass": "fa-brands fa-docker fa-xl"
+      "fontClass": "fa-brands fa-github fa-xl"
+    },
+    {
+      "name": "Azure",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-brands fa-microsoft fa-xl"
     },
     {
       "name": "AWS",
       "level": "",
       "keywords": [],
       "fontClass": "fa-brands fa-aws fa-xl"
-    },
-    {
-      "name": "Jenkins",
-      "level": "",
-      "keywords": [],
-      "fontClass": "fa-brands fa-jenkins fa-xl"
     },
     {
       "name": "Teaching",
@@ -352,10 +347,6 @@
   ],
   "interests": [
     {
-      "name": "Thai Boxing  ",
-      "keywords": []
-    },
-    {
       "name": "Swimming",
       "keywords": []
     },
@@ -365,6 +356,10 @@
     },
     {
       "name": "Running",
+      "keywords": []
+    },
+    {
+      "name": "Digital Art",
       "keywords": []
     }
   ],
