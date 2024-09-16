@@ -31,15 +31,14 @@
         {
           "name": "Conversion Rate Optimisation (CRO)",
           "points": [
-            "Developed and refined A/B testing strategies to optimise user experience and increase conversion rates, directly contributing to increased revenue and improved user experiences.",
-            "Coordinated technical discussions around web experimentation while developing bespoke JavaScript within Optimizely."
+            "Developed and refined A/B testing strategies to optimise user experiences and increase conversion rates while directly contributing to increased revenue.",
+            "Implemented bespoke solutions to web experimentation within Optimizely and coordinated technical discussions with stakeholders and the QA team."
           ]
         },
         {
           "name": "Process Improvement",
           "points": [
-            "Enhanced team workflows by optimising agile ceremonies, automating manual tasks, and maximizing the use of Jira, resulting in significantly improved efficiency for the entire team.",
-            "Introduced"
+            "Enhanced team workflows by optimising agile ceremonies, automating manual tasks, and maximizing the use of Jira, resulting in significantly improved efficiency for the team."
           ]
         }
       ],
@@ -59,7 +58,7 @@
           "points": [
             "Delivered a high-quality, responsive web application for MyCreative Rights NZ, taking over the project with minimal notice and meeting the client's demanding deadline.",
             "Utilised cutting-edge frontend tooling to enhance productivity, incorporating Vite to accelerate build workflows, styling components with CSS-in-JS, and enhancing pages with Lottie animations.",
-            "Collaborated closely with UX designers, iterating on Figma designs and offering feedback to optimise the user experience and deliver the highest quality software.",
+            "Collaborated closely with UX designers, iterating on Figma designs and offering feedback to refine delivery within sprint cycles.",
             "Built accessible React components to integrate with headless content from a Contentful CMS allowing for a fully accessible site for users and streamlining content management for the client.",
             "Implemented an Auth0 integration to enable seamless user sign-up experiences and manage security access within the application."
           ]
@@ -88,10 +87,9 @@
         {
           "name": "ITVX Streaming Platform",
           "points": [
-            "Successfully delivered critical features under tight deadlines by offering pragmatic solutions to technical challenges and pushing for best practices.",
+            "Successfully delivered critical features under tight deadlines by offering pragmatic solutions to technical challenges and pushing for industry best practices.",
             "Coordinated a team of engineers to develop React components for Web and CTV applications, and implement Design System build files whilst also providing guidance to junior developers.",
-            "Pioneered the frontend adoption of an internal GraphQL API by optimising queries and enabling dynamic layouts on multiple platforms.",
-            "Integrated feature flags via Redis to decouple deploy and release.",
+            "Pioneered the frontend adoption of an internal GraphQL API by optimising queries and enabling dynamic layout composition across multiple platforms.",
             "Developed TypeScript components within an Atomic Design System, ensuring consistency and modularity across the codebase.",
             "Championed a \"shift left\" testing approach within my projects by utilising Cypress and React Testing Library (RTL), resulting in higher code quality and faster feedback loops during development."
           ]
