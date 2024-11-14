@@ -17,6 +17,6 @@ npm run start
 ## Remaining tasks
 
 * Make the resume page mobile responsive.
-* Add a custome schema as some new properties do not match the origin [schema](https://jsonresume.org/schema)
+* Add a custom schema as some new properties do not match the origin [schema](https://jsonresume.org/schema)
 
 Inspired by https://www.npmjs.com/package/jsonresume-theme-caffeine
