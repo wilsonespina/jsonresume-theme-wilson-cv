@@ -16,7 +16,9 @@
     max-height: unset;
   }
   &-graphql {
-    background-image: url(../images/graphql-logo.svg);
+    background-color: $slate-gray;
+    -webkit-mask-image: url(../images/graphql.svg);
+    mask-image: url(../images/graphql.svg);
     height: 30px;
     width: 30px;
   }

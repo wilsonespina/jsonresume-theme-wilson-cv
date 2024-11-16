@@ -279,7 +279,7 @@
       "name": "GraphQL",
       "level": "",
       "keywords": [],
-      "fontClass": "fa-regular fa-graphql fa-xl"
+      "fontClass": "fa-regular fa-graphql fa-xl icon-graphql"
     },
     {
       "name": "Angular",
