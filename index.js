@@ -92,23 +92,23 @@ handlebars.registerHelper({
 
 // START IN RESUME SERVE MODE
 // https://github.com/jsonresume/resume-cli#resume-serve
-function render(resume) {
-  const dir = __dirname + '/docs';
-  const css = fs.readFileSync(dir + '/styles/main.css', 'utf-8');
-  const resumeTemplate = fs.readFileSync(dir + '/views/layouts/main.hbs', 'utf-8');
+// function render(resume) {
+//   const dir = __dirname + '/docs';
+//   const css = fs.readFileSync(dir + '/styles/main.css', 'utf-8');
+//   const resumeTemplate = fs.readFileSync(dir + '/views/layouts/main.hbs', 'utf-8');
 
-  const Handlebars = handlebarsWax(handlebars);
+//   const Handlebars = handlebarsWax(handlebars);
 
-  Handlebars.partials(dir + '/views/partials/**/*.{hbs,js}');
-  Handlebars.partials(dir + '/views/components/**/*.{hbs,js}');
+//   Handlebars.partials(dir + '/views/partials/**/*.{hbs,js}');
+//   Handlebars.partials(dir + '/views/components/**/*.{hbs,js}');
 
-  return Handlebars.compile(resumeTemplate)({
-    css: css,
-    resume: resume
-  });
-}
+//   return Handlebars.compile(resumeTemplate)({
+//     css: css,
+//     resume: resume
+//   });
+// }
 
 
-module.exports = {
-  render: render
-};
+// module.exports = {
+//   render: render
+// };
