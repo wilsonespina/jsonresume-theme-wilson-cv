@@ -135,7 +135,9 @@ ul {
   max-height: unset; }
 
 .icon-graphql {
-  background-image: url(../images/graphql-logo.svg);
+  background-color: #39424B;
+  -webkit-mask-image: url(../images/graphql.svg);
+  mask-image: url(../images/graphql.svg);
   height: 30px;
   width: 30px; }
 
