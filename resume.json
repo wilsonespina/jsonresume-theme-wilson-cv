@@ -86,9 +86,9 @@
         {
           "name": "ITVX Streaming Platform",
           "points": [
+            "Pioneered the frontend adoption of an internal GraphQL API by optimising queries and enabling dynamic layout composition across multiple platforms.",
             "Successfully delivered critical features under tight deadlines by offering pragmatic solutions to technical challenges and pushing for industry best practices.",
             "Coordinated a team of engineers to develop React components for Web and CTV applications, and implement Design System build files whilst also providing guidance to junior developers.",
-            "Pioneered the frontend adoption of an internal GraphQL API by optimising queries and enabling dynamic layout composition across multiple platforms.",
             "Developed TypeScript components within an Atomic Design System, ensuring consistency and modularity across the codebase.",
             "Championed a \"shift left\" testing approach within my projects by utilising Cypress and React Testing Library (RTL), resulting in higher code quality and faster feedback loops during development."
           ]
@@ -255,7 +255,7 @@
       "name": "TypeScript",
       "level": "",
       "keywords": [],
-      "fontClass": "fa-regular fa-typescript fa-lg"
+      "fontClass": "fa-regular fa-typescript fa-lg icon-typescript"
     },
     {
       "name": "JavaScript",
