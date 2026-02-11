@@ -6,12 +6,12 @@
     "image": "",
     "profileImage": "https://wdi-30-ldn.s3.eu-west-1.amazonaws.com/headshots/HEADSHOT.png",
     "email": "wilson.espina@gmail.com",
-    "phone": "+64 27 298 5314",
+    "phone": "+44 7737 227 253",
     "url": "https://wilsonespina.com",
-    "summary": "A passionate and pragmatic software engineer with over 7 years' experience building enterprise-level, high-traffic web applications. I specialise in developing React with TypeScript applications and have a heavy focus on maintainability while building at scale through robust unit and integration testing. Drawing from my background in project management, I naturally gravitate towards facilitating technical coordination by providing support to junior engineers and advocating for industry standard practices within Agile delivery teams.",
+    "summary": "A passionate and pragmatic software engineer with over 8 years' experience building enterprise-level, high-traffic web applications. I specialise in developing React with TypeScript applications and have a heavy focus on maintainability while building at scale through robust unit and integration testing. Drawing from my background in project management, I naturally gravitate towards facilitating technical coordination by providing support to junior engineers and advocating for industry standard practices within Agile delivery teams.",
     "location": {
-      "countryCode": "NZ",
-      "address": "Wellington, New Zealand"
+      "countryCode": "UK",
+      "address": "London, UK"
     },
     "profiles": [
       {
@@ -23,10 +23,38 @@
   },
   "work": [
     {
+      "name": "Alphero",
+      "position": "Senior Web Developer",
+      "startDate": "2025-02-01",
+      "endDate": "",
+      "experienceAreas": [
+        {
+          "name": "Project Work",
+          "points": [
+            "Contributed to the delivery of New Zealand's National Ticketing Solution, integrating React-based frontend components with a backend-for-frontend (BFF) layer. Maintained high accessibility standards and regularly presented feature demos to senior business and C-suite stakeholders.",
+            "Collaborated closely with UX designers, iterating on Figma designs and offering feedback to refine delivery within sprint cycles.",
+            "Built accessible React components to integrate with headless content from a Contentful CMS allowing for a fully accessible site for users and streamlining content management for the client.",
+            "Implemented an Auth0 integration to enable seamless user sign-up experiences and manage security access within the application."
+            ]
+        },
+        {
+          "name": "Delivering to deadlines",
+          "points": [
+            "Quickly adapted to new technologies while working with New Zealand’s largest company, Fonterra, delivering interactive frontend solutions using Salesforce Lightning Web Components within tight delivery timelines.",
+            "Utilised cutting-edge frontend tooling to enhance productivity, incorporating Vite to accelerate build workflows, styling components with CSS-in-JS, and enhancing pages with Lottie animations."
+          ]
+        }
+      ],
+      "highlights": [],
+      "summary": "",
+      "url": "",
+      "location": "Wellington, New Zealand"
+    },
+    {
       "name": "Woolworths",
       "position": "Senior Frontend Developer",
       "startDate": "2024-06-24",
-      "endDate": "",
+      "endDate": "2025-02-01",
       "experienceAreas": [
         {
           "name": "Conversion Rate Optimisation (CRO)",
@@ -56,19 +84,10 @@
         {
           "name": "Project Work",
           "points": [
+            "Managed competing priorities to deliver against limited time and budget allocations set by clients.",
             "Advocated for the latest CSS best practices and tooling within projects, resulting in reduced bundled sizes and increased maintainability.",
             "Led the frontend development for a Wagtail CMS-driven blog for the Kiwibank website, integrating Elastic Search UI React components and maintaining accessibility best practices.",
             "Delivered technical presentations to frontend developers, highlighting the advantages of Web Components and evaluating their potential for adoption within a shared component library."
-          ]
-        },
-        {
-          "name": "Alphero (Secondment)",
-          "points": [
-            "Delivered a high-quality, responsive web application for MyCreative Rights NZ, taking over the project with minimal notice and meeting the client's demanding deadline.",
-            "Utilised cutting-edge frontend tooling to enhance productivity, incorporating Vite to accelerate build workflows, styling components with CSS-in-JS, and enhancing pages with Lottie animations.",
-            "Collaborated closely with UX designers, iterating on Figma designs and offering feedback to refine delivery within sprint cycles.",
-            "Built accessible React components to integrate with headless content from a Contentful CMS allowing for a fully accessible site for users and streamlining content management for the client.",
-            "Implemented an Auth0 integration to enable seamless user sign-up experiences and manage security access within the application."
           ]
         }
       ],
@@ -78,6 +97,7 @@
       "location": "Wellington, New Zealand"
     },
     {
+      "pageBreak": true,
       "name": "ITV",
       "position": "Core Frontend Engineer",
       "startDate": "2018-11-30",
@@ -98,8 +118,7 @@
           "points": [
             "Facilitated and delivered technical graphQL workshops for a frontend cohort unfamiliar with the technology.",
             "Provided in-depth mentorship to junior engineers through pairing sessions, ensuring their technical growth and proficiency."
-          ],
-          "pageBreak": true
+          ]
         },
         {
           "name": "General Skills",
@@ -282,10 +301,10 @@
       "fontClass": "fa-regular fa-graphql fa-xl icon-graphql"
     },
     {
-      "name": "Angular",
+      "name": "SQL",
       "level": "",
       "keywords": [],
-      "fontClass": "fa-brands fa-angular fa-xl"
+      "fontClass": "fa-solid fa-database fa-xl"
     },
     {
       "name": "SASS",
@@ -312,10 +331,10 @@
       "fontClass": "fa-solid fa-universal-access fa-xl"
     },
     {
-      "name": "React Testing Library",
+      "name": "Playwright",
       "level": "",
       "keywords": [],
-      "fontClass": "fa-solid fa-flask-vial fa-lg"
+      "fontClass": "fa-regular fa-playwright fa-lg icon-playwright"
     },
     {
       "name": "Github Actions",
@@ -324,10 +343,10 @@
       "fontClass": "fa-brands fa-github fa-xl"
     },
     {
-      "name": "Azure",
+      "name": "Jenkins",
       "level": "",
       "keywords": [],
-      "fontClass": "fa-brands fa-microsoft fa-xl"
+      "fontClass": "fa-brands fa-jenkins fa-xl"
     },
     {
       "name": "AWS",

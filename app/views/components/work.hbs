@@ -4,7 +4,7 @@
 
   {{#each resume.work}}
   <section class="item{{#if paddingTop}} print-padding-top{{/if}}">
-    {{> section-header name=this.name }}
+    {{> section-header name=this.name pageBreak=this.pageBreak }}
 
     <div class="details">
       {{#if position}}
