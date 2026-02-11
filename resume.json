@@ -8,7 +8,7 @@
     "email": "wilson.espina@gmail.com",
     "phone": "+44 7737 227 253",
     "url": "https://wilsonespina.com",
-    "summary": "A passionate and pragmatic software engineer with over 8 years' experience building enterprise-level, high-traffic web applications. I specialise in developing React with TypeScript applications and have a heavy focus on maintainability while building at scale through robust unit and integration testing. Drawing from my background in project management, I naturally gravitate towards facilitating technical coordination by providing support to junior engineers and advocating for industry standard practices within Agile delivery teams.",
+    "summary": "A pragmatic software engineer with 8+ years’ experience building enterprise-scale, high-traffic web applications. Specialises in React and TypeScript, with a strong focus on maintainable architecture, scalable delivery, and robust unit and integration testing. Brings a project management background that supports effective technical coordination, mentoring of junior engineers, and raising engineering standards within Agile teams.",
     "location": {
       "countryCode": "UK",
       "address": "London, UK"
@@ -25,7 +25,7 @@
     {
       "name": "Alphero",
       "position": "Senior Web Developer",
-      "startDate": "2025-02-01",
+      "startDate": "2025-01-07",
       "endDate": "",
       "experienceAreas": [
         {
@@ -54,7 +54,7 @@
       "name": "Woolworths",
       "position": "Senior Frontend Developer",
       "startDate": "2024-06-24",
-      "endDate": "2025-02-01",
+      "endDate": "2025-01-06",
       "experienceAreas": [
         {
           "name": "Conversion Rate Optimisation (CRO)",
@@ -66,14 +66,14 @@
         {
           "name": "Process Improvement",
           "points": [
-            "Enhanced team workflows by optimising agile ceremonies, automating manual tasks, and maximizing the use of Jira, resulting in significantly improved efficiency for the team."
+            "Drove improvements in team efficiency by refining Agile ceremonies, automating manual workflows, and optimising Jira usage."
           ]
         }
       ],
       "highlights": [],
       "summary": "",
       "url": "",
-      "location": "Wellington, New Zealand"
+      "location": "Remote, New Zealand"
     },
     {
       "name": "Springload Te Pipītanga",
@@ -86,8 +86,7 @@
           "points": [
             "Managed competing priorities to deliver against limited time and budget allocations set by clients.",
             "Advocated for the latest CSS best practices and tooling within projects, resulting in reduced bundled sizes and increased maintainability.",
-            "Led the frontend development for a Wagtail CMS-driven blog for the Kiwibank website, integrating Elastic Search UI React components and maintaining accessibility best practices.",
-            "Delivered technical presentations to frontend developers, highlighting the advantages of Web Components and evaluating their potential for adoption within a shared component library."
+            "Led the frontend development for a Wagtail CMS-driven blog for the Kiwibank website, integrating Elastic Search UI React components and maintaining accessibility best practices."
           ]
         }
       ],
@@ -97,7 +96,15 @@
       "location": "Wellington, New Zealand"
     },
     {
+      "name": "Career Break",
+      "location": "Vietnam, Australia, New Zealand",
+      "position": "Travelling and Adventuring",
+      "startDate": "2023-01-01",
+      "endDate": "2023-06-01"
+    },
+    {
       "pageBreak": true,
+
       "name": "ITV",
       "position": "Core Frontend Engineer",
       "startDate": "2018-11-30",
@@ -107,10 +114,8 @@
           "name": "ITVX Streaming Platform",
           "points": [
             "Pioneered the frontend adoption of an internal GraphQL API by optimising queries and enabling dynamic layout composition across multiple platforms.",
-            "Successfully delivered critical features under tight deadlines by offering pragmatic solutions to technical challenges and pushing for industry best practices.",
             "Coordinated a team of engineers to develop React components for Web and CTV applications, and implement Design System build files whilst also providing guidance to junior developers.",
-            "Developed TypeScript components within an Atomic Design System, ensuring consistency and modularity across the codebase.",
-            "Championed a \"shift left\" testing approach within my projects by utilising Cypress and React Testing Library (RTL), resulting in higher code quality and faster feedback loops during development."
+            "Developed TypeScript components within an Atomic Design System, ensuring consistency and modularity across the codebase."
           ]
         },
         {
@@ -123,6 +128,7 @@
         {
           "name": "General Skills",
           "points": [
+            "Championed a \"shift left\" testing approach within my projects by utilising Cypress and React Testing Library (RTL), resulting in higher code quality and faster feedback loops during development.",
             "Optimised DOM rendering of a CTV application, mitigating performance issues on low-powered devices and improving user experience.",
             "Successfully implemented the integration of subtitles for Samsung CTV devices on the ITV Hub, ensuring seamless and accessible viewing experience for users.",
             "Utilised vanilla JavaScript following an object-oriented design approach to develop new features for the ITV Hub CTV application, improving user engagement and enhancing the overall user experience."
@@ -168,7 +174,6 @@
         {
           "name": "General Skills",
           "points": [
-            "Led the development of the custom calendar and scheduling Customer Portal as the sole frontend developer, overseeing the project from inception to delivery.",
             "Implemented unit and integration testing to improve the health and stability of the front-end, resulting in higher-quality code and better user experiences.",
             "Collaborated with the UX/UI team to realise customer journeys through the company's AngularJS web application, ensuring a cohesive and intuitive user experience."
           ]
@@ -223,25 +228,8 @@
       "summary": "",
       "url": "https://www.linkedin.com/company/high-speed-two-hs2-ltd/",
       "location": "London, UK"
-    },
-    {
-      "name": "FileWorks",
-      "position": "Project Manager",
-      "startDate": "2011-02-28",
-      "endDate": "2014-12-31",
-      "experienceAreas": [
-        {
-          "name": "General Skills",
-          "points": [
-            "Managed a £100k+ Project Management contract with Network Rail, responsible for its strategic operation and day-to-day management."
-          ]
-        }
-      ],
-      "highlights": [],
-      "summary": "",
-      "url": "",
-      "location": "London, UK"
     }
+
   ],
   "volunteer": [],
   "education": [
@@ -378,10 +366,6 @@
     },
     {
       "name": "Running",
-      "keywords": []
-    },
-    {
-      "name": "Digital Art",
       "keywords": []
     }
   ],
