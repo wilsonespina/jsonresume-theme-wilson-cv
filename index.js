@@ -6,7 +6,7 @@ const moment = require('moment');
 const Swag = require('swag');
 const path = require('path');
 const express = require('express');
-const sassMiddleware = require('node-sass-middleware')
+// const sassMiddleware = require('node-sass-middleware')
 const resumeJson = require('./resume.json');
 const coveringLetterJson = require('./covering-letter.json');
 const app = express();
@@ -15,10 +15,10 @@ const { engine } = require ('express-handlebars');
 
 // START IN DEV MODE
 if (process.env.NODE_ENV !== 'RESUME_SERVE_MODE') {
-  app.use(sassMiddleware({
-    src: path.join(__dirname, 'docs'),
-    outputStyle: 'compressed',
-  }));
+  // app.use(sassMiddleware({
+  //   src: path.join(__dirname, 'docs'),
+  //   outputStyle: 'compressed',
+  // }));
 
   app.engine('hbs', engine({
     extname: '.hbs',

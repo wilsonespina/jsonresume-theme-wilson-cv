@@ -130,6 +130,11 @@ ul {
   height: 21px;
   width: 21px; }
 
+.icon-playwright {
+  background-image: url(../images/playwright.svg);
+  height: 26px;
+  width: 26px; }
+
 .icon-graphql, .icon-github-actions {
   max-width: unset;
   max-height: unset; }
