@@ -2,13 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Wilson Espina",
-    "label": "Senior Frontend Developer",
+    "label": "Senior Frontend Engineer",
     "image": "",
     "profileImage": "https://wdi-30-ldn.s3.eu-west-1.amazonaws.com/headshots/HEADSHOT.png",
     "email": "wilson.espina@gmail.com",
     "phone": "+44 7737 227 253",
     "url": "https://wilsonespina.com",
-    "summary": "A pragmatic software engineer with 8+ years’ experience building enterprise-scale, high-traffic web applications. Specialises in React and TypeScript, with a strong focus on maintainable architecture, scalable delivery, and robust unit and integration testing. Brings a project management background that supports effective technical coordination, mentoring of junior engineers, and raising engineering standards within Agile teams.",
+    "summary": "A pragmatic software engineer with 8+ years’ experience building enterprise-scale, high-traffic web applications and shared component systems. Specialises in React and TypeScript, with deep expertise in CSS architecture, scalable delivery, and robust unit and integration testing. Brings a project management background that supports effective technical coordination, mentoring of junior engineers, and raising engineering standards within Agile teams.",
     "location": {
       "countryCode": "UK",
       "address": "London, UK"
@@ -38,8 +38,9 @@
             ]
         },
         {
-          "name": "Delivering to deadlines",
+          "name": "UI & Frontend Engineering",
           "points": [
+            "Implemented scalable CSS architecture patterns to ensure consistent, modular styling, utilising Tailwind CSS and CSS-in-JS for maintainable component-driven development.",
             "Quickly adapted to new technologies while working with New Zealand’s largest company, Fonterra, delivering interactive frontend solutions using Salesforce Lightning Web Components within tight delivery timelines.",
             "Utilised cutting-edge frontend tooling to enhance productivity, incorporating Vite to accelerate build workflows, styling components with CSS-in-JS, and enhancing pages with Lottie animations."
           ]
@@ -84,9 +85,9 @@
         {
           "name": "Project Work",
           "points": [
+            "Led the frontend development for a Wagtail CMS-driven blog for the Kiwibank website, integrating Elastic Search UI React components and maintaining accessibility best practices.",
             "Managed competing priorities to deliver against limited time and budget allocations set by clients.",
-            "Advocated for the latest CSS best practices and tooling within projects, resulting in reduced bundled sizes and increased maintainability.",
-            "Led the frontend development for a Wagtail CMS-driven blog for the Kiwibank website, integrating Elastic Search UI React components and maintaining accessibility best practices."
+            "Advocated for the latest CSS best practices and tooling within projects, resulting in reduced bundled sizes and increased maintainability."
           ]
         }
       ],
@@ -277,24 +278,6 @@
       "fontClass": "fa-brands fa-react fa-xl"
     },
     {
-      "name": "Node.js",
-      "level": "",
-      "keywords": [],
-      "fontClass": "fa-brands fa-node fa-xl"
-    },
-    {
-      "name": "GraphQL",
-      "level": "",
-      "keywords": [],
-      "fontClass": "fa-regular fa-graphql fa-xl icon-graphql"
-    },
-    {
-      "name": "SQL",
-      "level": "",
-      "keywords": [],
-      "fontClass": "fa-solid fa-database fa-xl"
-    },
-    {
       "name": "SASS",
       "level": "",
       "keywords": [],
@@ -319,6 +302,31 @@
       "fontClass": "fa-solid fa-universal-access fa-xl"
     },
     {
+      "name": "Design Systems",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-solid fa-book fa-xl"
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-brands fa-node fa-xl"
+    },
+    {
+      "name": "GraphQL",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-regular fa-graphql fa-xl icon-graphql"
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-solid fa-database fa-xl"
+    },
+
+    {
       "name": "Playwright",
       "level": "",
       "keywords": [],
@@ -341,13 +349,8 @@
       "level": "",
       "keywords": [],
       "fontClass": "fa-brands fa-aws fa-xl"
-    },
-    {
-      "name": "Teaching",
-      "level": "",
-      "keywords": [],
-      "fontClass": "fa-solid fa-person-chalkboard fa-xl"
     }
+
   ],
   "languages": [
     {

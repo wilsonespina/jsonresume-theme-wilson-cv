@@ -1,8 +1,8 @@
 {
   "company": {
-    "name": "",
-    "position": "Senior Frontend Developer",
-    "companyKnown": false,
+    "name": "Nando's",
+    "position": "Senior Software Engineer – UI Specialist",
+    "companyKnown": true,
     "Address": {
       "Line_1": "",
       "Line_2": "",
@@ -13,9 +13,9 @@
       "name": "Hiring Manager"
     },
     "examples": [
-      "Coordinated the successful delivery of the ITVX streaming platform's (UK) homepage, working closely with a cross-functional team to integrate multiple React components and adhere to a demanding timeline.",
+      "Contributing to a shared design system used across multiple platforms at ITV, ensuring consistency and scalability within their ITVX streaming platform.",
       "Optimised developer workflows by implementing new approaches, including the introduction of automated merge queues with Github actions, effectively streamlining the development process.",
-      "Taught over 100+ coding novices web development fundamentals my Instructor roles at General Assembly (London)."
+      "Leading frontend delivery of complex React applications while preserving accessibility and performance standards."
     ],
     "reasonsWhyCompany": [
       "What excites me most about the opportunity to work in Kiwibank's newly formed team is the chance to be part of a company that I've admired during my time building features on the Kiwibank website whilst working at Springload.",
