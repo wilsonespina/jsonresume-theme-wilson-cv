@@ -1,6 +1,7 @@
 .icon {
   &-typescript,
   &-graphql,
+  &-nextjs,
   &-github-actions {
     background-size: contain;
     background-repeat: no-repeat;
@@ -11,6 +12,7 @@
     width: 21px;
   }
   &-graphql,
+  &-nextjs
   &-github-actions {
     max-width: unset;
     max-height: unset;

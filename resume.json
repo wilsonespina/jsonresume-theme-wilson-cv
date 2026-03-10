@@ -2,16 +2,16 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Wilson Espina",
-    "label": "Senior Frontend Developer",
+    "label": "Senior Frontend Engineer",
     "image": "",
     "profileImage": "https://wdi-30-ldn.s3.eu-west-1.amazonaws.com/headshots/HEADSHOT.png",
     "email": "wilson.espina@gmail.com",
     "phone": "+44 7737 227 253",
     "url": "https://wilsonespina.com",
-    "summary": "A pragmatic software engineer with 8+ years’ experience building enterprise-scale, high-traffic web applications. Specialises in React and TypeScript, with a strong focus on maintainable architecture, scalable delivery, and robust unit and integration testing. Brings a project management background that supports effective technical coordination, mentoring of junior engineers, and raising engineering standards within Agile teams.",
+    "summary": "Senior frontend engineer with 8+ years of experience delivering complex, distributed web applications for high-traffic, customer-facing products. Expert in React, JavaScript, and TypeScript, with a strong product mindset focused on customer value, performance, maintainability, and well-tested code (unit, integration, and E2E). Proven track record collaborating across product, design, QA, and engineering teams to break complex problems into shippable milestones and deliver measurable business impact.",
     "location": {
       "countryCode": "UK",
-      "address": "London, UK"
+      "address": "London, UK (relocating from April 2026)"
     },
     "profiles": [
       {
@@ -31,10 +31,10 @@
         {
           "name": "Project Work",
           "points": [
-            "Contributed to the delivery of New Zealand's National Ticketing Solution, integrating React-based frontend components with a backend-for-frontend (BFF) layer. Maintained high accessibility standards and regularly presented feature demos to senior business and C-suite stakeholders.",
+            "Owned end-to-end frontend feature delivery for New Zealand's National Ticketing Solution, integrating React components with a backend-for-frontend (BFF) layer in a distributed architecture. Maintained high accessibility standards and regularly presented progress and trade-offs to senior business and C-suite stakeholders.",
             "Collaborated closely with UX designers, iterating on Figma designs and offering feedback to refine delivery within sprint cycles.",
-            "Built accessible React components to integrate with headless content from a Contentful CMS allowing for a fully accessible site for users and streamlining content management for the client.",
-            "Implemented an Auth0 integration to enable seamless user sign-up experiences and manage security access within the application."
+            "Built accessible React components integrated with headless Contentful CMS content, improving user experience while streamlining content operations for non-technical teams.",
+            "Implemented Auth0 authentication flows to support secure, seamless sign-up and account access journeys."
             ]
         },
         {
@@ -59,14 +59,14 @@
         {
           "name": "Conversion Rate Optimisation (CRO)",
           "points": [
-            "Developed and refined A/B testing strategies to optimise user experiences and increase conversion rates while directly contributing to increased revenue.",
-            "Implemented bespoke solutions to web experimentation within Optimizely and coordinated technical discussions with stakeholders and the QA team."
+            "Developed and refined A/B testing strategies to optimize user experiences and conversion rates, contributing directly to revenue growth.",
+            "Implemented bespoke web experimentation solutions in Optimizely and partnered with product, QA, and stakeholders to make data-driven delivery decisions."
           ]
         },
         {
           "name": "Process Improvement",
           "points": [
-            "Drove improvements in team efficiency by refining Agile ceremonies, automating manual workflows, and optimising Jira usage."
+            "Drove team efficiency improvements by refining Agile ceremonies, automating manual workflows, and optimizing Jira processes to speed up delivery."
           ]
         }
       ],
@@ -113,23 +113,23 @@
         {
           "name": "ITVX Streaming Platform",
           "points": [
-            "Pioneered the frontend adoption of an internal GraphQL API by optimising queries and enabling dynamic layout composition across multiple platforms.",
-            "Coordinated a team of engineers to develop React components for Web and CTV applications, and implement Design System build files whilst also providing guidance to junior developers.",
-            "Developed TypeScript components within an Atomic Design System, ensuring consistency and modularity across the codebase."
+            "Pioneered frontend adoption of an internal GraphQL API across Next.js web and Connected TV (CTV) platforms, optimizing queries to reduce over-fetching and enable dynamic layout composition for better scalability.",
+            "Built and coordinated delivery of React components across web and CTV applications used by millions of customers, while mentoring junior engineers and aligning implementation with product goals.",
+            "Developed TypeScript components within an Atomic Design System, improving consistency, reuse, and maintainability across the codebase."
           ]
         },
         {
           "name": "Mentoring",
           "points": [
-            "Facilitated and delivered technical graphQL workshops for a frontend cohort unfamiliar with the technology.",
+            "Facilitated and delivered technical GraphQL workshops for frontend engineers unfamiliar with the technology.",
             "Provided in-depth mentorship to junior engineers through pairing sessions, ensuring their technical growth and proficiency."
           ]
         },
         {
           "name": "General Skills",
           "points": [
-            "Championed a \"shift left\" testing approach within my projects by utilising Cypress and React Testing Library (RTL), resulting in higher code quality and faster feedback loops during development.",
-            "Optimised DOM rendering of a CTV application, mitigating performance issues on low-powered devices and improving user experience.",
+            "Championed a \"shift left\" testing approach using Cypress and React Testing Library (RTL), improving code quality and accelerating feedback loops during development.",
+            "Optimized DOM rendering of a CTV application, mitigating performance issues on low-powered devices and improving user experience.",
             "Successfully implemented the integration of subtitles for Samsung CTV devices on the ITV Hub, ensuring seamless and accessible viewing experience for users.",
             "Utilised vanilla JavaScript following an object-oriented design approach to develop new features for the ITV Hub CTV application, improving user engagement and enhancing the overall user experience."
           ]
@@ -277,6 +277,12 @@
       "fontClass": "fa-brands fa-react fa-xl"
     },
     {
+      "name": "Next JS",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-brands fa-nextjs fa-xl icon-nextjs"
+    },
+    {
       "name": "Node.js",
       "level": "",
       "keywords": [],
@@ -287,12 +293,6 @@
       "level": "",
       "keywords": [],
       "fontClass": "fa-regular fa-graphql fa-xl icon-graphql"
-    },
-    {
-      "name": "SQL",
-      "level": "",
-      "keywords": [],
-      "fontClass": "fa-solid fa-database fa-xl"
     },
     {
       "name": "SASS",
@@ -325,11 +325,38 @@
       "fontClass": "fa-regular fa-playwright fa-lg icon-playwright"
     },
     {
-      "name": "Github Actions",
+      "name": "GitHub Actions",
       "level": "",
       "keywords": [],
       "fontClass": "fa-brands fa-github fa-xl"
     },
+    {
+      "name": "Design Systems",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-solid fa-layer-group fa-xl"
+    },
+    {
+      "name": "Optimizely",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-solid fa-flask fa-xl"
+    },
+    {
+      "name": "Cypress",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-solid fa-vial fa-xl"
+    },
+    {
+      "name": "React Testing Library",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-solid fa-check-double fa-xl",
+      "paddingTop": true,
+      "pageBreak": true
+    },
+
     {
       "name": "Jenkins",
       "level": "",
@@ -343,10 +370,10 @@
       "fontClass": "fa-brands fa-aws fa-xl"
     },
     {
-      "name": "Teaching",
+      "name": "SQL",
       "level": "",
       "keywords": [],
-      "fontClass": "fa-solid fa-person-chalkboard fa-xl"
+      "fontClass": "fa-solid fa-database fa-xl"
     }
   ],
   "languages": [

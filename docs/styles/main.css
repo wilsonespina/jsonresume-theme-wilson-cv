@@ -121,7 +121,7 @@ ul {
   .summary__list {
     white-space: pre-line; }
 
-.icon-typescript, .icon-graphql, .icon-github-actions {
+.icon-typescript, .icon-graphql, .icon-nextjs, .icon-github-actions {
   background-size: contain;
   background-repeat: no-repeat; }
 
@@ -135,7 +135,7 @@ ul {
   height: 26px;
   width: 26px; }
 
-.icon-graphql, .icon-github-actions {
+.icon-graphql, .icon-nextjs, .icon-github-actions {
   max-width: unset;
   max-height: unset; }
 
@@ -145,6 +145,11 @@ ul {
   mask-image: url(../images/graphql.svg);
   height: 30px;
   width: 30px; }
+
+.icon-nextjs {
+  background-image: url(../images/nextjs.svg);
+  height: 26px;
+  width: 26px; }
 
 .icon-github-actions {
   background-image: url(../images/github-actions.svg);
