@@ -2,16 +2,16 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Wilson Espina",
-    "label": "Senior Frontend Developer",
+    "label": "Senior Frontend Engineer",
     "image": "",
     "profileImage": "https://wdi-30-ldn.s3.eu-west-1.amazonaws.com/headshots/HEADSHOT.png",
     "email": "wilson.espina@gmail.com",
     "phone": "+44 7737 227 253",
     "url": "https://wilsonespina.com",
-    "summary": "A pragmatic software engineer with 8+ years’ experience building enterprise-scale, high-traffic web applications. Specialises in React and TypeScript, with a strong focus on maintainable architecture, scalable delivery, and robust unit and integration testing. Brings a project management background that supports effective technical coordination, mentoring of junior engineers, and raising engineering standards within Agile teams.",
+    "summary": "Senior UI engineer with 8+ years building enterprise React and TypeScript applications across complex, regulated, and high-traffic environments. I take end-to-end ownership of features, write clean typesafe code, and work closely with backend, UX/UI, and business stakeholders to ship things that don't need rework. A background in project management means I bring structure and clear communication to Agile teams. I push back when needed, mentor where I can, and consistently deliver on time.",
     "location": {
       "countryCode": "UK",
-      "address": "London, UK"
+      "address": "London, UK (moving from April 2026)"
     },
     "profiles": [
       {
@@ -31,17 +31,17 @@
         {
           "name": "Project Work",
           "points": [
-            "Contributed to the delivery of New Zealand's National Ticketing Solution, integrating React-based frontend components with a backend-for-frontend (BFF) layer. Maintained high accessibility standards and regularly presented feature demos to senior business and C-suite stakeholders.",
-            "Collaborated closely with UX designers, iterating on Figma designs and offering feedback to refine delivery within sprint cycles.",
-            "Built accessible React components to integrate with headless content from a Contentful CMS allowing for a fully accessible site for users and streamlining content management for the client.",
-            "Implemented an Auth0 integration to enable seamless user sign-up experiences and manage security access within the application."
+            "Owned and delivered React TypeScript features for New Zealand's National Ticketing Solution, integrating UI components with a backend-for-frontend (BFF) layer while maintaining high accessibility standards.",
+            "Collaborated daily with UX/UI designers, backend engineers, and business stakeholders, iterating on Figma designs and proactively clarifying requirements to reduce rework.",
+            "Built clean, reusable and accessible React components to consume headless Contentful CMS content, streamlining content operations and improving maintainability.",
+            "Implemented Auth0 integration for secure user sign-up and access control, delivering robust production-ready solutions with minimal oversight."
             ]
         },
         {
           "name": "Delivering to deadlines",
           "points": [
-            "Quickly adapted to new technologies while working with New Zealand’s largest company, Fonterra, delivering interactive frontend solutions using Salesforce Lightning Web Components within tight delivery timelines.",
-            "Utilised cutting-edge frontend tooling to enhance productivity, incorporating Vite to accelerate build workflows, styling components with CSS-in-JS, and enhancing pages with Lottie animations."
+            "Quickly adapted to new technologies while working with New Zealand’s largest company, Fonterra, delivering interactive frontend solutions within tight delivery timelines.",
+            "Favouring practical solutions, improved team productivity by introducing faster Vite-based workflows and pragmatic UI implementation patterns."
           ]
         }
       ],
@@ -59,14 +59,14 @@
         {
           "name": "Conversion Rate Optimisation (CRO)",
           "points": [
-            "Developed and refined A/B testing strategies to optimise user experiences and increase conversion rates while directly contributing to increased revenue.",
-            "Implemented bespoke solutions to web experimentation within Optimizely and coordinated technical discussions with stakeholders and the QA team."
+            "Led front-end implementations of A/B experiments to optimise user journeys, improve conversion, and contribute directly to revenue outcomes.",
+            "Implemented bespoke Optimizely experimentation solutions and drove technical collaboration across QA, analysts, and stakeholders to deliver robust releases."
           ]
         },
         {
           "name": "Process Improvement",
           "points": [
-            "Drove improvements in team efficiency by refining Agile ceremonies, automating manual workflows, and optimising Jira usage."
+            "Drove improvements in team efficiency by refining Agile ceremonies, automating manual workflows, and improving delivery processes through continuous feedback."
           ]
         }
       ],
@@ -84,7 +84,8 @@
         {
           "name": "Project Work",
           "points": [
-            "Managed competing priorities to deliver against limited time and budget allocations set by clients.",
+            "Owned end-to-end frontend delivery for Kiwibank, a major New Zealand retail bank, building scalable, maintainable React TypeScript components and proactively collaborating with backend engineers, UX/UI designers, and business analysts to align technical solutions with business requirements.",
+            "Delivered robust technical solutions within strict time and budget constraints for social justice sector clients, proactively managing competing priorities and maintaining quality standards throughout.",
             "Advocated for the latest CSS best practices and tooling within projects, resulting in reduced bundled sizes and increased maintainability.",
             "Led the frontend development for a Wagtail CMS-driven blog for the Kiwibank website, integrating Elastic Search UI React components and maintaining accessibility best practices."
           ]
@@ -113,22 +114,22 @@
         {
           "name": "ITVX Streaming Platform",
           "points": [
-            "Pioneered the frontend adoption of an internal GraphQL API by optimising queries and enabling dynamic layout composition across multiple platforms.",
-            "Coordinated a team of engineers to develop React components for Web and CTV applications, and implement Design System build files whilst also providing guidance to junior developers.",
-            "Developed TypeScript components within an Atomic Design System, ensuring consistency and modularity across the codebase."
+            "Took technical ownership of complex UI features, pioneering adoption of an internal GraphQL API through query optimisation and dynamic layout composition across web and CTV platforms.",
+            "Coordinated engineers to deliver React TypeScript components for web and CTV applications, implemented design system build assets, and mentored junior developers.",
+            "Developed clean, type-safe TypeScript components within an Atomic Design System, improving consistency, readability, and long-term maintainability."
           ]
         },
         {
           "name": "Mentoring",
           "points": [
-            "Facilitated and delivered technical graphQL workshops for a frontend cohort unfamiliar with the technology.",
+            "Facilitated and delivered technical GraphQL workshops for frontend engineers, building confidence in adopting new patterns and tools.",
             "Provided in-depth mentorship to junior engineers through pairing sessions, ensuring their technical growth and proficiency."
           ]
         },
         {
           "name": "General Skills",
           "points": [
-            "Championed a \"shift left\" testing approach within my projects by utilising Cypress and React Testing Library (RTL), resulting in higher code quality and faster feedback loops during development.",
+            "Championed a shift-left testing approach using Cypress and React Testing Library, contributing to testing pyramid discussions and improving quality and feedback speed.",
             "Optimised DOM rendering of a CTV application, mitigating performance issues on low-powered devices and improving user experience.",
             "Successfully implemented the integration of subtitles for Samsung CTV devices on the ITV Hub, ensuring seamless and accessible viewing experience for users.",
             "Utilised vanilla JavaScript following an object-oriented design approach to develop new features for the ITV Hub CTV application, improving user engagement and enhancing the overall user experience."
@@ -343,7 +344,7 @@
       "fontClass": "fa-brands fa-aws fa-xl"
     },
     {
-      "name": "Teaching",
+      "name": "Mentoring",
       "level": "",
       "keywords": [],
       "fontClass": "fa-solid fa-person-chalkboard fa-xl"

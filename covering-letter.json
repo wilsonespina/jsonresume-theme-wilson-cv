@@ -1,25 +1,25 @@
 {
   "company": {
-    "name": "",
-    "position": "Senior Frontend Developer",
-    "companyKnown": false,
+    "name": "Capgemini",
+    "position": "Senior UI React Engineer",
+    "companyKnown": true,
     "Address": {
-      "Line_1": "",
-      "Line_2": "",
-      "Line_3": "",
+      "Line_1": "95 Queen Victoria St",
+      "Line_2": "London ",
+      "Line_3": "EC4V 4HN",
       "Line_4": ""
     },
     "hiringManager": {
-      "name": "Hiring Manager"
+      "name": "Capgemini Hiring Manager"
     },
     "examples": [
-      "Coordinated the successful delivery of the ITVX streaming platform's (UK) homepage, working closely with a cross-functional team to integrate multiple React components and adhere to a demanding timeline.",
-      "Optimised developer workflows by implementing new approaches, including the introduction of automated merge queues with Github actions, effectively streamlining the development process.",
-      "Taught over 100+ coding novices web development fundamentals my Instructor roles at General Assembly (London)."
+      "Took sole end-to-end ownership of complex React TypeScript features shipped as part of ITVX's new streaming service, from first line of code to production release.",
+      "Taught and mentored over 100+ students at General Assembly, delivering technical instruction in JavaScript and CSS, while supporting career transitions into the industry.",
+      "Helped streamline farm dairy record administration for farmers across New Zealand as part of a Fonterra initiative projected to save over 1 million admin hours by delivering Salesforce Lightning Web Components to tight deadlines throughout."
     ],
     "reasonsWhyCompany": [
-      "What excites me most about the opportunity to work in Kiwibank's newly formed team is the chance to be part of a company that I've admired during my time building features on the Kiwibank website whilst working at Springload.",
-      "I've seen first-hand the culture of innovation and collaboration that Kiwibank fosters, as well as the ethical nature in which the wider B Corp accredited business operates."
+      "I am excited by Capgemini's focus on delivering business value through technology, and by the opportunity to contribute to high-impact digital programmes in complex enterprise and banking environments.",
+      "This role matches how I work best: owning React TypeScript delivery, collaborating closely across disciplines in hybrid teams, and producing practical, high-quality solutions that are easy to maintain and evolve."
     ]
   }
 }
