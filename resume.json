@@ -8,7 +8,7 @@
     "email": "wilson.espina@gmail.com",
     "phone": "+44 7737 227 253",
     "url": "https://wilsonespina.com",
-    "summary": "Senior UI engineer with 8+ years building enterprise React and TypeScript applications across complex, regulated, and high-traffic environments. I take end-to-end ownership of features, write clean typesafe code, and work closely with backend, UX/UI, and business stakeholders to ship things that don't need rework. A background in project management means I bring structure and clear communication to Agile teams. I push back when needed, mentor where I can, and consistently deliver on time.",
+    "summary": "Senior Frontend Engineer with 8+ years building data-driven React and TypeScript applications, including 4+ years delivering Connected TV experiences at ITV for large-screen and web platforms. I lead technical solutions end-to-end, from architecture to delivery, with a strong focus on performance on constrained devices, maintainable code, and reliable releases. I collaborate closely with product, design, QA, and backend teams, provide clear technical guidance to stakeholders, and mentor engineers to raise team capability.",
     "location": {
       "countryCode": "UK",
       "address": "London, UK (moving from April 2026)"
@@ -31,8 +31,8 @@
         {
           "name": "Project Work",
           "points": [
-            "Owned and delivered React TypeScript features for New Zealand's National Ticketing Solution, integrating UI components with a backend-for-frontend (BFF) layer while maintaining high accessibility standards.",
-            "Collaborated daily with UX/UI designers, backend engineers, and business stakeholders, iterating on Figma designs and proactively clarifying requirements to reduce rework.",
+            "Owned and delivered React TypeScript features for New Zealand's National Ticketing Solution, integrating UI components with a backend-for-frontend (BFF) layer to create data-driven user experiences with high accessibility standards.",
+            "Collaborated daily with product stakeholders, UX/UI designers, QA, and backend engineers, iterating on Figma designs and clarifying requirements early to structure delivery efficiently.",
             "Built clean, reusable and accessible React components to consume headless Contentful CMS content, streamlining content operations and improving maintainability.",
             "Implemented Auth0 integration for secure user sign-up and access control, delivering robust production-ready solutions with minimal oversight."
             ]
@@ -114,25 +114,26 @@
         {
           "name": "ITVX Streaming Platform",
           "points": [
-            "Took technical ownership of complex UI features, pioneering adoption of an internal GraphQL API through query optimisation and dynamic layout composition across web and CTV platforms.",
-            "Coordinated engineers to deliver React TypeScript components for web and CTV applications, implemented design system build assets, and mentored junior developers.",
-            "Developed clean, type-safe TypeScript components within an Atomic Design System, improving consistency, readability, and long-term maintainability."
+            "Led technical delivery of complex Connected TV features for ITV Hub/ITVX across web and Samsung CTV platforms, building responsive, fluid, data-driven user experiences at broadcast scale.",
+            "Pioneered adoption of an internal GraphQL API by optimising queries and dynamic layout composition, improving data flow and rendering performance for large-screen interfaces.",
+            "Coordinated engineers to deliver React TypeScript components across CTV and web applications, shaping technical direction, reviewing architecture decisions, and mentoring junior developers.",
+            "Developed clean, type-safe components within an Atomic Design System, improving maintainability, reliability, and consistency across multiple device experiences."
           ]
         },
         {
           "name": "Mentoring",
           "points": [
-            "Facilitated and delivered technical GraphQL workshops for frontend engineers, building confidence in adopting new patterns and tools.",
-            "Provided in-depth mentorship to junior engineers through pairing sessions, ensuring their technical growth and proficiency."
+            "Facilitated and delivered technical GraphQL workshops for frontend engineers, helping teams adopt new patterns and improve engineering quality.",
+            "Provided in-depth mentorship through pairing, code reviews, and technical guidance, supporting engineers to improve their craft and increase delivery impact."
           ]
         },
         {
           "name": "General Skills",
           "points": [
-            "Championed a shift-left testing approach using Cypress and React Testing Library, contributing to testing pyramid discussions and improving quality and feedback speed.",
-            "Optimised DOM rendering of a CTV application, mitigating performance issues on low-powered devices and improving user experience.",
-            "Successfully implemented the integration of subtitles for Samsung CTV devices on the ITV Hub, ensuring seamless and accessible viewing experience for users.",
-            "Utilised vanilla JavaScript following an object-oriented design approach to develop new features for the ITV Hub CTV application, improving user engagement and enhancing the overall user experience."
+            "Championed a shift-left testing approach using Cypress and React Testing Library, improving release confidence, debugging efficiency, and feedback speed.",
+            "Optimised DOM rendering in a CTV application, resolving performance bottlenecks on low-powered devices and improving living-room user experience.",
+            "Implemented subtitle integration for Samsung CTV devices on ITV Hub, improving accessibility and playback experience for large-screen audiences.",
+            "Built new ITV Hub CTV features in vanilla JavaScript using object-oriented patterns, delivering reliable interactivity on constrained smart TV environments."
           ]
         }
       ],
@@ -290,12 +291,6 @@
       "fontClass": "fa-regular fa-graphql fa-xl icon-graphql"
     },
     {
-      "name": "SQL",
-      "level": "",
-      "keywords": [],
-      "fontClass": "fa-solid fa-database fa-xl"
-    },
-    {
       "name": "SASS",
       "level": "",
       "keywords": [],
@@ -312,6 +307,12 @@
       "level": "",
       "keywords": [],
       "fontClass": "fa-brands fa-html5 fa-xl"
+    },
+    {
+      "name": "Connected TV",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-solid fa-tv fa-xl"
     },
     {
       "name": "Accessibility",

@@ -1,16 +1,16 @@
 {
   "company": {
-    "name": "Capgemini",
-    "position": "Senior UI React Engineer",
+    "name": "FX Digital",
+    "position": "Senior Frontend Engineer",
     "companyKnown": true,
     "Address": {
-      "Line_1": "95 Queen Victoria St",
-      "Line_2": "London ",
-      "Line_3": "EC4V 4HN",
-      "Line_4": ""
+      "Line_1": "5th Floor, Classic House",
+      "Line_2": "174–180 Old St",
+      "Line_3": "London",
+      "Line_4": "EC1V 9BP"
     },
     "hiringManager": {
-      "name": "Capgemini Hiring Manager"
+      "name": "Angela Duhig"
     },
     "examples": [
       "Took sole end-to-end ownership of complex React TypeScript features shipped as part of ITVX's new streaming service, from first line of code to production release.",
@@ -18,8 +18,8 @@
       "Helped streamline farm dairy record administration for farmers across New Zealand as part of a Fonterra initiative projected to save over 1 million admin hours by delivering Salesforce Lightning Web Components to tight deadlines throughout."
     ],
     "reasonsWhyCompany": [
-      "I am excited by Capgemini's focus on delivering business value through technology, and by the opportunity to contribute to high-impact digital programmes in complex enterprise and banking environments.",
-      "This role matches how I work best: owning React TypeScript delivery, collaborating closely across disciplines in hybrid teams, and producing practical, high-quality solutions that are easy to maintain and evolve."
+      "I am keen to join FX Digital because your Connected TV focus lines up closely with the work I have enjoyed most and done best, especially on ITVX.",
+      "This role suits how I like to work: building solid TypeScript applications, collaborating closely with product, design, and QA, and delivering software that is easy to maintain."
     ]
   }
 }
