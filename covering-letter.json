@@ -1,25 +1,25 @@
 {
   "company": {
-    "name": "FX Digital",
-    "position": "Senior Frontend Engineer",
-    "companyKnown": true,
+    "name": "Rightmove",
+    "position": "Senior Software Engineer I (Frontend)",
+    "companyKnown": false,
     "Address": {
-      "Line_1": "5th Floor, Classic House",
-      "Line_2": "174–180 Old St",
+      "Line_1": "4th Floor",
+      "Line_2": "33 Soho Square",
       "Line_3": "London",
-      "Line_4": "EC1V 9BP"
+      "Line_4": "W1D 3QU"
     },
     "hiringManager": {
-      "name": "Angela Duhig"
+      "name": "Hiring Manager"
     },
     "examples": [
-      "Took sole end-to-end ownership of complex React TypeScript features shipped as part of ITVX's new streaming service, from first line of code to production release.",
       "Taught and mentored over 100+ students at General Assembly, delivering technical instruction in JavaScript and CSS, while supporting career transitions into the industry.",
+      "Took sole end-to-end ownership of complex React TypeScript features shipped as part of ITVX's new streaming service, from first line of code to production release.",
       "Helped streamline farm dairy record administration for farmers across New Zealand as part of a Fonterra initiative projected to save over 1 million admin hours by delivering Salesforce Lightning Web Components to tight deadlines throughout."
     ],
     "reasonsWhyCompany": [
-      "I am keen to join FX Digital because your Connected TV focus lines up closely with the work I have enjoyed most and done best, especially on ITVX.",
-      "This role suits how I like to work: building solid TypeScript applications, collaborating closely with product, design, and QA, and delivering software that is easy to maintain."
+      "I am excited about joining Rightmove because your mission to make moving simpler through trusted, high-impact digital products strongly aligns with how I like to build software.",
+      "This role matches my strengths in TypeScript, React, and Node.js delivery within cross-functional Agile teams, where I focus on maintainable architecture, performance, test automation, and supportive engineering culture."
     ]
   }
 }

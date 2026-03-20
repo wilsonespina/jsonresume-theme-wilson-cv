@@ -8,7 +8,7 @@
     "email": "wilson.espina@gmail.com",
     "phone": "+44 7737 227 253",
     "url": "https://wilsonespina.com",
-    "summary": "Senior Frontend Engineer with 8+ years building data-driven React and TypeScript applications, including 4+ years delivering Connected TV experiences at ITV for large-screen and web platforms. I lead technical solutions end-to-end, from architecture to delivery, with a strong focus on performance on constrained devices, maintainable code, and reliable releases. I collaborate closely with product, design, QA, and backend teams, provide clear technical guidance to stakeholders, and mentor engineers to raise team capability.",
+    "summary": "Senior Frontend Engineer with 8+ years building user-facing React and TypeScript products, including high-scale web and Connected TV platforms used by millions. I lead delivery from discovery through production release, with a strong focus on maintainable architecture, performance, accessibility, and safe frequent deployments. I work closely with product, design, QA, and backend teams in Agile environments, contribute to planning and estimation, champion test automation, and mentor engineers to raise team capability.",
     "location": {
       "countryCode": "UK",
       "address": "London, UK (moving from April 2026)"
@@ -31,17 +31,17 @@
         {
           "name": "Project Work",
           "points": [
-            "Owned and delivered React TypeScript features for New Zealand's National Ticketing Solution, integrating UI components with a backend-for-frontend (BFF) layer to create data-driven user experiences with high accessibility standards.",
-            "Collaborated daily with product stakeholders, UX/UI designers, QA, and backend engineers, iterating on Figma designs and clarifying requirements early to structure delivery efficiently.",
-            "Built clean, reusable and accessible React components to consume headless Contentful CMS content, streamlining content operations and improving maintainability.",
-            "Implemented Auth0 integration for secure user sign-up and access control, delivering robust production-ready solutions with minimal oversight."
+            "Owned delivery of React TypeScript features for New Zealand's National Ticketing Solution, integrating UI components with a backend-for-frontend (BFF) layer to ship accessible user journeys safely into production.",
+            "Collaborated daily with product stakeholders, UX/UI designers, QA, and backend engineers to refine requirements, estimate delivery scope, and prioritise work across sprint cycles.",
+            "Built clean, reusable, and accessible React components to consume headless Contentful CMS content, improving maintainability and enabling faster iteration by content teams.",
+            "Implemented Auth0 integration for secure user sign-up and access control, strengthening production reliability and reducing onboarding friction."
             ]
         },
         {
           "name": "Delivering to deadlines",
           "points": [
-            "Quickly adapted to new technologies while working with New Zealand’s largest company, Fonterra, delivering interactive frontend solutions within tight delivery timelines.",
-            "Favouring practical solutions, improved team productivity by introducing faster Vite-based workflows and pragmatic UI implementation patterns."
+            "Quickly adapted to new technologies while working with New Zealand’s largest company, Fonterra, delivering interactive frontend solutions within tight timelines.",
+            "Improved team productivity by introducing faster Vite-based workflows and pragmatic UI implementation patterns to shorten feedback loops and support frequent releases."
           ]
         }
       ],
@@ -59,14 +59,14 @@
         {
           "name": "Conversion Rate Optimisation (CRO)",
           "points": [
-            "Led front-end implementations of A/B experiments to optimise user journeys, improve conversion, and contribute directly to revenue outcomes.",
-            "Implemented bespoke Optimizely experimentation solutions and drove technical collaboration across QA, analysts, and stakeholders to deliver robust releases."
+            "Led frontend implementation of A/B experiments to optimise user journeys, improve conversion, and contribute directly to measurable revenue outcomes.",
+            "Implemented bespoke Optimizely experimentation solutions and collaborated with QA, analysts, and product stakeholders to deliver robust releases and clear experiment learnings."
           ]
         },
         {
           "name": "Process Improvement",
           "points": [
-            "Drove improvements in team efficiency by refining Agile ceremonies, automating manual workflows, and improving delivery processes through continuous feedback."
+            "Drove improvements in team efficiency by refining Agile ceremonies, improving estimation quality, and automating manual workflows through continuous feedback."
           ]
         }
       ],
@@ -84,10 +84,10 @@
         {
           "name": "Project Work",
           "points": [
-            "Owned end-to-end frontend delivery for Kiwibank, a major New Zealand retail bank, building scalable, maintainable React TypeScript components and proactively collaborating with backend engineers, UX/UI designers, and business analysts to align technical solutions with business requirements.",
-            "Delivered robust technical solutions within strict time and budget constraints for social justice sector clients, proactively managing competing priorities and maintaining quality standards throughout.",
+            "Owned end-to-end frontend delivery for Kiwibank, a major New Zealand retail bank, building scalable, maintainable React TypeScript components and collaborating with backend engineers, UX/UI designers, and business analysts to align technical solutions with business goals.",
+            "Delivered robust technical solutions within strict time and budget constraints for social justice sector clients, balancing competing priorities while maintaining quality and reliability.",
             "Advocated for the latest CSS best practices and tooling within projects, resulting in reduced bundled sizes and increased maintainability.",
-            "Led the frontend development for a Wagtail CMS-driven blog for the Kiwibank website, integrating Elastic Search UI React components and maintaining accessibility best practices."
+            "Led frontend development for a Wagtail CMS-driven blog for the Kiwibank website, integrating Elastic Search UI React components and maintaining accessibility and performance best practices."
           ]
         }
       ],
@@ -124,14 +124,14 @@
           "name": "Mentoring",
           "points": [
             "Facilitated and delivered technical GraphQL workshops for frontend engineers, helping teams adopt new patterns and improve engineering quality.",
-            "Provided in-depth mentorship through pairing, code reviews, and technical guidance, supporting engineers to improve their craft and increase delivery impact."
+            "Provided in-depth mentorship through pairing, constructive code reviews, and technical guidance, supporting engineers to improve their craft and delivery impact."
           ]
         },
         {
           "name": "General Skills",
           "points": [
             "Championed a shift-left testing approach using Cypress and React Testing Library, improving release confidence, debugging efficiency, and feedback speed.",
-            "Optimised DOM rendering in a CTV application, resolving performance bottlenecks on low-powered devices and improving living-room user experience.",
+            "Optimised DOM rendering in a CTV application, resolving performance bottlenecks on low-powered devices and improving live user experience.",
             "Implemented subtitle integration for Samsung CTV devices on ITV Hub, improving accessibility and playback experience for large-screen audiences.",
             "Built new ITV Hub CTV features in vanilla JavaScript using object-oriented patterns, delivering reliable interactivity on constrained smart TV environments."
           ]
@@ -285,6 +285,12 @@
       "fontClass": "fa-brands fa-node fa-xl"
     },
     {
+      "name": "Express",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-solid fa-server fa-xl"
+    },
+    {
       "name": "GraphQL",
       "level": "",
       "keywords": [],
@@ -309,12 +315,6 @@
       "fontClass": "fa-brands fa-html5 fa-xl"
     },
     {
-      "name": "Connected TV",
-      "level": "",
-      "keywords": [],
-      "fontClass": "fa-solid fa-tv fa-xl"
-    },
-    {
       "name": "Accessibility",
       "level": "",
       "keywords": [],
@@ -325,6 +325,18 @@
       "level": "",
       "keywords": [],
       "fontClass": "fa-regular fa-playwright fa-lg icon-playwright"
+    },
+    {
+      "name": "React Testing Library",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-solid fa-vial fa-xl"
+    },
+    {
+      "name": "Cypress",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-solid fa-check-double fa-xl"
     },
     {
       "name": "Github Actions",
@@ -343,6 +355,12 @@
       "level": "",
       "keywords": [],
       "fontClass": "fa-brands fa-aws fa-xl"
+    },
+    {
+      "name": "Agile Delivery",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-solid fa-people-arrows fa-xl"
     },
     {
       "name": "Mentoring",
