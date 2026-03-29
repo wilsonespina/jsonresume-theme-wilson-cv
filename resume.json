@@ -2,13 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Wilson Espina",
-    "label": "Senior Frontend Engineer",
+    "label": "Senior React Engineer",
     "image": "",
     "profileImage": "https://wdi-30-ldn.s3.eu-west-1.amazonaws.com/headshots/HEADSHOT.png",
     "email": "wilson.espina@gmail.com",
     "phone": "+44 7737 227 253",
     "url": "https://wilsonespina.com",
-    "summary": "Senior Frontend Engineer with 8+ years building user-facing React and TypeScript products, including high-scale web and Connected TV platforms used by millions. I lead delivery from discovery through production release, with a strong focus on maintainable architecture, performance, accessibility, and safe frequent deployments. I work closely with product, design, QA, and backend teams in Agile environments, contribute to planning and estimation, champion test automation, and mentor engineers to raise team capability.",
+    "summary": "Senior React Engineer with 8+ years building customer-facing React and TypeScript products, including high-scale websites and applications used by millions. I own delivery from discovery and technical design through implementation, production release, and follow-up improvements, with a strong focus on maintainable architecture, performance, accessibility, responsive layouts, and safe frequent deployments. I work closely with product, design, QA, and backend teams in Agile environments, contribute to roadmap planning and estimation, champion automated testing, and mentor engineers through pairing and code reviews.",
     "location": {
       "countryCode": "UK",
       "address": "London, UK (moving from April 2026)"
@@ -31,9 +31,9 @@
         {
           "name": "Project Work",
           "points": [
-            "Owned delivery of React TypeScript features for New Zealand's National Ticketing Solution, integrating UI components with a backend-for-frontend (BFF) layer to ship accessible user journeys safely into production.",
-            "Collaborated daily with product stakeholders, UX/UI designers, QA, and backend engineers to refine requirements, estimate delivery scope, and prioritise work across sprint cycles.",
-            "Built clean, reusable, and accessible React components to consume headless Contentful CMS content, improving maintainability and enabling faster iteration by content teams.",
+            "Owned delivery of significant React TypeScript features for New Zealand's National Ticketing Solution, integrating UI components with a backend-for-frontend (BFF) layer to ship accessible customer journeys safely into production.",
+            "Collaborated daily with product stakeholders, UX/UI designers, QA, and backend engineers to refine requirements, break roadmap items into deliverable tasks, estimate delivery scope, and prioritise work across sprint cycles.",
+            "Built clean, reusable, and accessible React components for customer-facing web journeys, consuming headless Contentful CMS content to improve maintainability and enable faster iteration by content teams.",
             "Implemented Auth0 integration for secure user sign-up and access control, strengthening production reliability and reducing onboarding friction."
             ]
         },
@@ -59,8 +59,8 @@
         {
           "name": "Conversion Rate Optimisation (CRO)",
           "points": [
-            "Led frontend implementation of A/B experiments to optimise user journeys, improve conversion, and contribute directly to measurable revenue outcomes.",
-            "Implemented bespoke Optimizely experimentation solutions and collaborated with QA, analysts, and product stakeholders to deliver robust releases and clear experiment learnings."
+            "Led frontend implementation of A/B experiments on a high-traffic customer-facing website to optimise user journeys, improve conversion, and contribute directly to measurable revenue outcomes.",
+            "Implemented bespoke Optimizely experimentation solutions and collaborated with QA, analysts, and product stakeholders to deliver robust releases, clear experiment learnings, and follow-up improvements based on data."
           ]
         },
         {
@@ -84,10 +84,10 @@
         {
           "name": "Project Work",
           "points": [
-            "Owned end-to-end frontend delivery for Kiwibank, a major New Zealand retail bank, building scalable, maintainable React TypeScript components and collaborating with backend engineers, UX/UI designers, and business analysts to align technical solutions with business goals.",
+            "Owned end-to-end frontend delivery for Kiwibank, a major New Zealand retail bank, building scalable, maintainable React TypeScript components for customer-facing website experiences and collaborating with backend engineers, UX/UI designers, and business analysts to align technical solutions with business goals.",
             "Delivered robust technical solutions within strict time and budget constraints for social justice sector clients, balancing competing priorities while maintaining quality and reliability.",
             "Advocated for the latest CSS best practices and tooling within projects, resulting in reduced bundled sizes and increased maintainability.",
-            "Led frontend development for a Wagtail CMS-driven blog for the Kiwibank website, integrating Elastic Search UI React components and maintaining accessibility and performance best practices."
+            "Led frontend development for a Wagtail CMS-driven blog for the Kiwibank website, integrating Elastic Search UI React components and maintaining accessibility, responsive layout, and performance best practices."
           ]
         }
       ],
@@ -105,7 +105,6 @@
     },
     {
       "pageBreak": true,
-
       "name": "ITV",
       "position": "Core Frontend Engineer",
       "startDate": "2018-11-30",
@@ -114,8 +113,7 @@
         {
           "name": "ITVX Streaming Platform",
           "points": [
-            "Led technical delivery of complex Connected TV features for ITV Hub/ITVX across web and Samsung CTV platforms, building responsive, fluid, data-driven user experiences at broadcast scale.",
-            "Pioneered adoption of an internal GraphQL API by optimising queries and dynamic layout composition, improving data flow and rendering performance for large-screen interfaces.",
+            "Led technical delivery of complex React, TypeScript, and NextJS features for ITV Hub/ITVX web experiences, alongside Samsung CTV platform features, building responsive, fluid, data-driven user experiences at broadcast scale.",
             "Coordinated engineers to deliver React TypeScript components across CTV and web applications, shaping technical direction, reviewing architecture decisions, and mentoring junior developers.",
             "Developed clean, type-safe components within an Atomic Design System, improving maintainability, reliability, and consistency across multiple device experiences."
           ]
@@ -130,10 +128,9 @@
         {
           "name": "General Skills",
           "points": [
-            "Championed a shift-left testing approach using Cypress and React Testing Library, improving release confidence, debugging efficiency, and feedback speed.",
+            "Championed a shift-left testing approach using Cypress and React Testing Library, improving release confidence, debugging efficiency, and feedback speed through stronger automated unit, integration, and end-to-end testing practices.",
             "Optimised DOM rendering in a CTV application, resolving performance bottlenecks on low-powered devices and improving live user experience.",
-            "Implemented subtitle integration for Samsung CTV devices on ITV Hub, improving accessibility and playback experience for large-screen audiences.",
-            "Built new ITV Hub CTV features in vanilla JavaScript using object-oriented patterns, delivering reliable interactivity on constrained smart TV environments."
+            "Implemented subtitle integration for Samsung CTV devices on ITV Hub, improving accessibility and playback experience for large-screen audiences."
           ]
         }
       ],
@@ -176,7 +173,7 @@
         {
           "name": "General Skills",
           "points": [
-            "Implemented unit and integration testing to improve the health and stability of the front-end, resulting in higher-quality code and better user experiences.",
+            "Implemented automated unit and integration testing to improve the health and stability of the frontend, resulting in higher-quality code and better user experiences.",
             "Collaborated with the UX/UI team to realise customer journeys through the company's AngularJS web application, ensuring a cohesive and intuitive user experience."
           ]
         }
@@ -279,6 +276,12 @@
       "fontClass": "fa-brands fa-react fa-xl"
     },
     {
+      "name": "NextJS",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-regular fa-lg icon-nextjs"
+    },
+    {
       "name": "Node.js",
       "level": "",
       "keywords": [],
@@ -337,6 +340,19 @@
       "level": "",
       "keywords": [],
       "fontClass": "fa-solid fa-check-double fa-xl"
+    },
+    {
+      "name": "Responsive Web Design",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-solid fa-mobile-screen fa-xl"
+    },
+    {
+      "pageBreak": true,
+      "name": "Performance Optimisation",
+      "level": "",
+      "keywords": [],
+      "fontClass": "fa-solid fa-gauge-high fa-xl"
     },
     {
       "name": "Github Actions",

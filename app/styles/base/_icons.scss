@@ -1,7 +1,8 @@
 .icon {
   &-typescript,
   &-graphql,
-  &-github-actions {
+  &-github-actions,
+  &-nextjs {
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -24,6 +25,16 @@
   }
   &-github-actions {
     background-image: url(../images/github-actions.svg);
+    height: 26px;
+    width: 26px;
+  }
+  &-playwright {
+    background-image: url(../images/playwright.svg);
+    height: 26px;
+    width: 26px;
+  }
+  &-nextjs {
+    background-image: url(../images/nextjs.svg);
     height: 26px;
     width: 26px;
   }
